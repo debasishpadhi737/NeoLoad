@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OpenWorklist" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="e4e45b5b-dd03-4739-9830-864169eda465" weightsEnabled="false">
+    <weighted-embedded-action uid="e8ad01c8-b4e1-4bce-a2ac-21f9d7e68cb2"/>
+    <weighted-embedded-action uid="e58db232-7e1d-4951-8351-d6433f0ef8ff"/>
+    <weighted-embedded-action uid="dd1e7312-060f-44fb-880c-f326f30747b7"/>
+</basic-logical-action-container>

@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Select Worklist" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="WL" uid="1ff167e4-cecf-4b20-bf41-0d939cd9e0f1" weightsEnabled="false">
+    <weighted-embedded-action uid="d3f8b606-3d30-4814-b517-59721f1c41dc"/>
+    <weighted-embedded-action uid="9245e4e4-9802-41cb-a460-1bc215a49110"/>
+    <weighted-embedded-action uid="bfcf9684-4e62-4003-914a-d123cb2cdf4a"/>
+</basic-logical-action-container>

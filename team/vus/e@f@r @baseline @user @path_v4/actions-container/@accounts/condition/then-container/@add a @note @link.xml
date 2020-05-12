@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Add a Note Link" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="eFR1" uid="950e4af0-abf0-4417-aed1-f130532f1e84" weightsEnabled="false">
+    <weighted-embedded-action uid="695cda5b-11c4-4b56-b5d0-87bb3b2ac78d"/>
+</basic-logical-action-container>

@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="UpdateSummaryPage" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="6e754227-a9de-4eeb-a5a0-787a4d86f186" weightsEnabled="false">
+    <weighted-embedded-action uid="7184dc87-eb54-482a-8567-969bfa8c489b"/>
+    <weighted-embedded-action uid="b248949c-7649-4fb3-ba86-dbd57eeda2ae"/>
+    <weighted-embedded-action uid="50db0f45-7230-4c62-af8d-a8c8e09546a6"/>
+</basic-logical-action-container>

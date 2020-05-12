@@ -1,0 +1,12 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Work Account" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="27e2acac-e36c-4517-9ba7-801778ce0727" weightsEnabled="false">
+    <weighted-embedded-action uid="124465e7-4347-4ec2-8759-4f1b6f688ce5"/>
+    <weighted-embedded-action uid="abc40268-61cc-40ac-be97-7fbea98b71bb"/>
+    <weighted-embedded-action uid="14f30b2c-33fe-4677-87a5-26e0a5838564"/>
+    <weighted-embedded-action uid="cefe1aa1-c385-4446-a6e9-81bfb07fa8c4"/>
+    <weighted-embedded-action uid="02288951-07ef-41f4-a833-5bfc45794d1d"/>
+    <weighted-embedded-action uid="e8c0f70d-a85e-459f-a035-959c0debe9e9"/>
+    <weighted-embedded-action uid="c730328f-06b3-4c46-93fa-16211599d188"/>
+</basic-logical-action-container>

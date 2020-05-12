@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Accounts" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    slaProfileName="eFR1" uid="f4a0ee92-d0d1-43e0-9c18-a555dc5bec85" weightsEnabled="true">
+    <weighted-embedded-action uid="9ec9e706-83e7-4b6c-a529-b785e778b865"/>
+    <weighted-embedded-action uid="856daeac-df5a-4501-acb0-4bc9939e3639"/>
+    <weighted-embedded-action uid="db2a99a6-4617-4bd9-a561-fc1af2a6f3db"/>
+    <weighted-embedded-action uid="88feccdf-390c-4124-be49-930977d810eb"/>
+    <weighted-embedded-action uid="1befad97-378c-4415-9696-99c607351e51"/>
+    <weighted-embedded-action uid="9006ff91-a6ae-4126-91c4-d0f4f43a5255"/>
+</basic-logical-action-container>

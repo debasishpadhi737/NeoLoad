@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Create Letter" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="eFR1" uid="d077156c-e8f9-4c66-b0d5-928e369eba53" weightsEnabled="false">
+    <weighted-embedded-action uid="7f6e3e56-ed05-4435-9958-c76c982eb0e0"/>
+    <weighted-embedded-action uid="8ea9eac8-fe71-46d4-a712-68a24f98ee36"/>
+</basic-logical-action-container>

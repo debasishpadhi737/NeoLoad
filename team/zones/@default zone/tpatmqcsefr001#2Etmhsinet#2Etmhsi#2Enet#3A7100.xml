@@ -1,0 +1,6 @@
+<lg-host hostname="tpatmqcsefr001.tmhsinet.tmhsi.net:7100"
+    loadWeight="1" sapSupport="false" standalone="false"
+    supportWANEmulation="false"
+    uid="e46a8938-a6a0-4b41-a69c-045c3ea1483a" version="">
+    <!--****** LG NETWORK INTERFACES ******-->
+</lg-host>

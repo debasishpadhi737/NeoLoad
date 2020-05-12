@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="FindCase" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="d4715b1b-52ac-4db8-bb33-266b9967cfde" weightsEnabled="false">
+    <weighted-embedded-action uid="c5c9e369-279f-4e92-ad67-d07e0fd12b4b"/>
+    <weighted-embedded-action uid="7d0b751d-50e1-47d6-b7f5-ae702d359fbf"/>
+</basic-logical-action-container>

@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="CaseUpdates" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="ecf49077-e54e-4496-aef8-273eb82b85ca" weightsEnabled="false">
+    <weighted-embedded-action uid="6ad9e293-7aa9-4363-809e-f8e536bb08bf"/>
+    <weighted-embedded-action uid="8381e233-96a8-4002-aaad-68fe7e5915e0"/>
+    <weighted-embedded-action uid="d86f5bc8-4e2f-40b8-b5ba-0267842029dd"/>
+    <weighted-embedded-action uid="d81e732d-1b7c-4c4c-819c-327ded5b9414"/>
+</basic-logical-action-container>

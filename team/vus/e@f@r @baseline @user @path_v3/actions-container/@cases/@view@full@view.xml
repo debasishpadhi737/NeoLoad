@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" enabled="false"
+    execution-type="0" name="ViewFullView" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="ad68e40f-764e-4385-9cb9-d4c315ca610f" weightsEnabled="false">
+    <weighted-embedded-action uid="bdd0745b-b722-4226-a1b1-e0ba051e25e2"/>
+    <weighted-embedded-action uid="d1a52db4-56f9-416c-b96d-eb8e6094abdf"/>
+</basic-logical-action-container>

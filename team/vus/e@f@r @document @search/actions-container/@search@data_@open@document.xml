@@ -1,0 +1,14 @@
+<basic-logical-action-container element-number="1" enabled="false"
+    execution-type="0" name="SearchData_OpenDocument" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="95bfa589-7b1a-4228-888c-683b57cf7a6e" weightsEnabled="false">
+    <weighted-embedded-action uid="1020dd76-2065-47ea-900d-09737d8d89b4"/>
+    <weighted-embedded-action uid="f273b4f1-0de3-4802-857b-4817e87adb60"/>
+    <weighted-embedded-action uid="856bf547-8bf1-4b87-a8b2-8c5e789566b7"/>
+    <weighted-embedded-action uid="85b60276-e531-4daf-ad90-fa74515a8e12"/>
+    <weighted-embedded-action uid="032c05d4-62e6-4279-bbc4-b4ba5be8d1c8"/>
+    <weighted-embedded-action uid="acb12b8a-e466-41ef-98e2-aa59f2888c96"/>
+    <weighted-embedded-action uid="22de4958-6641-40bd-ace7-e6a4856c48a2"/>
+    <weighted-embedded-action uid="d316a160-acd3-43c5-a8f7-a23e4618ffca"/>
+    <weighted-embedded-action uid="9009aeed-b2e7-4ee3-8d18-ce5303b4f26c"/>
+</basic-logical-action-container>

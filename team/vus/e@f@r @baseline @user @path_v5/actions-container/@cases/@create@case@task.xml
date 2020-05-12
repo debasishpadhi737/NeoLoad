@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="CreateCaseTask" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="a6aada20-e23c-4516-95cd-bfb411f66fd4" weightsEnabled="false">
+    <weighted-embedded-action uid="016b3592-2371-418a-9fe6-e30aea60e2a4"/>
+    <weighted-embedded-action uid="26314518-89dc-4d47-be45-e8e836d59b88"/>
+    <weighted-embedded-action uid="295d40b1-ce30-45e3-aa3d-1137f87966d3"/>
+    <weighted-embedded-action uid="a7c2d409-79ff-4298-8c58-b758c32e08a0"/>
+</basic-logical-action-container>

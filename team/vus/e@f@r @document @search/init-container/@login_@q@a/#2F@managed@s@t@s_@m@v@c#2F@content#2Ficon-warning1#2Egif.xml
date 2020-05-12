@@ -1,0 +1,250 @@
+<http-page executeResourcesDynamically="false"
+    name="/ManagedSTS_MVC/Content/icon-warning1.gif"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/e@f@r @document @search/%resources%/recorded-artifacts/410d0bf3-a298-45fa-ae02-689903aac466.zip"
+    slaProfileEnabled="false" thinkTime="766"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="410d0bf3-a298-45fa-ae02-689903aac466">
+    <embedded-action>8cbc31b7-f627-4704-bb2f-3e8193ee0a95</embedded-action>
+    <embedded-action>953c8a5a-6232-40d3-9dc4-fd40a0e06d44</embedded-action>
+    <embedded-action>0176471e-d2a7-4043-bf4c-6cd604c4e8c1</embedded-action>
+    <embedded-action>078659c1-d566-473b-bc85-b159bbc070bd</embedded-action>
+    <embedded-action>7bce562c-2e9f-4977-88ab-01f0e041a878</embedded-action>
+    <embedded-action>9ada9f4d-3fcb-4d11-a74d-72cbe25baaa5</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_2043e794-b641-4a43-be43-9bddb9023812.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="image/gif"
+    eTag="&quot;ce7a30f4452d51:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Wed, 14 Aug 2019 02:00:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/ManagedSTS_MVC/Content/icon-warning1.gif"
+    path="/ManagedSTS_MVC/Content/icon-warning1.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @document @search/%resources%/recorded-artifacts/410d0bf3-a298-45fa-ae02-689903aac466.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="efrssoqa.optum.com" slaProfileEnabled="false"
+    uid="8cbc31b7-f627-4704-bb2f-3e8193ee0a95" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_9247780c-cf04-4226-bd5a-a69dff4221e1.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="O360_CompanyInfo={&quot;Company&quot;:&quot;automation&quot;,&quot;Domain&quot;:&quot;automation&quot;,&quot;Type&quot;:1,&quot;Realm&quot;:&quot;ManagedSTS_MVC&quot;,&quot;ChannelPartner&quot;:&quot;&quot;}; __RequestVerificationToken_L01hbmFnZWRTVFNfTVZD0=V03a8ipIIxTWDCeoHD41Llc85UICuX0kSTHA_dmSsm0zwcGKUn4a7wOax7XW8ggLTocLDg1hWx86FBzUme1JcK7kKDYoJw9yjYeQuAGxejQ1"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrssoqa.optum.com"/>
+    <header name="Referer" value="https://efrssoqa.optum.com/ManagedSTS_MVC/Account/Login?ReturnUrl=%2fManagedSTS_MVC%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttp%253a%252f%252fefrssoqa.optum.com%252fadfs%252fservices%252ftrust%26wctx%3dBaseUrl%253dhttps%25253a%25252f%25252fefrssoqa.optum.com%25252fadfs%25252fls%25252f%255cwtrealm%253dhttps%25253a%25252f%25252fqa%25252fLandingPage%25252f%255cwctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fUserProvisioningLandingPage%2525252f%255cId%253did-d59dfe06-bffb-4c45-9406-b9455b680e16%26wct%3d2019-12-13T11%253a27%253a47Z&amp;wa=wsignin1.0&amp;wtrealm=http%3a%2f%2fefrssoqa.optum.com%2fadfs%2fservices%2ftrust&amp;wctx=BaseUrl%3dhttps%253a%252f%252fefrssoqa.optum.com%252fadfs%252fls%252f%5cwtrealm%3dhttps%253a%252f%252fqa%252fLandingPage%252f%5cwctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fUserProvisioningLandingPage%25252f%5cId%3did-d59dfe06-bffb-4c45-9406-b9455b680e16&amp;wct=2019-12-13T11%3a27%3a47Z"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache&#xd;
+Content-Type: image/gif&#xd;
+Last-Modified: Wed, 14 Aug 2019 02:00:34 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "ce7a30f4452d51:0"&#xd;
+Server: &#xd;
+X-Powered-By: ASP.NET&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+Public-Key-Pins: pin-sha256="grX4Ta9HpZx6tSHkmCrvpApTQGo67CYDnvprLg5yRME="; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; max-age=5184000&#xd;
+Date: Fri, 13 Dec 2019 11:28:18 GMT&#xd;
+Content-Length: 1197</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/x-javascript"
+    eTag="&quot;d839e5e4452d51:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Wed, 14 Aug 2019 02:00:33 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/ManagedSTS_MVC/Scripts/jquery-2.1.4.js"
+    path="/ManagedSTS_MVC/Scripts/jquery-2.1.4.js" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @document @search/%resources%/recorded-artifacts/410d0bf3-a298-45fa-ae02-689903aac466.zip"
+    recordedResponseCode="200" responseSize="256807"
+    serverUid="efrssoqa.optum.com" slaProfileEnabled="false"
+    uid="953c8a5a-6232-40d3-9dc4-fd40a0e06d44" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_fb971693-11d3-4ef4-9a9a-fc0a46bb574a</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fb971693-11d3-4ef4-9a9a-fc0a46bb574a.txt</requestContentFileDescription>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="O360_CompanyInfo={&quot;Company&quot;:&quot;automation&quot;,&quot;Domain&quot;:&quot;automation&quot;,&quot;Type&quot;:1,&quot;Realm&quot;:&quot;ManagedSTS_MVC&quot;,&quot;ChannelPartner&quot;:&quot;&quot;}; __RequestVerificationToken_L01hbmFnZWRTVFNfTVZD0=V03a8ipIIxTWDCeoHD41Llc85UICuX0kSTHA_dmSsm0zwcGKUn4a7wOax7XW8ggLTocLDg1hWx86FBzUme1JcK7kKDYoJw9yjYeQuAGxejQ1"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrssoqa.optum.com"/>
+    <header name="Referer" value="https://efrssoqa.optum.com/ManagedSTS_MVC/Account/Login?ReturnUrl=%2fManagedSTS_MVC%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttp%253a%252f%252fefrssoqa.optum.com%252fadfs%252fservices%252ftrust%26wctx%3dBaseUrl%253dhttps%25253a%25252f%25252fefrssoqa.optum.com%25252fadfs%25252fls%25252f%255cwtrealm%253dhttps%25253a%25252f%25252fqa%25252fLandingPage%25252f%255cwctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fUserProvisioningLandingPage%2525252f%255cId%253did-d59dfe06-bffb-4c45-9406-b9455b680e16%26wct%3d2019-12-13T11%253a27%253a47Z&amp;wa=wsignin1.0&amp;wtrealm=http%3a%2f%2fefrssoqa.optum.com%2fadfs%2fservices%2ftrust&amp;wctx=BaseUrl%3dhttps%253a%252f%252fefrssoqa.optum.com%252fadfs%252fls%252f%5cwtrealm%3dhttps%253a%252f%252fqa%252fLandingPage%252f%5cwctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fUserProvisioningLandingPage%25252f%5cId%3did-d59dfe06-bffb-4c45-9406-b9455b680e16&amp;wct=2019-12-13T11%3a27%3a47Z"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache&#xd;
+Content-Type: application/x-javascript&#xd;
+Last-Modified: Wed, 14 Aug 2019 02:00:33 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "d839e5e4452d51:0"&#xd;
+Server: &#xd;
+X-Powered-By: ASP.NET&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+Public-Key-Pins: pin-sha256="grX4Ta9HpZx6tSHkmCrvpApTQGo67CYDnvprLg5yRME="; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; max-age=5184000&#xd;
+Date: Fri, 13 Dec 2019 11:28:18 GMT&#xd;
+Content-Length: 256807</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/x-javascript"
+    eTag="&quot;389ce7e4452d51:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Wed, 14 Aug 2019 02:00:33 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/ManagedSTS_MVC/Scripts/jquery.validate.js"
+    path="/ManagedSTS_MVC/Scripts/jquery.validate.js" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @document @search/%resources%/recorded-artifacts/410d0bf3-a298-45fa-ae02-689903aac466.zip"
+    recordedResponseCode="200" responseSize="44060"
+    serverUid="efrssoqa.optum.com" slaProfileEnabled="false"
+    uid="0176471e-d2a7-4043-bf4c-6cd604c4e8c1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ab6d3192-eb71-4ede-ac96-22d9aa43c6bb</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ab6d3192-eb71-4ede-ac96-22d9aa43c6bb.txt</requestContentFileDescription>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="O360_CompanyInfo={&quot;Company&quot;:&quot;automation&quot;,&quot;Domain&quot;:&quot;automation&quot;,&quot;Type&quot;:1,&quot;Realm&quot;:&quot;ManagedSTS_MVC&quot;,&quot;ChannelPartner&quot;:&quot;&quot;}; __RequestVerificationToken_L01hbmFnZWRTVFNfTVZD0=V03a8ipIIxTWDCeoHD41Llc85UICuX0kSTHA_dmSsm0zwcGKUn4a7wOax7XW8ggLTocLDg1hWx86FBzUme1JcK7kKDYoJw9yjYeQuAGxejQ1"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrssoqa.optum.com"/>
+    <header name="Referer" value="https://efrssoqa.optum.com/ManagedSTS_MVC/Account/Login?ReturnUrl=%2fManagedSTS_MVC%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttp%253a%252f%252fefrssoqa.optum.com%252fadfs%252fservices%252ftrust%26wctx%3dBaseUrl%253dhttps%25253a%25252f%25252fefrssoqa.optum.com%25252fadfs%25252fls%25252f%255cwtrealm%253dhttps%25253a%25252f%25252fqa%25252fLandingPage%25252f%255cwctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fUserProvisioningLandingPage%2525252f%255cId%253did-d59dfe06-bffb-4c45-9406-b9455b680e16%26wct%3d2019-12-13T11%253a27%253a47Z&amp;wa=wsignin1.0&amp;wtrealm=http%3a%2f%2fefrssoqa.optum.com%2fadfs%2fservices%2ftrust&amp;wctx=BaseUrl%3dhttps%253a%252f%252fefrssoqa.optum.com%252fadfs%252fls%252f%5cwtrealm%3dhttps%253a%252f%252fqa%252fLandingPage%252f%5cwctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fUserProvisioningLandingPage%25252f%5cId%3did-d59dfe06-bffb-4c45-9406-b9455b680e16&amp;wct=2019-12-13T11%3a27%3a47Z"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache&#xd;
+Content-Type: application/x-javascript&#xd;
+Last-Modified: Wed, 14 Aug 2019 02:00:33 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "389ce7e4452d51:0"&#xd;
+Server: &#xd;
+X-Powered-By: ASP.NET&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+Public-Key-Pins: pin-sha256="grX4Ta9HpZx6tSHkmCrvpApTQGo67CYDnvprLg5yRME="; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; max-age=5184000&#xd;
+Date: Fri, 13 Dec 2019 11:28:18 GMT&#xd;
+Content-Length: 44060</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/x-javascript"
+    eTag="&quot;54b7e6e4452d51:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Wed, 14 Aug 2019 02:00:33 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/ManagedSTS_MVC/Scripts/jquery.validate.unobtrusive.js"
+    path="/ManagedSTS_MVC/Scripts/jquery.validate.unobtrusive.js"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @document @search/%resources%/recorded-artifacts/410d0bf3-a298-45fa-ae02-689903aac466.zip"
+    recordedResponseCode="200" responseSize="19828"
+    serverUid="efrssoqa.optum.com" slaProfileEnabled="false"
+    uid="078659c1-d566-473b-bc85-b159bbc070bd" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5f134d8a-1858-4ccc-8c93-9f1f4176b68e</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5f134d8a-1858-4ccc-8c93-9f1f4176b68e.txt</requestContentFileDescription>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="O360_CompanyInfo={&quot;Company&quot;:&quot;automation&quot;,&quot;Domain&quot;:&quot;automation&quot;,&quot;Type&quot;:1,&quot;Realm&quot;:&quot;ManagedSTS_MVC&quot;,&quot;ChannelPartner&quot;:&quot;&quot;}; __RequestVerificationToken_L01hbmFnZWRTVFNfTVZD0=V03a8ipIIxTWDCeoHD41Llc85UICuX0kSTHA_dmSsm0zwcGKUn4a7wOax7XW8ggLTocLDg1hWx86FBzUme1JcK7kKDYoJw9yjYeQuAGxejQ1"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrssoqa.optum.com"/>
+    <header name="Referer" value="https://efrssoqa.optum.com/ManagedSTS_MVC/Account/Login?ReturnUrl=%2fManagedSTS_MVC%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttp%253a%252f%252fefrssoqa.optum.com%252fadfs%252fservices%252ftrust%26wctx%3dBaseUrl%253dhttps%25253a%25252f%25252fefrssoqa.optum.com%25252fadfs%25252fls%25252f%255cwtrealm%253dhttps%25253a%25252f%25252fqa%25252fLandingPage%25252f%255cwctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fUserProvisioningLandingPage%2525252f%255cId%253did-d59dfe06-bffb-4c45-9406-b9455b680e16%26wct%3d2019-12-13T11%253a27%253a47Z&amp;wa=wsignin1.0&amp;wtrealm=http%3a%2f%2fefrssoqa.optum.com%2fadfs%2fservices%2ftrust&amp;wctx=BaseUrl%3dhttps%253a%252f%252fefrssoqa.optum.com%252fadfs%252fls%252f%5cwtrealm%3dhttps%253a%252f%252fqa%252fLandingPage%252f%5cwctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fUserProvisioningLandingPage%25252f%5cId%3did-d59dfe06-bffb-4c45-9406-b9455b680e16&amp;wct=2019-12-13T11%3a27%3a47Z"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache&#xd;
+Content-Type: application/x-javascript&#xd;
+Last-Modified: Wed, 14 Aug 2019 02:00:33 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "54b7e6e4452d51:0"&#xd;
+Server: &#xd;
+X-Powered-By: ASP.NET&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+Public-Key-Pins: pin-sha256="grX4Ta9HpZx6tSHkmCrvpApTQGo67CYDnvprLg5yRME="; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; max-age=5184000&#xd;
+Date: Fri, 13 Dec 2019 11:28:18 GMT&#xd;
+Content-Length: 19828</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/x-javascript"
+    eTag="&quot;e03ee2e4452d51:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Wed, 14 Aug 2019 02:00:33 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/ManagedSTS_MVC/Scripts/bootstrap.js"
+    path="/ManagedSTS_MVC/Scripts/bootstrap.js" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @document @search/%resources%/recorded-artifacts/410d0bf3-a298-45fa-ae02-689903aac466.zip"
+    recordedResponseCode="200" responseSize="69863"
+    serverUid="efrssoqa.optum.com" slaProfileEnabled="false"
+    uid="7bce562c-2e9f-4977-88ab-01f0e041a878" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_67a7ea17-4a62-406d-bedd-c4321aface57</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_67a7ea17-4a62-406d-bedd-c4321aface57.txt</requestContentFileDescription>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="O360_CompanyInfo={&quot;Company&quot;:&quot;automation&quot;,&quot;Domain&quot;:&quot;automation&quot;,&quot;Type&quot;:1,&quot;Realm&quot;:&quot;ManagedSTS_MVC&quot;,&quot;ChannelPartner&quot;:&quot;&quot;}; __RequestVerificationToken_L01hbmFnZWRTVFNfTVZD0=V03a8ipIIxTWDCeoHD41Llc85UICuX0kSTHA_dmSsm0zwcGKUn4a7wOax7XW8ggLTocLDg1hWx86FBzUme1JcK7kKDYoJw9yjYeQuAGxejQ1"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrssoqa.optum.com"/>
+    <header name="Referer" value="https://efrssoqa.optum.com/ManagedSTS_MVC/Account/Login?ReturnUrl=%2fManagedSTS_MVC%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttp%253a%252f%252fefrssoqa.optum.com%252fadfs%252fservices%252ftrust%26wctx%3dBaseUrl%253dhttps%25253a%25252f%25252fefrssoqa.optum.com%25252fadfs%25252fls%25252f%255cwtrealm%253dhttps%25253a%25252f%25252fqa%25252fLandingPage%25252f%255cwctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fUserProvisioningLandingPage%2525252f%255cId%253did-d59dfe06-bffb-4c45-9406-b9455b680e16%26wct%3d2019-12-13T11%253a27%253a47Z&amp;wa=wsignin1.0&amp;wtrealm=http%3a%2f%2fefrssoqa.optum.com%2fadfs%2fservices%2ftrust&amp;wctx=BaseUrl%3dhttps%253a%252f%252fefrssoqa.optum.com%252fadfs%252fls%252f%5cwtrealm%3dhttps%253a%252f%252fqa%252fLandingPage%252f%5cwctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fUserProvisioningLandingPage%25252f%5cId%3did-d59dfe06-bffb-4c45-9406-b9455b680e16&amp;wct=2019-12-13T11%3a27%3a47Z"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache&#xd;
+Content-Type: application/x-javascript&#xd;
+Last-Modified: Wed, 14 Aug 2019 02:00:33 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "e03ee2e4452d51:0"&#xd;
+Server: &#xd;
+X-Powered-By: ASP.NET&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+Public-Key-Pins: pin-sha256="grX4Ta9HpZx6tSHkmCrvpApTQGo67CYDnvprLg5yRME="; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; max-age=5184000&#xd;
+Date: Fri, 13 Dec 2019 11:28:18 GMT&#xd;
+Content-Length: 69863</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/x-javascript"
+    eTag="&quot;70d2e5e4452d51:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Wed, 14 Aug 2019 02:00:33 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/ManagedSTS_MVC/Scripts/loginvalidation.js"
+    path="/ManagedSTS_MVC/Scripts/loginvalidation.js" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @document @search/%resources%/recorded-artifacts/410d0bf3-a298-45fa-ae02-689903aac466.zip"
+    recordedResponseCode="200" responseSize="1273"
+    serverUid="efrssoqa.optum.com" slaProfileEnabled="false"
+    uid="9ada9f4d-3fcb-4d11-a74d-72cbe25baaa5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c0ee1c5f-5701-43f0-a7cb-314847e87eae</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c0ee1c5f-5701-43f0-a7cb-314847e87eae.txt</requestContentFileDescription>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="O360_CompanyInfo={&quot;Company&quot;:&quot;automation&quot;,&quot;Domain&quot;:&quot;automation&quot;,&quot;Type&quot;:1,&quot;Realm&quot;:&quot;ManagedSTS_MVC&quot;,&quot;ChannelPartner&quot;:&quot;&quot;}; __RequestVerificationToken_L01hbmFnZWRTVFNfTVZD0=V03a8ipIIxTWDCeoHD41Llc85UICuX0kSTHA_dmSsm0zwcGKUn4a7wOax7XW8ggLTocLDg1hWx86FBzUme1JcK7kKDYoJw9yjYeQuAGxejQ1"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrssoqa.optum.com"/>
+    <header name="Referer" value="https://efrssoqa.optum.com/ManagedSTS_MVC/Account/Login?ReturnUrl=%2fManagedSTS_MVC%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttp%253a%252f%252fefrssoqa.optum.com%252fadfs%252fservices%252ftrust%26wctx%3dBaseUrl%253dhttps%25253a%25252f%25252fefrssoqa.optum.com%25252fadfs%25252fls%25252f%255cwtrealm%253dhttps%25253a%25252f%25252fqa%25252fLandingPage%25252f%255cwctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fUserProvisioningLandingPage%2525252f%255cId%253did-d59dfe06-bffb-4c45-9406-b9455b680e16%26wct%3d2019-12-13T11%253a27%253a47Z&amp;wa=wsignin1.0&amp;wtrealm=http%3a%2f%2fefrssoqa.optum.com%2fadfs%2fservices%2ftrust&amp;wctx=BaseUrl%3dhttps%253a%252f%252fefrssoqa.optum.com%252fadfs%252fls%252f%5cwtrealm%3dhttps%253a%252f%252fqa%252fLandingPage%252f%5cwctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fUserProvisioningLandingPage%25252f%5cId%3did-d59dfe06-bffb-4c45-9406-b9455b680e16&amp;wct=2019-12-13T11%3a27%3a47Z"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache&#xd;
+Content-Type: application/x-javascript&#xd;
+Last-Modified: Wed, 14 Aug 2019 02:00:33 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "70d2e5e4452d51:0"&#xd;
+Server: &#xd;
+X-Powered-By: ASP.NET&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+Public-Key-Pins: pin-sha256="grX4Ta9HpZx6tSHkmCrvpApTQGo67CYDnvprLg5yRME="; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; max-age=5184000&#xd;
+Date: Fri, 13 Dec 2019 11:28:18 GMT&#xd;
+Content-Length: 1273</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

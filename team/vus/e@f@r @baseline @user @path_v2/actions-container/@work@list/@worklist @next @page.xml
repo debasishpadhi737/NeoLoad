@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Worklist Next Page" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="WL" uid="4f6dcc8d-3888-4446-aaaf-7608442ecc3c" weightsEnabled="false">
+    <weighted-embedded-action uid="42a8be1d-4cd0-4556-ba77-f7fea19b8dc1"/>
+    <weighted-embedded-action uid="d81bec26-8506-413a-864f-3a80a86c411a"/>
+</basic-logical-action-container>

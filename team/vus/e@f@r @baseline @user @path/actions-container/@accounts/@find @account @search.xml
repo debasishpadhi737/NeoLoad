@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Find Account Search" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="eFR1" uid="bb95ba55-5b2c-418d-8417-bc9bfbc368e4" weightsEnabled="false">
+    <weighted-embedded-action uid="0f9985b1-dae6-4218-a18f-501ccd1fd776"/>
+</basic-logical-action-container>

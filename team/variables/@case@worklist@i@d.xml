@@ -1,0 +1,3 @@
+<variable-constant constantValue="17456" name="CaseWorklistID" order="1" policy="4" range="2" uid="65fc003a-8652-41b4-9710-e9f3c2b76341" whenOutOfValues="CYCLE_VALUES">
+<description>Worklist id for cases verification</description>
+</variable-constant>

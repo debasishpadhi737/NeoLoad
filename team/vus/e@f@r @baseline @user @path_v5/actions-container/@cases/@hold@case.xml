@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="HoldCase" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="533dc928-8b18-4920-9453-e39401ea5e42" weightsEnabled="false">
+    <weighted-embedded-action uid="5b247e68-a6e1-43c0-aa95-f5055b03b24e"/>
+    <weighted-embedded-action uid="40353b58-279a-4857-b0a6-b29fa103a492"/>
+</basic-logical-action-container>

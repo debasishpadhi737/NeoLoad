@@ -1,0 +1,388 @@
+POST https://workflowrulesenginedev.azurewebsites.net:443/api/Workflow/WorkflowEvents
+Accept:application/json
+Content-Type:application/json
+Host:https://workflowrulesenginedev.azurewebsites.net
+
+{
+    "clientName": "LICS0541QA",
+    "source": "CAC",
+    "ruleSet": "Accounts",
+    "routingType": "N",
+    "WorkflowItems": [
+          {
+              "AccountSummary": [
+                  {
+                      "MilestoneID": "0",
+                      "MilestoneName": "FBNS",
+                      "MedicalRecordNumber": "00000000",
+                      "UnitNumber": "32637424",
+                      "PatientVisitAccount": "32637424",
+                      "PatientName": "Tesla, NORMA",
+                      "PatientAdmissionDate": "2019-05-29T14:53:00",
+                      "PatientDischargeDate": "1900-01-01T00:00:00",
+                      "PatientRegistrationDate": "1900-01-01T00:00:00",
+                      "PatientTypeId": "23 XRAY1",
+                      "ServiceTypeID": "INPATIENT1",
+                      "ReferringPhysicianID": "*ADLER, ROBERT G",
+                      "AdmittingPhysicianID": "*BAJAJ, SHANTA",
+                      "OrganizationId": "Nebraska Methodist Hospital",
+                      "OrgLevel1Id": "Huntington Hospital-Foundation1",
+                      "CompletionStatusID": "Appeal Level 1",
+                      "FinancialClassId": "??AVA",
+                      "LocationId": "??ART",
+                      "HoldReasonID": "",
+                      "ArIndicatorTypeID": "M",
+                      "BillingStatusCodeID": "Chemo-test",
+                      "HoldReasonsID": "ER - ER Same Day G0",
+                      "OriginID": "Systemic",
+                      "RootCauseID": "35 - Oxford Quest/NYMI-test",
+                      "BillingClaimsDispositionID": "Deleted claim",
+                      "AttendingPhysicianId": "BAILEY, STEVEN T",
+                      "DatePlaced": "1900-01-01T00:00:00",
+                      "NextFollowUpDate": "1900-01-01T00:00:00",
+                      "HealthPlanId": "MEDICARE",
+                      "HealthPlanName": "MEDICARE",
+                      "CaseValue": 0.00,
+                      "OL1ID": "Glen Cove Hospital-Soarian",
+                      "Ol2Id": "test - 1222",
+                      "Ol3Id": "",
+                      "Ol4Id": "",
+                      "PayerTypeID": "06111",
+                      "MedLocId": "P B9996",
+                      "AccountState": "",
+                      "CurrentAccountBalance": "11"
+                  }
+              ],
+              "ClaimSummary": [
+                  {
+                      "HealthPlanId": "1199 NBF HMO          H37",
+                      "HealthPlanTypeID": "Exchange",
+                      "BillDate": "2019-09-18T00:00:00",
+                      "MailedDate": "2000-01-01T00:00:00",
+                      "ClaimDate": "1900-01-01T00:00:00",
+                      "RemittanceDate": "1900-01-01T00:00:00",
+                      "HealthPlanName": "MEDICARE",
+                      "BillingActivePayerCob": "502"
+                  }
+              ],
+              "RootCauseRootCauseOriginSummary": [
+                  {
+                      "OriginID": "Informational",
+                      "RootCauseID": "Account Recalled"
+                  }
+              ],
+              "AccountIndexedDocumentTypeSummary": [
+                {
+                    "DocumentType": "AOR"
+                }
+            ],
+            "CaseManagementSummary": [
+                {
+                    "CF_Name": "CMS",
+                    "RFA_Desc": "Coding",
+                    "ResultID": "IF1",
+                    "RL_Desc": "Primary",
+                    "AS_Value": "Appeal dispute",
+                    "AT_Desc": "Medicaid",
+                    "StateID": "Start",
+                    "CT_Desc": "DOJ",
+                    "OS_ID": "Closed - No Appeal 3rd Level",
+                    "MR_ID": "No Change",
+                    "AC_Desc": "Appeal Masters",
+                    "auditedby_desc": "Automated",
+                    "ACD_DDDiscussionDate": "2019-09-04T00:00:00",
+                    "ACD_DiscussionSentDate": "2019-09-05T00:00:00",
+                    "ACMRR_MedRecDeadlineDate": "2019-09-03T00:00:00",
+                    "ACMRR_MedRecPulledDate": "2019-09-05T00:00:00",
+                    "ACMRR_MedRecSentDate": "2019-09-02T00:00:00",
+                    "ACMRR_MedRecAckDate": "2019-09-06T00:00:00",
+                    "ACD_OrgPayPatPay": "101",
+                    "ACD_AplRebillReqDate": "2019-09-06T00:00:00",
+                    "ACD_EHRSent": "1",
+                    "ACD_DDTakebackPreventionDate": "2019-09-01T00:00:00",
+                    "ACD_TotalPayment": "11",
+                    "AC_InitiatedDate": "2019-09-08T00:00:00",
+                    "ACD_DiscussionSentDateRAC": "2019-09-10T00:00:00",
+                    "ACD_AuditResultLetterDate": "2019-09-04T00:00:00",
+                    "ClaimEndDate": "2019-09-18T00:00:00",
+                    "ACD_AuditResultDate": "2019-09-30T00:00:00",
+                    "ACApl_AcknowledgeDateCurrent": "2019-09-18T00:00:00", 
+                    "ACApl_ExpResponseDateCurrent": "2019-09-18T00:00:00", 
+                    "ACApl_Result": "AppealResult",
+                    "ACApl_LevelID": "502",
+                    "ACD_AppealDuedate": "2019-09-18T00:00:00", 
+                    "ACApl_ExpResponseDateDeadline": "2019-09-18T00:00:00", 
+                    "ACApl_SentDateCurrent": "2019-09-18T00:00:00",
+                    "CountdownToResponseDeadline": "502", 
+                    "CountdownToCurrentMRDeadline": "5",
+                    "ACApl_CourierAcknowledgeDate": "2019-09-18T00:00:00",
+                    "CountdownToCurrAppealDeadline": "501"
+                }
+            ],
+            "PatientHealthPlanPriSecSummary": [
+                {
+                    "COB1HealthPlanID": "??@01",
+                    "COB1HealthPlanTypeID": "Aetna",
+                    "COB2HealthPlanID": "??999-00",
+                    "COB2HealthPlanTypeID": "Liability"
+                }
+            ],
+            "PostedOnHealthPlanSummary": [
+                {
+                    "PostedHealthPlanID": "??BSG",
+                    "PostedHealthPlanTypeID": "Emblem"
+                }
+            ],
+               "MiscellaneousInformationSummary": [
+                  {
+                      "MiscInt2": "0",
+                      "MiscDate1": "2020-01-01T00:00:00"
+                  }
+              ],
+              "ActivePatientHealthPlanSummary": [
+                  {
+                      "InsurancePlanID": "??H34",
+                      "ActiveHealthPlanID": "??HI6",
+                      "ActiveHealthPlanTypeID": "Cigna",
+                      "PayerGroupID": "WorkComp"
+                  }
+              ],
+              "CacCdiFlagsSummary": [
+                  {
+                      "Label": "DECUBITUS ULCER",
+                      "StateId": "0"
+                  },
+                  {
+                      "Label": "",
+                      "StateId": "1"
+                  },
+                  {
+                      "Label": "PSI 03 PRSR ULCR",
+                      "StateId": "3"
+                  }
+              ],
+              "CACPHQueryFlagsSummary": [
+                  {
+                      "Label": ""
+                  }
+              ],
+              "CustomDictionaryDataSummary": [
+                  {
+                      "DictionaryName": "DischargeDisposition",
+                      "Value": "ICFMD-WPR"
+                  },
+                  {
+                      "DictionaryName": "RevenueCodes",
+                      "Value": "0260"
+                  },
+                  {
+                      "DictionaryName": "CCType",
+                      "Value": "0"
+                  },
+                  {
+                      "DictionaryName": "DxType",
+                      "Value": "A"
+                  },
+                  {
+                      "DictionaryName": "POA",
+                      "Value": "1"
+                  },
+                  {
+                      "DictionaryName": "PendReason",
+                      "Value": "Cath Lab Report"
+                  },
+                  {
+                      "DictionaryName": "CaseType",
+                      "Value": "Outpatient AMBS (Surgery)"
+                  },
+                  {
+                      "DictionaryName": "Case Finding Rules",
+                      "Value": "default_ACUTE_CHF"
+                  },
+                  {
+                      "DictionaryName": "Case Stage",
+                      "Value": "Query Response"
+                  },
+                  {
+                      "DictionaryName": "AdmissionCode",
+                      "Value": "400"
+                  },
+                  {
+                      "DictionaryName": "AdmitSource",
+                      "Value": "2"
+                  },
+                  {
+                      "DictionaryName": "APC",
+                      "Value": "00015"
+                  },
+                  {
+                      "DictionaryName": "PatientRoom",
+                      "Value": "Triage WR"
+                  },
+                  {
+                      "DictionaryName": "Unit",
+                      "Value": "RAD-PAVA"
+                  },
+                  {
+                      "DictionaryName": "Audit State",
+                      "Value": "Audit Complete"
+                  },
+                  {
+                      "DictionaryName": "PSI",
+                      "Value": "PSI 03: Potential Pressure Ulcer case - Manually exclude cases with debridement / pedicle graft PX before, on same day as Major OR PX or as only OR PX; with SDX Stage III/IV ulcer with POA=Y AND Stage III/IV ulcer with POA=N."
+                  }
+              ],
+              "CustomDataSummary": [
+                  {
+                      "Label": "DRG",
+                      "Value": "00390"
+                  },
+                  {
+                      "Label": "PatientBed",
+                      "Value": "01"
+                  },
+                  {
+                      "Label": "LOS",
+                      "Value": "1"
+                  },
+                  {
+                      "Label": "CaseTypeChanged",
+                      "Value": "N"
+                  },
+                  {
+                      "Label": "Unverified Potential HAC Count",
+                      "Value": "0"
+                  },
+                  {
+                      "Label": "Actual HAC Count B",
+                      "Value": "0"
+                  },
+                  {
+                      "Label": "Actual HAC Count H",
+                      "Value": "0"
+                  }
+              ],
+              "PhysicianSummary": [
+                  {
+                      "Type": "Attending",
+                      "Value": "Adair, Roy"
+                  },
+                  {
+                      "Type": "Default",
+                      "Value": ","
+                  },
+                  {
+                      "Type": "Provider",
+                      "Value": "ABDEL-HADI, MAZEN"
+                  },
+                  {
+                      "Type": "Consulting",
+                      "Value": "Agba, Dolly (Np)"
+                  }, 
+                  {
+                      "Type": "Referring",
+                      "Value": "Ahmed, Afshan"
+                  },
+                  {
+                      "Type": "Admitting",
+                      "Value": "AHMAD, AMJAD"
+                  },
+                  {
+                      "Type": "PCP",
+                      "Value": "Aggarwal, Sandeep Mark"
+                  }
+              ],
+              "HimCodesSummary": [
+                  {
+                      "Code": "ICD9",
+                      "Value": "008.43"
+                  },
+                  {
+                      "Code": "ICD10",
+                      "Value": "A01.00"
+                  },
+                  {
+                      "Code": "I9PC",
+                      "Value": "00.71"
+                  },
+                  {
+                      "Code": "I10PC",
+                      "Value": "0090*ZZ"
+                  },
+                  {
+                      "Code": "CPT",
+                      "Value": "C5275"
+                  },
+                  {
+                      "Code": "I10DRG",
+                      "Value": "310"
+                  },
+                  {
+                      "Code": "I9UDRGU",
+                      "Value": "091"
+                  },
+                  {
+                      "Code": "I10UDRGU",
+                      "Value": "K50.114"
+                  },
+                  {
+                      "Code": "I10APR",
+                      "Value": "V46.42"
+                  },
+                  {
+                      "Code": "I9SOI",
+                      "Value": "78559"
+                  },
+                  {
+                      "Code": "I10SOI",
+                      "Value": "W10.9xxA"
+                  },
+                  {
+                      "Code": "I9ROM",
+                      "Value": "545.1"
+                  },
+                  {
+                      "Code": "I10ROM",
+                      "Value": "M62.429"
+                  },
+                  {
+                      "Code": "I10Admit",
+                      "Value": "Z00-Z13"
+                  },
+                  {
+                      "Code": "I9BACK",
+                      "Value": "35.00"
+                  },
+                  {
+                      "Code": "I10BACK",
+                      "Value": "K5000"
+                  },
+                  {
+                      "Code": "I9Admit",
+                      "Value": "01004"
+                  },
+                  {
+                      "Code": "I9APR",
+                      "Value": "I48.92"
+                  }
+              ],
+              "CacDocumentTypeSummary": [
+                  {
+                      "CacDocTypeId": "20734049",
+                      "LastDocumentDate": "2019-05-29T14:53:00"
+                  }
+              ],
+              "AnyHealthplanSummary": [
+                  {
+                      "AnyHealthPlanID": "??999-00",
+                      "AnyHealthPlanTypeID": "Cigna"
+                  }
+              ],
+              "LineItemsDetail": [
+                  {
+                      "ProcedureCode" : "1234"
+                  }
+             ]
+          }
+      ]
+  }

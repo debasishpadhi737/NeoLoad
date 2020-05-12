@@ -1,0 +1,12 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Work Account" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="eFR1" uid="835e9834-027c-4801-9fa6-3c0121d18137" weightsEnabled="false">
+    <weighted-embedded-action uid="064bc1e1-916c-4d00-a2eb-f087c147b9cf"/>
+    <weighted-embedded-action uid="3bea4aa4-8211-4099-bf31-a7796db8a836"/>
+    <weighted-embedded-action uid="63f3bce5-df38-4c6a-add1-9c1dcfd694d0"/>
+    <weighted-embedded-action uid="3ee1729c-2415-4e33-a5e5-400255534f6a"/>
+    <weighted-embedded-action uid="7ba820c7-c87d-4cc5-8bf7-9032d5d42d14"/>
+    <weighted-embedded-action uid="44b4a7e7-a1c7-4d4b-b167-714f28fc82b1"/>
+    <weighted-embedded-action uid="ffb680c4-1bbb-4ce7-affa-35b6af5bd1b4"/>
+</basic-logical-action-container>

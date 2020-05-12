@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="FilterCaseBalance" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="14f27ebe-dfd7-453b-ab76-109f76f1e3c6" weightsEnabled="false">
+    <weighted-embedded-action uid="ac5e56fb-5f0f-4395-ab08-e805c5a78c8d"/>
+    <weighted-embedded-action uid="4c3f168f-5773-46f1-a1dd-8f86ddd20c1b"/>
+    <weighted-embedded-action uid="f5a17e24-bad5-4525-ac0e-8eab6bf5edfd"/>
+</basic-logical-action-container>

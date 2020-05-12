@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="UpdateDocumentPage" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="d86f5bc8-4e2f-40b8-b5ba-0267842029dd" weightsEnabled="false">
+    <weighted-embedded-action uid="14ac8664-41bd-41ea-a8b9-efc41e81ab8d"/>
+    <weighted-embedded-action uid="3e7268a7-fc57-4f54-a8a4-ebf0e9cb5c93"/>
+</basic-logical-action-container>

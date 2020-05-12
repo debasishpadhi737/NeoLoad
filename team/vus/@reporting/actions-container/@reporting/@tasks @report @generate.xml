@@ -1,0 +1,12 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Tasks Report Generate" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="be7038ac-f267-4cb9-9fc6-74e8b333a2c6" weightsEnabled="false">
+    <weighted-embedded-action uid="678df943-6e6e-4a73-97d9-0a3ee34cd968"/>
+    <weighted-embedded-action uid="a09b2939-7a40-45f3-9fea-89f047b7b11e"/>
+    <weighted-embedded-action uid="2b03948e-c623-48de-a70c-fa37892a4fd1"/>
+    <weighted-embedded-action uid="238557d5-0cd5-470b-8ac0-338b2f7e3ff9"/>
+    <weighted-embedded-action uid="ee255268-be94-4676-aec6-d2ee6b89f7f7"/>
+    <weighted-embedded-action uid="8114c34b-2298-40dc-9fdb-a4de11ef845f"/>
+    <weighted-embedded-action uid="9da110ae-ae69-40f6-924f-76f96a4bb00e"/>
+</basic-logical-action-container>

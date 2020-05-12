@@ -1,0 +1,36 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false" uid="eFR Baseline User Path_v1">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+        <weighted-embedded-action uid="02929d75-398f-46ef-b470-847c8568348f"/>
+        <weighted-embedded-action uid="d0ff65f1-00b3-42aa-981f-2aa79a6e9790"/>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="2" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="true">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action
+            uid="a66d5ad2-f547-40d0-9bae-944792316ba6" weight="68"/>
+        <weighted-embedded-action
+            uid="370d1c00-f6fe-4803-a384-3a8d2d63809c" weight="2"/>
+        <weighted-embedded-action
+            uid="94975b9f-f119-4f69-9e3c-4194d7d93335" weight="12"/>
+        <weighted-embedded-action
+            uid="8930d93b-f6c6-4533-8dfe-16c29f8e0f35" weight="8"/>
+        <weighted-embedded-action
+            uid="8bbb9f70-2ccb-4e96-8a82-3411ee3daf78" weight="0"/>
+        <weighted-embedded-action
+            uid="b16b2e52-46da-4e0d-b1b2-0961ad1b90cb" weight="10"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

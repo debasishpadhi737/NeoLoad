@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Work Accounts" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="WL" uid="22c991af-b27b-4a39-b5be-a661ea9b96bc" weightsEnabled="false">
+    <weighted-embedded-action uid="395b7e72-16b9-4a6f-a50b-ab47ea8c5578"/>
+    <weighted-embedded-action uid="871d0e71-a22d-427d-8f15-fb6072ed3d24"/>
+</basic-logical-action-container>

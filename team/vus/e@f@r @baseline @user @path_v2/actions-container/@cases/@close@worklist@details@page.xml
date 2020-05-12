@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="CloseWorklistDetailsPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="0dc94209-3519-4e40-8d6c-d397d42ef8e7" weightsEnabled="false">
+    <weighted-embedded-action uid="b57adf78-4416-488b-b0e1-75a8b0481179"/>
+    <weighted-embedded-action uid="f8bd9e44-994a-44d2-bc36-8629543fa6e2"/>
+</basic-logical-action-container>

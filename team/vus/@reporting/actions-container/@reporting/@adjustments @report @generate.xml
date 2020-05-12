@@ -1,0 +1,12 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Adjustments Report Generate" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="3817626b-078d-44bd-a51f-dacb6e9ed34f" weightsEnabled="false">
+    <weighted-embedded-action uid="e1766537-fef8-4e57-b60c-3db7b1763577"/>
+    <weighted-embedded-action uid="8e09abea-75f7-445b-a065-2d696e976d5c"/>
+    <weighted-embedded-action uid="e225d7a4-6746-42cf-99b4-8bdb144854c3"/>
+    <weighted-embedded-action uid="86b7d1f8-f40a-47bf-a87a-c1c975491c71"/>
+    <weighted-embedded-action uid="67e1de49-a2ba-4a0b-9ad1-88f8f8f132b0"/>
+    <weighted-embedded-action uid="002edfda-c3b1-4997-8652-e26100da5258"/>
+    <weighted-embedded-action uid="8e94f88c-7b5a-42e4-919c-b39bb367e8cb"/>
+</basic-logical-action-container>

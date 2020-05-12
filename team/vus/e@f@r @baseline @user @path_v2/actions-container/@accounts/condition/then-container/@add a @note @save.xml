@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Add a Note Save" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="eFR1" uid="acaeb99a-1e0d-46b7-9f82-0f1aefe40c8e" weightsEnabled="false">
+    <weighted-embedded-action uid="119b1b4a-dddd-4097-b8c6-dbf26e939e1d"/>
+</basic-logical-action-container>

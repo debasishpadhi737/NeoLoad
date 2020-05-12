@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Find Claim" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="eFR1" uid="7e16fad7-d3f3-4524-91f2-aee40032428f" weightsEnabled="false">
+    <weighted-embedded-action uid="3dc4706a-227d-42cd-9869-675508e0ba5b"/>
+    <weighted-embedded-action uid="6656c4d6-1a00-43dd-adb0-359d35eb4665"/>
+    <weighted-embedded-action uid="7a9ccccc-a07b-4fd2-b402-ecfda8a1ed6f"/>
+    <weighted-embedded-action uid="0b46cc3e-aca3-4e8f-ac5d-837d230886ff"/>
+    <weighted-embedded-action uid="86be985b-3325-4a76-9107-d3dc97f6d462"/>
+</basic-logical-action-container>

@@ -1,0 +1,3 @@
+<variable-constant constantValue="25" name="DocType" order="1" policy="4" range="2" uid="3f9a203d-d9c5-4379-a64c-63b9958672d0" whenOutOfValues="CYCLE_VALUES">
+<description>DocumentType ID</description>
+</variable-constant>

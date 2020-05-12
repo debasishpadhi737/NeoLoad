@@ -1,0 +1,12 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Cases" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="a38d8fe0-3b4a-4e14-8c10-ec489aeb82dc" weightsEnabled="false">
+    <weighted-embedded-action uid="e4e45b5b-dd03-4739-9830-864169eda465"/>
+    <weighted-embedded-action uid="033763bd-7fac-4ae5-a3af-fbee7f3606df"/>
+    <weighted-embedded-action uid="b850f5c7-6dc1-4648-9028-014b0802bc04"/>
+    <weighted-embedded-action uid="f92c5670-0773-416a-9954-e75f6bf70680"/>
+    <weighted-embedded-action uid="179ae95f-36a0-4168-92a5-2f70a9a3edfa"/>
+    <weighted-embedded-action uid="50618c5f-aac6-442e-ad7c-7796b752fc44"/>
+    <weighted-embedded-action uid="0dc94209-3519-4e40-8d6c-d397d42ef8e7"/>
+</basic-logical-action-container>

@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Adjustments Report Link" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="4f05a3f7-998a-49de-aba3-3c3237bef760" weightsEnabled="false">
+    <weighted-embedded-action uid="0b49c65e-5d33-42ca-b217-88062998ea8e"/>
+    <weighted-embedded-action uid="3dc384da-1b77-4ef6-84ac-ea97cfda4f43"/>
+</basic-logical-action-container>

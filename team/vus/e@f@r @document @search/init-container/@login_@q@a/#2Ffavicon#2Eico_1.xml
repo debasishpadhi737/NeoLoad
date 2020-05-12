@@ -1,0 +1,36 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/favicon.ico_1" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/e@f@r @document @search/%resources%/recorded-artifacts/75dd43d6-b8f8-45ed-860d-7038ccd64174.zip"
+    slaProfileEnabled="false" thinkTime="1933"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="75dd43d6-b8f8-45ed-860d-7038ccd64174">
+    <embedded-action>81f37f82-0f2a-43ea-9bb3-386709c8f2de</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_0fd93ea4-4fd7-4294-920f-0d6448313546.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @document @search/%resources%/recorded-artifacts/75dd43d6-b8f8-45ed-860d-7038ccd64174.zip"
+    recordedResponseCode="403" responseSize="1233"
+    serverUid="efrssoqa.optum.com" slaProfileEnabled="false"
+    uid="81f37f82-0f2a-43ea-9bb3-386709c8f2de" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7ca6cf72-8af9-44c3-b1e7-5fa65c7e80ee.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7ca6cf72-8af9-44c3-b1e7-5fa65c7e80ee.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="O360_CompanyInfo={&quot;Company&quot;:&quot;automation&quot;,&quot;Domain&quot;:&quot;automation&quot;,&quot;Type&quot;:1,&quot;Realm&quot;:&quot;ManagedSTS_MVC&quot;,&quot;ChannelPartner&quot;:&quot;&quot;}; __RequestVerificationToken_L01hbmFnZWRTVFNfTVZD0=V03a8ipIIxTWDCeoHD41Llc85UICuX0kSTHA_dmSsm0zwcGKUn4a7wOax7XW8ggLTocLDg1hWx86FBzUme1JcK7kKDYoJw9yjYeQuAGxejQ1"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrssoqa.optum.com"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 403 Forbidden&#xd;
+Content-Type: text/html&#xd;
+Server: &#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Fri, 13 Dec 2019 11:28:20 GMT&#xd;
+Content-Length: 1233</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

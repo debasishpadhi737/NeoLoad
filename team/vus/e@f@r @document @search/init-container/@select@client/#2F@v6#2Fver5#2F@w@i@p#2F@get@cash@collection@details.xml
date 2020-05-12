@@ -1,0 +1,47 @@
+<http-page executeResourcesDynamically="false"
+    name="/V6/ver5/WIP/GetCashCollectionDetails"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/e@f@r @document @search/%resources%/recorded-artifacts/dc1d3759-1730-4d20-9a7c-55364ce4e34c.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="dc1d3759-1730-4d20-9a7c-55364ce4e34c">
+    <embedded-action>51858a07-ad15-44a1-b6d2-0ee0e21a8c2d</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_a1e8e051-94b7-4f83-aa99-6eb22e0e11e7.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/V6/ver5/WIP/GetCashCollectionDetails"
+    path="/V6/ver5/WIP/GetCashCollectionDetails" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @document @search/%resources%/recorded-artifacts/dc1d3759-1730-4d20-9a7c-55364ce4e34c.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="efrqa.optum.com" slaProfileEnabled="false"
+    uid="51858a07-ad15-44a1-b6d2-0ee0e21a8c2d" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_51858a07-ad15-44a1-b6d2-0ee0e21a8c2d.txt</requestContentFileDescription>
+    <header name="Accept" value="text/plain, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="application/json; charset=utf-8"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il8wNTlhNjg5Ni03NGYxLTRlNDAtYWMyYy0zYjgwY2Q5MGIyNmMtRTk4QTlGMDRFM0RENjY3NUU1MTQ5NTQ5MDNGNTAwNjAiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6YzMzZDI2ZDktYjI2NC00NjhjLTkxMDgtZGYxMjMwYjdkMjRlPC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+WWJtMlZQak1FYnVTZk8rcUJoNGJHQ3BQWXFnNHJzak9BWHhJTmoyd0tHZFF4cE9xNUZhQXlldnpmNTVTMmxkeWROREVNOEFtQ0s5MVVKa1hzYVFYWE92SGJMcnZPRm1oQkIxRlFsTEsrWkE2NDQ4RWZGZWU3TWxBQVMvTllOU3NBTzBhZzBwcHh0SUJpTU5teWprQjlQcTlwN2JtaDZqNzk4NHRiMU5QeHBvM3NQbjhPN0hVNnZvZEVOUGI0bUgwdzdEOUJxSldoY3Q1ci9kaXhhSit3M0paWVFJNUZhK21mV0QzNEUybHBPSnlKck4rMm5TMm9DMjBxb1BjWkw1T2FPWTRDQmUxbU5OR0VJMmhublUxemJ5di9XMFVZNjdiSHRhN21mZE1VS1dlcWhlcjJ3MmkxakQ1bEE2UGxPazJxQTFIR0U1OU1Fa2d1a1NKMi9OTVVIOTBuV0dvMnBsL1IxZEplN0hJVkppSmE0cWpxbGFicXVSSGZzcW1sczV4ekh3Q3Zja0JkYzFXb1pMUklYSFgrRllneDBFbmpJNGNjSkhxeVZqSFF3V1RqaXduajhqWXpOUXhSdnBCaVM4YkhDbDVSbHd1aVZ5OW5XSExnUmxUYmtsM3U5YmFVOGlUVHFQN1FSL0FtZEVEMWN6VVl0ZktoNTRrRXNQVmJua1V3a3puNmx2L1kxUW9wRnczUDFYSi9ic05CWm9VOWd1NXRxVkgreWNhR3R4Z2NJZ3Mvc1kveDkxQm11QkZtaCtXZXFPclg4OFByODVKNHJSVW9lanFhWURqc2w5OVlHdVR2QXp4bXlBbkpiNFVSc01nd2ZFKzFzOWRQQyttS2tQTWExWFMrU1l2SWs2eHkwTlNoQndZdWRCTEVQVUZiQ0k1YkNsNU8ydlNraWdNYklycE5vb1UzM3lNYzQ0QjREMGJBK3BPWWVxSjhQMlVqVzloT3J6TS9RNEsyUk12M01VUy9kWlkwcEZiNjYxcGx5VDhMNFRSY2kvUFdYZDQyVGw0NFFiNmVoZzdXeTVFbHFwMVdsS0lZMmxKZ0x0bWkzdCtVUDk1M1FhNnJEWTNVb0llYUdYaTBSbXJMY01Obm5MUEZ0RnpCZDg4czNCalZVMUZvc2JqVGgraytweHVpRmFIVGRXUWdwSXhONk5lVklzeWVjTE93QjZaZm00UytTcXY0bFhSUTZNbGdBcDcybTlvakJmdGQ3UjlXSFQ3Z1l2cVVhamxRVHFSNHNCZFdZVStTaHZHK05OS2IrSjF5STlJdlpxUnh4K0xwY0IySUUzVGRmUCswQTRMZ3NuYTZ0SlFsSmJyTE15S0FUdFlVQmY5TFVPOThseGUvUXUvd0ViZ3VPeDhuWkVyMnJFc1dyQnFNZGI0cFZhRC84UDR3eUdjQVBj; FedAuth1=ZU43YWxUSjV0UyswQVFRVW8wWitXa0VYaVg0MCt5M0ZISDBYSVlpSi9kWDEydk12YU5yOFd0RVM1UmU2bVhvYUpwQlU1RTE4NVBMQUxBYVdLY1JZcXlCbmxUNndCRFg0NHVJMmsyOXF5YXplVHlnNGtpNUgxR3JIYkM2YzZTeDR5My9uNERVQlg3YnMwRmJZZU4zQ3Y0NHVOWXBkc3VUME11L0hwV3llWCtIcDIyU1B1c1dZTVZJZHJzOCtoVmxES3pxZjRPZkljWW00Z1Urd0IzOUE3ZXRnQWRpM3pKMXJhdWViWGVVanJmZGs5YUViYWprYUFmQ0RiQ1U5YTF5amVXSmcrdFNSWW9BZFM3cW1LVlUzRHF2SnBPVW5iUGtENHBnPT08L0Nvb2tpZT48L1NlY3VyaXR5Q29udGV4dFRva2VuPg==; RefreshFilter=https%3a%2f%2fefrqa.optum.com%2fV6%2fver5%2fver5Home%2fHomeMain; Track_User=AA5376AEC7B0B4DFB457DB19A7EE6125D7DB48A393581619214439F8374AE59D; MenuBarContent_NorthwellQA_2159=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"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrqa.optum.com"/>
+    <header name="Referer" value="https://efrqa.optum.com/V6/ver5/ver5Home/HomeMain"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Content-Type: text/html&#xd;
+Expires: -1&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: SAMEORIGIN&#xd;
+Strict-Transport-Security: max-age=31536000&#xd;
+Content-Security-Policy: default-src https:; connect-src https:; font-src https: data:; frame-ancestors https:; img-src https: data:; media-src https:; object-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; style-src 'unsafe-inline' https:;&#xd;
+Date: Tue, 17 Dec 2019 12:01:28 GMT&#xd;
+Content-Length: 0</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="ViewCaseTask" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="35ed1375-ba79-4ee2-9e3d-aa8e3c1baf37" weightsEnabled="false">
+    <weighted-embedded-action uid="955827a3-52ea-445f-a033-d0ade144369a"/>
+    <weighted-embedded-action uid="73397015-6c44-42a7-92bf-9b89a2517331"/>
+</basic-logical-action-container>

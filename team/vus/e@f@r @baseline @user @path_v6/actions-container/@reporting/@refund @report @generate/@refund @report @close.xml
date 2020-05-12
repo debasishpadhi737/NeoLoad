@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Refund Report Close" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="dc59e975-56a6-4fbc-b596-cb395e4e3e9a" weightsEnabled="false">
+    <weighted-embedded-action uid="e7d1207c-5688-4866-b6e2-b040f0b4895f"/>
+    <weighted-embedded-action uid="5c77187c-2782-4bd0-9bba-192e0c5e5711"/>
+    <weighted-embedded-action uid="a3aa6f81-8896-426f-a81f-2a6ee7b72874"/>
+    <weighted-embedded-action uid="c6bbaee7-3a77-42a0-9be1-e3bcdb5d5d2e"/>
+    <weighted-embedded-action uid="9e647012-912b-412c-ba61-4f5d1d586e55"/>
+    <weighted-embedded-action uid="c70e786d-d63b-43cf-93db-1d342f388c9b"/>
+</basic-logical-action-container>

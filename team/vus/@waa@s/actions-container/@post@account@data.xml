@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="PostAccountData" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="6b507094-e6a3-41c2-a1b0-bc8707bec640" weightsEnabled="false">
+    <weighted-embedded-action uid="740447f8-2333-4eb5-b5f5-76ea67e91b6d"/>
+</basic-logical-action-container>

@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Assign Task" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="eFR1" uid="acc49fd0-6462-4fda-8ffc-b0313258d507" weightsEnabled="false">
+    <weighted-embedded-action uid="5ab6e8c1-9863-4714-8e55-7c045d898806"/>
+    <weighted-embedded-action uid="8513115a-e377-4e36-8279-15cc7f371f72"/>
+    <weighted-embedded-action uid="f55fd333-46dc-48ca-820b-e18a79aa001f"/>
+</basic-logical-action-container>

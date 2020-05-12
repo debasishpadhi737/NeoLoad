@@ -1,0 +1,13 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Close" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="eFR1" uid="4c08de39-2bee-476a-8e6a-16e5f33f7102" weightsEnabled="false">
+    <weighted-embedded-action uid="0528b4cb-d3a2-4159-a7bd-e978630265e4"/>
+    <weighted-embedded-action uid="5ec84438-f75c-4e3a-844f-9da1bf86dfd2"/>
+    <weighted-embedded-action uid="d31a677d-c1ad-484e-ab4c-13d35b292f12"/>
+    <weighted-embedded-action uid="25b0ae61-c090-41c6-a6fd-abf24a9bf4ad"/>
+    <weighted-embedded-action uid="9e3b6ab1-0a71-4fa3-bc91-b078d3ba6151"/>
+    <weighted-embedded-action uid="7cc95a3c-03f3-4064-b730-f050f3cc90c9"/>
+    <weighted-embedded-action uid="6f511ebb-9d00-4150-9721-24226fbca71d"/>
+    <weighted-embedded-action uid="b84fd1ec-38a4-4017-8933-16fd23921658"/>
+</basic-logical-action-container>

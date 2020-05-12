@@ -1,0 +1,32 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false" uid="eFR Baseline User Path_New">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+        <weighted-embedded-action uid="4d80e091-27f3-44ec-a7e8-5c7fb9094fa1"/>
+        <weighted-embedded-action uid="d0ff65f1-00b3-42aa-981f-2aa79a6e9790"/>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="2" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="true">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action
+            uid="86fa5342-5902-4dcd-9fa2-0b9229483a00" weight="78"/>
+        <weighted-embedded-action
+            uid="049fefdd-395e-4ebd-ba41-094b61cbde19" weight="2"/>
+        <weighted-embedded-action
+            uid="f2d91533-9461-4efa-a820-1263aa9b16cb" weight="10"/>
+        <weighted-embedded-action
+            uid="b3e12b2f-13c6-494b-b8a3-369b68aecc0a" weight="10"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

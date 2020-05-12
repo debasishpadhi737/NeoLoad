@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=Performance_eFR
+project.version=6.5
+project.original.version=6.0
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=6.0.0
+project.id=4cb72cec-2d48-40e9-9ec6-81489d85cd04
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/RWSDevops/eFR_Performance.git

@@ -1,0 +1,24 @@
+<if-action name="condition" uid="1befad97-378c-4415-9696-99c607351e51">
+    <then-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the condition is true.</description>
+        <weighted-embedded-action uid="ea2164a9-db89-4004-8f53-443c4a6523da"/>
+        <weighted-embedded-action uid="0732cde0-2cb4-489c-8344-472a6934f15a"/>
+        <weighted-embedded-action uid="d67c56f9-38e5-4b01-807b-6207d5235fee"/>
+        <weighted-embedded-action uid="9e0e467e-915c-461d-ac43-9299eefbe7ca"/>
+        <weighted-embedded-action uid="1d766df3-3fd7-4f7e-9730-5cb47b67c1b0"/>
+        <weighted-embedded-action uid="41477361-fc67-48af-9af1-8999219efd90"/>
+        <weighted-embedded-action uid="3f52e0e4-0100-4ae2-8d5c-0c958db1f179"/>
+        <weighted-embedded-action uid="95ec97f3-88ef-4256-bd88-7055648946d8"/>
+        <weighted-embedded-action uid="46bf2f23-0672-41ba-a122-66da9f4ae780"/>
+    </then-container>
+    <else-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the condition is false.</description>
+    </else-container>
+    <conditions match-type="1">
+        <condition operand1="${RndVal}" operand2="45" operator="GREATER_EQUAL"/>
+    </conditions>
+</if-action>

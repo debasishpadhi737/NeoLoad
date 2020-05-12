@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Close Account" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="WL" uid="c0319f5d-c435-4328-a91d-ac218d9e0512" weightsEnabled="false">
+    <weighted-embedded-action uid="baa61773-67c0-4bc7-b887-d3d04574832d"/>
+    <weighted-embedded-action uid="6344bb18-6813-4a09-bdf5-e27148314241"/>
+    <weighted-embedded-action uid="7bc2ea0d-fad3-4bf6-86e0-cb17d37baf4f"/>
+    <weighted-embedded-action uid="5db30e52-1e0e-4e27-b338-5e119c0794d2"/>
+</basic-logical-action-container>

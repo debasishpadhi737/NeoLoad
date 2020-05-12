@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OpenQA" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="aa1ff269-3986-47bf-8ba8-33a6cfb2c583" weightsEnabled="false">
+    <weighted-embedded-action uid="a3a05d46-fb3c-4398-852a-f146609b9d67"/>
+    <weighted-embedded-action uid="7c7b9726-98ae-485e-b50b-7265eee3fb18"/>
+    <weighted-embedded-action uid="3661ea7b-b02b-41a3-8149-604428eba691"/>
+    <weighted-embedded-action uid="bf4532b0-e92f-44f1-8f3d-ba2b76f0ac00"/>
+</basic-logical-action-container>

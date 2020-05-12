@@ -1,0 +1,47 @@
+<http-page executeResourcesDynamically="false"
+    name="/V6/ver5/WIP/GetCashCollectionDetails"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@q@a@login_@automation@user/%resources%/recorded-artifacts/d5f5fcbb-cb79-4ca2-abac-c6d544e19821.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d5f5fcbb-cb79-4ca2-abac-c6d544e19821">
+    <embedded-action>6919dd21-6bcd-4c3d-bc5b-644adbedc85e</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_62750ebb-dff1-4d9a-bcc8-67dfd1572a98.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/V6/ver5/WIP/GetCashCollectionDetails"
+    path="/V6/ver5/WIP/GetCashCollectionDetails" postType="1"
+    recordedArtifactZipFileName="team/vus/@q@a@login_@automation@user/%resources%/recorded-artifacts/d5f5fcbb-cb79-4ca2-abac-c6d544e19821.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="efrqa.optum.com" slaProfileEnabled="false"
+    uid="6919dd21-6bcd-4c3d-bc5b-644adbedc85e" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_856d66f0-fad6-465e-8c32-514949721ee3.txt</requestContentFileDescription>
+    <header name="Accept" value="text/plain, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="application/json; charset=utf-8"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il9kNzZiNTRhZi0xYzFmLTQyYmMtYWJlZi1hNmVkNDhmZjUxNzQtQ0JDRUUyNDlCODg2NDY3MDFFRTdFODQ3MTI0QkM3MEYiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6YzE3ZGM3NjQtMDk5ZC00NWIyLWJkYTktNTQ3NDhjYmI4MGY3PC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+amMrbWlJZFhwOHlMTkpHWVQvK3lPVFIrYnBZMThWZDcvc25QQ0RmaGNnZU5ILzF3dFNIZ05mRU45WFp5WFRDS0pTamxnUmtpZDhTb1BycFg2aWpWWmlTL3BMVDZzZ0tOT2NMVzhEbjVOQTY0ME5TdjRlRUZPNnhCYlZCSXJmbFI3dFU5LzJDK1AzOVc3SEdjbm1saXZ1NDBtUFFxRVduN0xHRHRGcnIrWkdHa05XK0hocnRvak5tMlZyMHJQUi9FRDg5WDNYdW9ua010RXpSWTNFeDF5SnFabnE1VFFiUWtBeFlPb0w2MlhHRUoveDI5cFZKYWFnV3k1T2pBYURPZ3V1enk1WlJUQmtuK2M0V1I3b2ZWOHFGdXFicVdnK0VIUkZSQUZMNkZ5cmY1U216eVpSSzJWRjFiSmtaS0dKYUNTL2o1cE0rVVIvMVYzalh2eU1Bam1sUHN1WmVpdmIrR0diV3N1VjZOdllQcFY3Yy9PTHNCVzVoVUFhenYvRE9laWlFdXJGNkMyWE1rcEhhWmJrQjlYN1o5WVVpMmMvdGRza3Y4c3ZqRHZWdUI2dDY1NEg2Ujdid1V5Z2ZPZHVPaVcvM2F2ODJGOGlyWlEyY21EUmJIUFlnMUtXeXJWT2djajh1TjVYM1grTlJHNDFDU2E4TEQ3T3hrMWUvYU1TY1gvODdycWpxVW9zK050V2lyR1BjWWtzcVZadk5mRVd5OUFjeUNNYXhWc1JVeWRGZ2JBYXM2MGFHb0c3cUljaTJGeTNNTGNzdnBNaGV6ZW5lQUphREU4Rko0VGZHUjJHZFVHRU0xOElUdjI2WFhuNnhoRE1Yd1dKQ1NGSnA1N3c3SWRJbTVoMzQyQ2NDSWdOQm1rU3VrREhoZWJMUXlRVmNLZ3FHZDR4ZkUrL25uNFMyU3A4NVllMHF1eU13WVRBZHJRWm5tdDd0bkgzY1VxNFI5bUNSelVybTllS041Z3JxQ3FIU25Ua0prTGxlcGFxT3ZqNE9UVUMxeVJKQWJPS0lJQ0g5ZGV3SHpIamlUSFpsWFNMbDBkaHB6aCtaanA1RW1VVjAyeWRHL0g5N2FENnA3TUZ1YkFBS2V4blgveS9Fd05nQkw5aEUyYXJlOVJMVUpvekRROHhEZUd4Z05oaE9uMUhFbG1nOU5TZ1hMSE8wMUlOSnZpeGxvLzJjVVVWWVdROW5sa0kvK1FaNXBlU0VBaXFrNEtqR3liT0tjaDc5NGNpaDdQbHJVVy9rMW1CL3B3aER4LzRrTmRPcTRQLzFiVGRVRXNoR01iNjVwOEpsQlhwOFh6SU1IOHFQTDBrREk4UjlVVUdwajZJMUkxb2YwOWhobXFVQzNWV3dxVkNGRWpxN0M0VjVYUG5SN1dJeFlzanhJV3dhV2M5amwxck1ZSmky; FedAuth1=L0wxSUFZWTlEcUNPVG5oUktCTEh1UHVQbEdvOE41dVUzYndqOTljR2JoT1o4L1FQOUc1d29oRFFJdmw2dm53WVgrbnNkQTMrWHZ0SXRDYVRBeXQyazVFa3RNWHh3VFZmbUtqbGVjOFl1cFNXZHExelhaMkRsWGp0ekZKVGxqYzBZckRCVlA4MlVJcHVsVy9xT1Vzbm1xQk55UGJFQ09sVTBkVFRWSzNVVUxnSmRDaXJQVHpMVitOST08L0Nvb2tpZT48L1NlY3VyaXR5Q29udGV4dFRva2VuPg==; RefreshFilter=https%3a%2f%2fefrqa.optum.com%2fV6%2fver5%2fver5Home%2fHomeMain; Track_User=6ED0CC8A73A5165B2784C068652F835D14180FE7991F07F221AD066F06528304; MenuBarContent_NorthwellQA_2318=JjQAAB+LCAAAAAAABAC9WlFz2zgO/iuc7Mx5d+Za38vtw26SjionTWbixme77eMNI9EOG5rUkFS63l9/ICnJskSlbqDeSxzrg/GRIAgCoM4Fvzyn5FGzzcXZL2eXSZapUloyp5Ju2Y5Jez6ll+eluDxvSU4//z5dpvPVdK2pNBum31Lz+Ne7NdVbZi/evp0+M/3v6Reln+64sSsmWGa5ktP0kWVP7rGAxyb1TDb86Oy/VhVnlw4k1SCMp5463h/mvuYyr9RMOxQOimp281+yQmnL5fb1007yr6WxznQmaOvwt3DEBJP5TGWl0+JMDAOOc5U5t6SWJJUognZGLU0kFXvDTdewDiM1iOBYU/NUme4dN/N96/uF1SXr0M73xEsMrulCq7wEB3zmdk+CHvP65W1rq5S90/5zvS/YxXw/o1zsjzh74/UipC2DMFdkQNPwOd9/Mkwfj64tvZK0MI+q6zTz46GRWmzcMbaH9T2T/Wx7tcdygoH+z9aZc8GMVZINrVeNjzGWRtlaM5lDsBgkqwV+3sTrk2Jg3jU8xrRrXQOzbqj6k566KPI60iXblDKPnxIVNk4Y7ejuhMvoDFzgXO2NZTvIBbi0TFKZsVjYdJKpytn35E4bdSoo34UjcsmoUdKrPh6/lyGHc5QESeJEDfn15naRJL8hLOf1ryy1pYkyV9BPoFuzv7qLdUTpcAwTjNjtrN60nI09gFG+WAeLdHQv1sFSmKyD061UkFXECBoQTXOTFVmU4iZdpCu0er+SKbVsq3T3hPNORBoQS/VRyRteFDQ2GcDeVHRIliXbcWvdfo/xHFDYqs8cPuAJhfR+YN8MhqEZ99UDBbucEIrecyFcAG9+xRki2/NrNmMubaZOXWeONVnYpC05jFkrpV6nudd8y1+mDSKjMc64KWA7RWabJqQdjVC+c0R5o0QeYng84Dq8CvIYzvlyHUYec1cAjwL7KCc81Jrgq5wKmIfpMjYg8Siu2m3RuED+MpWP9ZhAyaiwjwtBux4SAOKQUdRHptKiQE+jcbsux8HfvDMgOO5UFgsc9WOE5nu9pZL/HdPehjDpOSiA9CqyCBWCXYAF3TOdql1BZfdA9BCpMAzF495w8PyuiZrnmH3XKImZqCFGGmnFtDs9IxQVgiXw5cDLJcKrdH7QqiwieokHcJWjB6k/4WPBvAWjs5yWrlju3KY6XojBhOaOWQvOPUq9NIOcSuZB44xJCPHxgzTIkYo6SI5wpNbEGy5jGUNDV+O4fQCp3CBVgKNUgwvhyvqNUN/GWYpkeStzDnFd6W4bdkkaCFW+7QrB3NzixWkD40uVRlUk7LR4kJHnmjOR39EHJvq5ESAkQAiCD+urjuIPQj2A5/tfeTdxefTVM7Ib/1HZrpXcI4TG/5SsjMV8/xxrd6+ka/LwEFUOmvIBar5mV3XrwTcBJ1aRWgZDp5RNKZQh0RLJocTDVX00BlN9uTHMNcL1x6HD2u9BhmBVC2BYam3LUvQ8oWHy4Ahd1Vgm0LRUR8gG6gF/0U93xt4XvgIf4qvgE46HOTcZE1BoMAXBdpQz4pMUKlyBRnZIAMfYG0FTfZkbZanAmBli/3V7MvWV4ssXxU50zeC4oHak/vCd2qru0vpnmAyvGmEvtaufv2ykznwPtfYYl+it9LJ34Rr0k7YIJu6UwnI42NvqOoRX0uetleAA8aBhUmrYKDZJ5qlmsC4f2bdwwd3JTzxIACWOEnfJTi2dc9m/EfKX3QFBEdynS3duCtu1NQCkQlAEc2rMpyKPuLdDSAWhKK5ultF7pvtFsoI44zPFIDB4R3/6VdPp3eATh79LlK7qlE7Wfr+s6iWUdZKiYFSkSndPwACQz0zmqLIAKNwuuDWm926E33IewOuPdso8QUBQDPGCxikPyAjKk9KqXaxb1qIhByHcpmOu2uM5lEo7pn1nFkhitZTjRmbzyfzWVbywjfP33TZafaOEUp8qaTXE+Wuud71aMEDEYbhIC8lWaQxYPkS9iLEOIlVkRFtud2g1h92YGKNguSJe0u47u05KtXtbPxhji/lZHROHxRXEvbeGPW08y0qVOouUq3yzJwEbYSbcPN2xZya6pRI8Jx5Acbj3mnynh8XbBw4nlQC+i3DMBzXEZyr69fMxp3vB8ZW5dZLvIK8wsK8ar4qcgyuWlbp+E+pVJ1+sKvPPMLbyVugb5gdeN/n+9E9ctVDgQJbz1E/fDu+5ehR7q38FLq80BMMN35Y6esj4i8wgR44Esdy3O5dZsRPYa8nR+F1IeonW4aORha+JzN+XOfzTu1hw33xkDvgJDud9dSx3C4WNU3nNBRi5n237Ys1zVhKoZrhdaK5cAGjep+41xC2pZUgjhCyTlYbEu2ml9MtljzdsI7SO4HzlW+lbDQP9nIMEplHs4l7sIixoh4iOvRG7UTtWOA/opBX14zkzBj7HuHOrj4bY3ZvbIN4HQ/SPGQ/xvsMNLyiN1oLhjaP229c/zGAeqWa5c/2ymPJVyS3z/3ezRPVNCkVR705+uV5olcGKDL1Y33TwDnK9Encw7nxgkmnI6D41C/6qiOP+OPfxruVq4YhrRW3wlT5Tk2le2D9UweSKUZ09LmAsv05OvHSsun/hl5N/Tia/9Rah6g8GkZ8zDLD9V5bZW7lROhRtsaFUUqQlhrnyh7itJBWgdcNF79K/QkkFDznDg55Wf2q3OL37Wdqzy3O+2xKjs4uDpbwn3O7AfKYSe7vlmwkxdi/YxQR+bqEkFW+ogA3/B9nxPBdsQt7fL2dXy4vJvyaX/5APpvgz/E2FanXO/geIKKSmJjQAAA=="/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrqa.optum.com"/>
+    <header name="Referer" value="https://efrqa.optum.com/V6/ver5/ver5Home/HomeMain"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Content-Type: text/html&#xd;
+Expires: -1&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: SAMEORIGIN&#xd;
+Strict-Transport-Security: max-age=31536000&#xd;
+Content-Security-Policy: default-src https:; connect-src https:; font-src https: data:; frame-ancestors https:; img-src https: data:; media-src https:; object-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; style-src 'unsafe-inline' https:;&#xd;
+Date: Tue, 17 Dec 2019 12:09:41 GMT&#xd;
+Content-Length: 0</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

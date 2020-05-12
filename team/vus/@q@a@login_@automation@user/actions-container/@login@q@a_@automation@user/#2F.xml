@@ -1,0 +1,69 @@
+<http-page executeResourcesDynamically="false" name="/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@q@a@login_@automation@user/%resources%/recorded-artifacts/e0c0beed-7932-4561-b27a-b335e57e021e.zip"
+    slaProfileEnabled="false" thinkTime="2675"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e0c0beed-7932-4561-b27a-b335e57e021e">
+    <embedded-action>f5fab26e-39a8-4de4-9349-c53321930334</embedded-action>
+    <embedded-action>8497cb5a-30f8-472b-9c9f-cdc092d611a9</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_ae518b20-1a52-4d99-b301-43fe07fe867e.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/" path="/" postType="1"
+    recordedArtifactZipFileName="team/vus/@q@a@login_@automation@user/%resources%/recorded-artifacts/e0c0beed-7932-4561-b27a-b335e57e021e.zip"
+    recordedResponseCode="301" responseSize="0"
+    serverUid="efrplatformqa.optum.com_1" slaProfileEnabled="false"
+    uid="f5fab26e-39a8-4de4-9349-c53321930334" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_c0a8b5a7-6d6e-4c8f-959a-d5ff56bf77d8.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrplatformqa.optum.com"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.0 301 Moved Permanently&#xd;
+Location: https://efrplatformqa.optum.com/&#xd;
+Connection: Keep-Alive&#xd;
+Content-Length: 0</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="text/html"
+    eTag="&quot;8cb8df5648dd21:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Wed, 22 Feb 2017 12:08:12 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/" path="/" postType="1"
+    recordedArtifactZipFileName="team/vus/@q@a@login_@automation@user/%resources%/recorded-artifacts/e0c0beed-7932-4561-b27a-b335e57e021e.zip"
+    recordedResponseCode="200"
+    refererUid="f5fab26e-39a8-4de4-9349-c53321930334" responseSize="97"
+    serverUid="efrplatformqa.optum.com" slaProfileEnabled="false"
+    uid="8497cb5a-30f8-472b-9c9f-cdc092d611a9" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0c126f35-1df8-43c6-9698-5b473db447c1.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0c126f35-1df8-43c6-9698-5b473db447c1.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrplatformqa.optum.com"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: text/html&#xd;
+Content-Encoding: gzip&#xd;
+Last-Modified: Wed, 22 Feb 2017 12:08:12 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "8cb8df5648dd21:0"&#xd;
+Vary: Accept-Encoding&#xd;
+Server: &#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Tue, 17 Dec 2019 12:08:03 GMT&#xd;
+Content-Length: 198&#xd;
+Set-Cookie: BIGipServereFRplatformQA=1729399818.47873.0000; path=/; Httponly; Secure&#xd;
+Strict-Transport-Security: max-age=15768000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

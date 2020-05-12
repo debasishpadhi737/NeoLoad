@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="UpdatePaymentPage" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="7ac97b0e-e30b-40f8-9510-feccaaaf72ad" weightsEnabled="false">
+    <weighted-embedded-action uid="f754b18e-2db9-454a-8a87-f36a72b187fc"/>
+    <weighted-embedded-action uid="32a73056-5f73-4bb5-889f-760ad6c2857d"/>
+    <weighted-embedded-action uid="55da2b97-3c9f-48fd-bada-7e0ce7d8b55e"/>
+    <weighted-embedded-action uid="ef2e4e80-33a5-4923-9d7d-59dde94e85a1"/>
+    <weighted-embedded-action uid="5618d22d-bfd1-47eb-885d-4905e669bd93"/>
+</basic-logical-action-container>

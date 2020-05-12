@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Assign Task Save" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="eFR1" uid="66fa7ef8-3fd4-4a6b-8034-5d8db3399542" weightsEnabled="false">
+    <weighted-embedded-action uid="7baa2bdd-ca97-42ff-93b6-4d6923f276d0"/>
+</basic-logical-action-container>

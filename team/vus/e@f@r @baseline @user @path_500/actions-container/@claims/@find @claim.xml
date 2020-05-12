@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Find Claim" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="471f6a4d-1d70-41ad-9fc4-1f2d0876eb37" weightsEnabled="false">
+    <weighted-embedded-action uid="14293f5a-caeb-482f-84a3-0dff30b1b9b8"/>
+    <weighted-embedded-action uid="833fd8ab-b752-4995-819e-ff04fab9c9f0"/>
+    <weighted-embedded-action uid="c21a4b22-f503-41f1-801e-3811caf7cd2e"/>
+    <weighted-embedded-action uid="922939c7-2ecf-4969-b14c-8f74335b476c"/>
+    <weighted-embedded-action uid="5d344929-2850-4255-b4c9-ce9127ae4aea"/>
+</basic-logical-action-container>

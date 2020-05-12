@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Claims" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="3e79f85a-5090-4a50-93e3-224132d926c7" weightsEnabled="false">
+    <weighted-embedded-action uid="72205736-8c0c-4b45-881a-b30f3d1f14e0"/>
+    <weighted-embedded-action uid="3432c6a3-d4fa-468c-8c91-deaa923e829e"/>
+    <weighted-embedded-action uid="3cb57436-3616-487e-8812-6b6a8a6879ba"/>
+    <weighted-embedded-action uid="23ee650a-6771-4e92-acbf-2df132909959"/>
+    <weighted-embedded-action uid="0337aa92-ac61-407c-9d5f-81e728e51bb2"/>
+</basic-logical-action-container>

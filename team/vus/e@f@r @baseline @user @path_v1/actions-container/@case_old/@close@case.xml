@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="CloseCase" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="0494c8fe-32f3-4244-9473-a1e26ae543c6" weightsEnabled="false">
+    <weighted-embedded-action uid="c14e9a14-add1-4834-83f7-131d39ed6b52"/>
+    <weighted-embedded-action uid="17e7aee6-00b1-4482-a885-d36bd8016deb"/>
+    <weighted-embedded-action uid="d2c3294e-0d2f-4f40-95de-0a23e9da58a3"/>
+</basic-logical-action-container>

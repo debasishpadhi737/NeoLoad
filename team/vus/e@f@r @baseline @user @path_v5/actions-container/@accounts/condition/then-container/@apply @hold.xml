@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Apply Hold" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="eFR1" uid="f90e06b4-9311-4fbb-89a1-c0b155b6d778" weightsEnabled="false">
+    <weighted-embedded-action uid="b170abee-1fd0-4dc5-b920-a8b05a428d3c"/>
+</basic-logical-action-container>

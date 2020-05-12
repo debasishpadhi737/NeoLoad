@@ -1,0 +1,48 @@
+<http-page executeResourcesDynamically="false"
+    name="/ManagedSTS_MVC/Content/icon-warning1.gif_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/e@f@r @document @search/%resources%/recorded-artifacts/6f3ecf25-45ff-45e7-82a9-5b777a19dc45.zip"
+    slaProfileEnabled="false" thinkTime="526"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="6f3ecf25-45ff-45e7-82a9-5b777a19dc45">
+    <embedded-action>c10231d1-8979-4979-98cb-ed0fe008f401</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_7fcb128f-6973-450a-9433-b9fbdb48d368.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="image/gif"
+    eTag="&quot;ce7a30f4452d51:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Wed, 14 Aug 2019 02:00:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/ManagedSTS_MVC/Content/icon-warning1.gif"
+    path="/ManagedSTS_MVC/Content/icon-warning1.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @document @search/%resources%/recorded-artifacts/6f3ecf25-45ff-45e7-82a9-5b777a19dc45.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="efrssoqa.optum.com" slaProfileEnabled="false"
+    uid="c10231d1-8979-4979-98cb-ed0fe008f401" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_7934316b-398c-4241-805e-df56beb6d5fe.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="O360_CompanyInfo={&quot;Company&quot;:&quot;automation&quot;,&quot;Domain&quot;:&quot;automation&quot;,&quot;Type&quot;:1,&quot;Realm&quot;:&quot;ManagedSTS_MVC&quot;,&quot;ChannelPartner&quot;:&quot;&quot;}; __RequestVerificationToken_L01hbmFnZWRTVFNfTVZD0=V03a8ipIIxTWDCeoHD41Llc85UICuX0kSTHA_dmSsm0zwcGKUn4a7wOax7XW8ggLTocLDg1hWx86FBzUme1JcK7kKDYoJw9yjYeQuAGxejQ1; ASP.NET_SessionId=v3x5ibsqxqed3i4xsuaewouq; .ASPXAUTH=10574EF5395271A0F4BDB018472B7EC5B055C5CD5D0394F019D410FC0FB11A0CF36B0889E95FA6805633FE4912D7B86D8837AE6C610F4732F5E929CC1788F5F6450C2453D8E6AC93329C71945F6781215B106D47CB33943EA845771A48B63EBEE49A0459531FF378D682D99529052A988533775F72819460506C96CCD8AB6D8D"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrssoqa.optum.com"/>
+    <header name="Referer" value="https://efrssoqa.optum.com/ManagedSTS_MVC/Account/Expired?PrevReturnUrl=%2FManagedSTS_MVC%2F%3Fwa%3Dwsignin1.0%26wtrealm%3Dhttp%253a%252f%252fefrssoqa.optum.com%252fadfs%252fservices%252ftrust%26wctx%3DBaseUrl%253dhttps%25253a%25252f%25252fefrssoqa.optum.com%25252fadfs%25252fls%25252f%255cwtrealm%253dhttps%25253a%25252f%25252fqa%25252fLandingPage%25252f%255cwctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fUserProvisioningLandingPage%2525252f%255cId%253did-d59dfe06-bffb-4c45-9406-b9455b680e16%26wct%3D2019-12-13T11%253a27%253a47Z&amp;returnUrl=AnswerSecurityQuestion"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache&#xd;
+Content-Type: image/gif&#xd;
+Last-Modified: Wed, 14 Aug 2019 02:00:34 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "ce7a30f4452d51:0"&#xd;
+Server: &#xd;
+X-Powered-By: ASP.NET&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+Public-Key-Pins: pin-sha256="grX4Ta9HpZx6tSHkmCrvpApTQGo67CYDnvprLg5yRME="; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; max-age=5184000&#xd;
+Date: Fri, 13 Dec 2019 11:28:49 GMT&#xd;
+Content-Length: 1197</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

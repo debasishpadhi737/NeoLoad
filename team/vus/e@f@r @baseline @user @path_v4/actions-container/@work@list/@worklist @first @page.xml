@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" enabled="false"
+    execution-type="0" name="Worklist First Page" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="true" slaProfileName="WL"
+    uid="9739d2d5-7852-4980-9723-37376214e695" weightsEnabled="false">
+    <weighted-embedded-action uid="d42f90d5-5277-4be4-a2bb-b80467afd58f"/>
+    <weighted-embedded-action uid="bc676caf-f489-4d6a-813f-f7a23835e982"/>
+</basic-logical-action-container>

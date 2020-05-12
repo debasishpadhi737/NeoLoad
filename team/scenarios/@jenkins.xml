@@ -1,0 +1,248 @@
+<scenario postMonitoringTime="-1" preMonitoringTime="-1"
+    slaProfileEnabled="false" uid="Jenkins" virtualUsersStates="true">
+    <description>Baseline test run for eFR up to 300 users.</description>
+    <!--****** POPULATION POLICY ******-->
+    <population-policy name="eFR_Baseline">
+        <duration-policy-entry iterations="1" time="1800" timeUnit="0" type="2"/>
+        <volume-policy-entry>
+            <rampup-volume-policy delayIncrement="3.0"
+                delayTypeIncrement="1" initialUserNumber="1"
+                iterationNumber="1" maxUserNumber="100" userIncrement="1"/>
+        </volume-policy-entry>
+        <start-stop-policy-entry start-delay="0" start-type="0"
+            stop-delay="60000" stop-type="0"/>
+        <runtime-policy continueOnError="true" thinktimePolicy="0"
+            thinktimeValue="5000" vuStartDelay="0" vuStartMode="0"/>
+        <!--****** POPULATION LG HOSTS ******-->
+        <lg-hosts>
+            <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
+        </lg-hosts>
+    </population-policy>
+    <dashboards defaultDashboardUid="Graph board"/>
+    <!--****** DASHBOARDS  ******-->
+    <charts-model-description name="Graph board">
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="User Load and Error Rate" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="UserLoad" monitoredHostName="NeoLoad"
+                scale="0.1" selected="false"/>
+            <action-curve-description
+                actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
+                color="200,0,0" dashed="false" populationName=""
+                scale="1.0" selected="true"
+                statisticName="result.errors" zoneName=""/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="Overall Throughput" typeName="CLASSIC">
+            <monitor-curve-description color="42,89,26"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="throughput" monitoredHostName="NeoLoad"
+                scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="Login - Average duration" typeName="CLASSIC">
+            <action-curve-description
+                actionUid="d0ff65f1-00b3-42aa-981f-2aa79a6e9790"
+                color="153,153,0" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration" zoneName=""/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="WorkList - Average duration" typeName="CLASSIC">
+            <action-curve-description
+                actionUid="114df569-175c-40e7-a626-55510cfe055d"
+                color="153,153,0" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="b69375b4-61ca-4a37-b590-2dfa2444d0e0"
+                color="20,106,203" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="de135734-8eae-4e3d-9608-a87323cb2222"
+                color="88,183,55" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="6fe61fab-74b4-4dbc-80fd-8831357e4961"
+                color="200,0,0" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="56af2ddb-1432-4d81-b083-b12dbd2ab5b3"
+                color="191,0,189" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="160bd9b6-b8da-4e15-bb01-350c27d1d49f"
+                color="20,210,210" dashed="false" populationName=""
+                scale="1.0" selected="true"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="Claims - Average duration" typeName="CLASSIC">
+            <action-curve-description
+                actionUid="a2fa3616-2c00-4db9-b0b7-859403f99e77"
+                color="153,153,0" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="e67102c2-bdd1-4d22-9eb7-b2ba20be8a37"
+                color="20,106,203" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="d93fac35-1335-4f2c-a69f-86f769c77e48"
+                color="88,183,55" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="ba84bcdc-0b02-40f7-8d31-14215414b758"
+                color="200,0,0" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="79b9837d-4d24-4284-880f-4c9bb2129b74"
+                color="191,0,189" dashed="false" populationName=""
+                scale="1.0" selected="true"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="Accounts - Average duration" typeName="CLASSIC">
+            <action-curve-description
+                actionUid="453b1b13-d8f0-4d39-bc36-fe6f141eb9c6"
+                color="153,153,0" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="fdfc9ca4-e7ab-4dee-824f-171ebb224782"
+                color="20,106,203" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="9f5d001d-aa1e-4d2b-8187-7f3fe5f66ca0"
+                color="88,183,55" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="1050d0af-9d97-461f-86e1-452690c206ba"
+                color="200,0,0" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="78e19ca4-76d0-4a38-813b-ee93de93db7a"
+                color="191,0,189" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="78bcaacf-e7b2-4e90-9c22-83b862fc5b66"
+                color="20,210,210" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="ee2cb790-00dd-439d-968a-1b7dac49aea7"
+                color="223,143,143" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="$parent=ee2cb790-00dd-439d-968a-1b7dac49aea7;$index=0"
+                color="236,153,22" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="$parent=ee2cb790-00dd-439d-968a-1b7dac49aea7;$index=1"
+                color="128,128,128" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+            <action-curve-description
+                actionUid="3e56ab4b-6cf4-401f-b01f-87de9d1a329a"
+                color="244,239,0" dashed="false" populationName=""
+                scale="1.0" selected="true"
+                statisticName="result.average.duration"
+                virtualUserUid="eFR Baseline User Path" zoneName=""/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            description="If the CPU usage regularly exceeds 95%, more Load Generators should be added."
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="CPU usage per LG" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="UserLoad" monitoredHostName="NeoLoad"
+                scale="0.1" selected="false"/>
+            <monitor-curve-description color="0,255,0"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="lgcpu.10.140.19.26:7100"
+                monitoredHostName="LG 10.140.19.26:7100" scale="1.0" selected="false"/>
+        </chart-description>
+    </charts-model-description>
+    <!--****** END DASHBOARDS  ******-->
+    <!--****** START DATA FILTERS  ******-->
+    <!--****** END DATA FILTERS  ******-->
+    <!--****** START RENDEZ-VOUS POLICIES  ******-->
+    <!--****** END RENDEZ-VOUS POLICIES  ******-->
+    <!--****** START DEBUG POLICY ******-->
+    <debug-policy mode="0"/>
+    <!--****** END DEBUG POLICY ******-->
+    <!--****** START VU STATES ******-->
+    <!--****** END VU STATES ******-->
+    <request-path-exclusion-filter isEnabled="false">
+        <regexps>
+            <regexp>.*\.jpg</regexp>
+            <regexp>.*\.jpeg</regexp>
+            <regexp>.*\.gif</regexp>
+            <regexp>.*\.png</regexp>
+            <regexp>.*\.bmp</regexp>
+            <regexp>.*\.css</regexp>
+            <regexp>.*\.js</regexp>
+            <regexp>.*\.swf</regexp>
+            <regexp>.*\.ico</regexp>
+            <regexp>.*\.jar</regexp>
+            <regexp>.*\.class</regexp>
+            <regexp>.*\.properties</regexp>
+        </regexps>
+    </request-path-exclusion-filter>
+</scenario>

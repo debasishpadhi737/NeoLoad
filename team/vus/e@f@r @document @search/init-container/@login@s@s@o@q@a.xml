@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="LoginSSOQA" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="2a2f221c-4753-4dcb-801e-2fbf4e7d73c6" weightsEnabled="false">
+    <weighted-embedded-action uid="ee9dd989-8eed-423c-8ae7-e8d17cc07428"/>
+    <weighted-embedded-action uid="45744034-1cc9-4021-90da-c3a51743a105"/>
+    <weighted-embedded-action uid="f6249bd5-1aaf-4801-b4b0-03be5977917b"/>
+    <weighted-embedded-action uid="1abb66e3-63b6-4ac0-8a4c-eb579d59cb49"/>
+    <weighted-embedded-action uid="11a26d35-086e-4027-8afc-0c2da72b735d"/>
+    <weighted-embedded-action uid="f1245a58-de82-447b-8b11-1094872785bf"/>
+</basic-logical-action-container>

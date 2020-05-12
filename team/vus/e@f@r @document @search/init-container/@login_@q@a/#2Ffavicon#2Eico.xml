@@ -1,0 +1,35 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/favicon.ico" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/e@f@r @document @search/%resources%/recorded-artifacts/831fc2fc-b9e7-455c-9f9a-1cb81572bbde.zip"
+    slaProfileEnabled="false" thinkTime="346"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="831fc2fc-b9e7-455c-9f9a-1cb81572bbde">
+    <embedded-action>b85b1415-1565-42cd-aabd-a4642651daff</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_3c097ab3-158c-4306-8bbd-7098c627addc.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @document @search/%resources%/recorded-artifacts/831fc2fc-b9e7-455c-9f9a-1cb81572bbde.zip"
+    recordedResponseCode="403" responseSize="1233"
+    serverUid="efrssoqa.optum.com" slaProfileEnabled="false"
+    uid="b85b1415-1565-42cd-aabd-a4642651daff" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_395bef0e-df35-4220-a5a2-bc748c4326bb.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_395bef0e-df35-4220-a5a2-bc748c4326bb.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrssoqa.optum.com"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 403 Forbidden&#xd;
+Content-Type: text/html&#xd;
+Server: &#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Fri, 13 Dec 2019 11:27:50 GMT&#xd;
+Content-Length: 1233</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

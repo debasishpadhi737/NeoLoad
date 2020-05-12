@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OpenCaseBalanceWorklist" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="9259f3a5-4c03-470a-9521-3f40a392d89e" weightsEnabled="false">
+    <weighted-embedded-action uid="b2a34e7d-5759-4323-8987-5777335c5468"/>
+    <weighted-embedded-action uid="0a8780b5-c561-4be0-bed2-7c439a7b7e37"/>
+    <weighted-embedded-action uid="9c3ac93d-2428-4397-99d4-058c09dbde96"/>
+</basic-logical-action-container>

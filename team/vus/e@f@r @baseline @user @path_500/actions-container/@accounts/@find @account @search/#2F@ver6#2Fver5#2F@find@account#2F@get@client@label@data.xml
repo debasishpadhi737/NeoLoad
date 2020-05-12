@@ -1,0 +1,703 @@
+<http-page executeResourcesDynamically="false"
+    name="/Ver6/ver5/FindAccount/GetClientLabelData"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_500/%resources%/recorded-artifacts/49470efc-16de-4d16-918a-bf769efdd2be.zip"
+    slaProfileEnabled="false" thinkTime="10000"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="49470efc-16de-4d16-918a-bf769efdd2be">
+    <embedded-action>6bcf4ebd-3f51-4d99-b22e-307c450ddb0e</embedded-action>
+    <embedded-action>68986a0f-6d40-4809-9a32-a28a2c66d062</embedded-action>
+    <embedded-action>31a7b234-8caa-43d3-96ef-89df1da16654</embedded-action>
+    <embedded-action>d9517e0b-41b6-41e9-be48-da7ccf29d78a</embedded-action>
+    <embedded-action>4684f07e-9e4b-426c-a42d-1a6795baac10</embedded-action>
+    <embedded-action>f1e9c1b9-4b31-4db9-b56f-3e96a4ebc2e4</embedded-action>
+    <embedded-action>098250aa-e2bb-4bb8-8db2-7581fcfad7aa</embedded-action>
+    <embedded-action>57377a59-1e99-4886-95e9-70f326f33dcd</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_f804cacc-ae83-4162-8c7d-2a40febefd19.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/Ver6/ver5/FindAccount/GetClientLabelData"
+    path="/Ver6/ver5/FindAccount/GetClientLabelData" postType="4"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_500/%resources%/recorded-artifacts/49470efc-16de-4d16-918a-bf769efdd2be.zip"
+    recordedResponseCode="200" responseSize="363"
+    serverUid="efr-perftest.optum.com_1" slaProfileEnabled="false"
+    uid="6bcf4ebd-3f51-4d99-b22e-307c450ddb0e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_043c9503-cadf-4fb6-8d8a-0d9fa99b073b.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_043c9503-cadf-4fb6-8d8a-0d9fa99b073b.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="clientLabelId" recordRawValue="PatientVisitAccount"
+        separator="=" value="PatientVisitAccount" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="searchBy" recordRawValue="Account" separator="="
+        value="Account" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="application/json; charset=utf-8"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il8wNmRjZjVhOC02YTFiLTRlNzctYjUxYi04ZjA5ODcyOTdlNjktQUJBNURGQzg0QzlBNTU4QkE1MTRCODk0QUYxOTkwOEIiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6MTFkZTUwM2ItYzMzZi00YTEyLWI1YzctMTlmN2JhYjdjZmI5PC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+bUFHWWZGQ2pkdXVMWFR1VkZOWVQzdFRtZkhvRnBVSkVwbndCcS9FQlFWQ1Q2QVlsZnlMZlZGQktCRS9Tc3lUTXc4akRoUDIvS1hpeVc3UDhhZUIxTUdNTmY4Y3QrMldodjZGRFExODVSUmN2SC9yQlh4SHFkelh5eHMrVUF3ZWRHMmlEMUNXRUlmTjMxR3J3ekR1cHRFUEF4clpjdXJab25FKzB6OHF2cENvQ0ZHbFZqQ0dWdjkzQ2pCdGRYTzdidldLaW9KZ3dRZkN4RjNlQUgvNmxrTlpnMGJoYkpDOWJYZi9QVCsrV28rM1BtZTV4d1BTREVoakJKZFRWV2VzcWg0SWFJU2gyNjkrU0pDNEFrREtlcER2SzVERDNSSnBFbG15WElsNXNGdVgxN3kzRC9hWml0MDNTUW9MTlE3MUt1cFRlc0RERGx4NGNUM054Tk1INEhUUThPQVk0VVdMdDlqa0RTS3hCWmJ3dEJFOVNuWjR5MEJ0YlZYUi92YTQxbW1JTEpuajNCN1RId3h5blVRdnJGZkdUd0s1SURLZ3ViTjBzTlZBNk8xN3dsbFVLOXY1NlRabXcrMjlMKzEzMFM3aGFlNUZMZ3RYUGJCTEQwd1hFdWNjRUZSV0VycGp4WXlwK2Z3c2JUaVJ1TXdmMDZGZ0JRc0xaSnFJSWdoVmpnR3J4bG5SdjlVMjY3czZPeE5IQVhUTE92bFM1cm1UNmtPSERCQVBlaUNlQ0VDcFRwQU0ySnEvSGxmTnJmbDFjeURJQXVCVk5KY2J6ZFpkM3JEVTlCQ0xuc1hnVm9mSGY1TndPM29RTkx1OXMwQndHbUNYYnNTZWJlN2ZPVEVzUFJaRjlwQjBtdmdZSmRCKzN4cGd1Zy9NRW9lM0c4ZW5qOUNiQjZlLzV3NFc1QjQxekVBbC9UNFllZ1hqajNSWSsyV0F4WTFGVU1VOG9PZFE1MzR2Q1ZqOHJrb3QyVDZGT2U3QnQ1RE9SZEVWRXJYbmM4VnhiWjZQeE5OblNVbWJ3enZQR1BoRWllU1NDU0prK3o0QSt1dTI3dCtqZXFGaVQ4WHlFajBCWThRbkZGNC92Qm51UXNBTlN3UVhEN1YxQnZ4MGE3WkJlVm5sZ2c5REtoYkkxOXRVWnNtellpaFh2Rys2a2NkRTFyK3gwcnFKdlZERVRJcWtZQk1VWCs5SlFZQmJWRVZnQ2laZFljVWJ3ZVRUOXhGRVg1aUZqRmU1VVRGZUxzL3NMMGVuNWxoRkdXaTFWSUJ4OHE3OTBPVlNGekhtZ0V2Vy90ckJnL21wYjNJak40cUFYWVFIcmR1bkVTRTJ4UUkxZE9tbkZvb2lRU0lGMUE0U0dBbkxlRGlwOGhsRm9JdnM2TS9VcUZiRkpaOXNsMEVJTnU4UmZXdmZQZ2JR; FedAuth1=eHVlWUtzTnQzWUVSbW9ZSDFIc0ZQUWtWcGdndjlweFREYnc9PTwvQ29va2llPjwvU2VjdXJpdHlDb250ZXh0VG9rZW4+; Track_User=91DF730983409515281F82D9C76FD7D21FFAB05B9D3D1D91B15063B1648977AB; RefreshFilter=http%3a%2f%2fefr-perftest.optum.com%2fVer6%2fver5%2fFindAccount%2f; MenuBarContent_${clientidkey}_4733=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; dcjq-accordion=2"/>
+    <header name="Host" value="efr-perftest.optum.com"/>
+    <header name="Referer" value="https://efr-perftest.optum.com/Ver6/ver5/FindAccount/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Content-Encoding: gzip&#xd;
+Expires: -1&#xd;
+Vary: Accept-Encoding&#xd;
+X-dynaTrace: PT=1082;PA=-649476813;SP=Optum360;PS=-1845309448&#xd;
+dynaTrace: PT=1082;PA=-649476813;SP=Optum360;PS=-1845309448&#xd;
+X-dynaTrace: PT=1082;PA=-649476813;SP=Optum360;PS=-1845309448&#xd;
+dynaTrace: PT=1082;PA=-649476813;SP=Optum360;PS=-1845309448&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Fri, 04 May 2018 11:39:23 GMT&#xd;
+Content-Length: 317</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"page":"1"}]]></textPostContent>
+</http-action>
+<http-page executeResourcesDynamically="false"
+    name="/Ver6/ver5/Common/DelColState"
+    playRequestsSequentially="false" slaProfileEnabled="false"
+    thinkTime="42" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="68986a0f-6d40-4809-9a32-a28a2c66d062">
+    <embedded-action>6d994273-893e-43fd-9cd5-0e579b8157be</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_204cdc39-48ce-4cdd-b06d-5971c62bc81b.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/Ver6/ver5/Common/DelColState"
+    path="/Ver6/ver5/Common/DelColState" postType="4"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_500/%resources%/recorded-artifacts/49470efc-16de-4d16-918a-bf769efdd2be.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="efr-perftest.optum.com_1" slaProfileEnabled="false"
+    uid="6d994273-893e-43fd-9cd5-0e579b8157be" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6d994273-893e-43fd-9cd5-0e579b8157be.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_82f991f1-6b04-4298-8c57-230ac86679ca.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="application/json; charset=utf-8"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il8wNmRjZjVhOC02YTFiLTRlNzctYjUxYi04ZjA5ODcyOTdlNjktQUJBNURGQzg0QzlBNTU4QkE1MTRCODk0QUYxOTkwOEIiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6MTFkZTUwM2ItYzMzZi00YTEyLWI1YzctMTlmN2JhYjdjZmI5PC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+bUFHWWZGQ2pkdXVMWFR1VkZOWVQzdFRtZkhvRnBVSkVwbndCcS9FQlFWQ1Q2QVlsZnlMZlZGQktCRS9Tc3lUTXc4akRoUDIvS1hpeVc3UDhhZUIxTUdNTmY4Y3QrMldodjZGRFExODVSUmN2SC9yQlh4SHFkelh5eHMrVUF3ZWRHMmlEMUNXRUlmTjMxR3J3ekR1cHRFUEF4clpjdXJab25FKzB6OHF2cENvQ0ZHbFZqQ0dWdjkzQ2pCdGRYTzdidldLaW9KZ3dRZkN4RjNlQUgvNmxrTlpnMGJoYkpDOWJYZi9QVCsrV28rM1BtZTV4d1BTREVoakJKZFRWV2VzcWg0SWFJU2gyNjkrU0pDNEFrREtlcER2SzVERDNSSnBFbG15WElsNXNGdVgxN3kzRC9hWml0MDNTUW9MTlE3MUt1cFRlc0RERGx4NGNUM054Tk1INEhUUThPQVk0VVdMdDlqa0RTS3hCWmJ3dEJFOVNuWjR5MEJ0YlZYUi92YTQxbW1JTEpuajNCN1RId3h5blVRdnJGZkdUd0s1SURLZ3ViTjBzTlZBNk8xN3dsbFVLOXY1NlRabXcrMjlMKzEzMFM3aGFlNUZMZ3RYUGJCTEQwd1hFdWNjRUZSV0VycGp4WXlwK2Z3c2JUaVJ1TXdmMDZGZ0JRc0xaSnFJSWdoVmpnR3J4bG5SdjlVMjY3czZPeE5IQVhUTE92bFM1cm1UNmtPSERCQVBlaUNlQ0VDcFRwQU0ySnEvSGxmTnJmbDFjeURJQXVCVk5KY2J6ZFpkM3JEVTlCQ0xuc1hnVm9mSGY1TndPM29RTkx1OXMwQndHbUNYYnNTZWJlN2ZPVEVzUFJaRjlwQjBtdmdZSmRCKzN4cGd1Zy9NRW9lM0c4ZW5qOUNiQjZlLzV3NFc1QjQxekVBbC9UNFllZ1hqajNSWSsyV0F4WTFGVU1VOG9PZFE1MzR2Q1ZqOHJrb3QyVDZGT2U3QnQ1RE9SZEVWRXJYbmM4VnhiWjZQeE5OblNVbWJ3enZQR1BoRWllU1NDU0prK3o0QSt1dTI3dCtqZXFGaVQ4WHlFajBCWThRbkZGNC92Qm51UXNBTlN3UVhEN1YxQnZ4MGE3WkJlVm5sZ2c5REtoYkkxOXRVWnNtellpaFh2Rys2a2NkRTFyK3gwcnFKdlZERVRJcWtZQk1VWCs5SlFZQmJWRVZnQ2laZFljVWJ3ZVRUOXhGRVg1aUZqRmU1VVRGZUxzL3NMMGVuNWxoRkdXaTFWSUJ4OHE3OTBPVlNGekhtZ0V2Vy90ckJnL21wYjNJak40cUFYWVFIcmR1bkVTRTJ4UUkxZE9tbkZvb2lRU0lGMUE0U0dBbkxlRGlwOGhsRm9JdnM2TS9VcUZiRkpaOXNsMEVJTnU4UmZXdmZQZ2JR; FedAuth1=eHVlWUtzTnQzWUVSbW9ZSDFIc0ZQUWtWcGdndjlweFREYnc9PTwvQ29va2llPjwvU2VjdXJpdHlDb250ZXh0VG9rZW4+; Track_User=91DF730983409515281F82D9C76FD7D21FFAB05B9D3D1D91B15063B1648977AB; RefreshFilter=http%3a%2f%2fefr-perftest.optum.com%2fVer6%2fver5%2fFindAccount%2f; MenuBarContent_${clientidkey}_4733=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; dcjq-accordion=2"/>
+    <header name="Host" value="efr-perftest.optum.com"/>
+    <header name="Referer" value="https://efr-perftest.optum.com/Ver6/ver5/FindAccount/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 Success&#xd;
+Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Content-Type: text/html&#xd;
+Content-Encoding: gzip&#xd;
+Expires: -1&#xd;
+Vary: Accept-Encoding&#xd;
+X-dynaTrace: PT=1084;PA=-649476813;SP=Optum360;PS=-1845309448&#xd;
+dynaTrace: PT=1084;PA=-649476813;SP=Optum360;PS=-1845309448&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Fri, 04 May 2018 11:39:26 GMT&#xd;
+Content-Length: 119</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"name":"Worklist0.colState"}]]></textPostContent>
+</http-action>
+<http-page executeResourcesDynamically="false"
+    name="/Ver6/ver5/FindAccount/FindResults"
+    playRequestsSequentially="false" slaProfileEnabled="false"
+    thinkTime="10000" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="31a7b234-8caa-43d3-96ef-89df1da16654">
+    <embedded-action>52f56008-c881-4c95-ab54-228bb0076ec1</embedded-action>
+    <embedded-action>c108223b-b668-46be-a028-f8d07138ec91</embedded-action>
+    <embedded-action>d6b0ce8c-a2fe-4eab-98b3-17f4f9013f49</embedded-action>
+    <embedded-action>578f4db9-0e15-415f-948f-1b07e68120e8</embedded-action>
+    <embedded-action>9d8abddb-f627-4dff-adeb-38ca4c6accb5</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_ae1c228a-875f-4351-b956-4c4beb5f3947.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/Ver6/ver5/FindAccount/FindResults"
+    path="/Ver6/ver5/FindAccount/FindResults" postType="4"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_500/%resources%/recorded-artifacts/49470efc-16de-4d16-918a-bf769efdd2be.zip"
+    recordedResponseCode="200" responseSize="168802"
+    serverUid="efr-perftest.optum.com_1" slaProfileEnabled="false"
+    uid="52f56008-c881-4c95-ab54-228bb0076ec1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1d031848-ffdd-4372-b180-ff6a8e58ac72.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1d031848-ffdd-4372-b180-ff6a8e58ac72.txt</requestContentFileDescription>
+    <header name="Accept" value="text/plain, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="application/json; charset=utf-8"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il8wNmRjZjVhOC02YTFiLTRlNzctYjUxYi04ZjA5ODcyOTdlNjktQUJBNURGQzg0QzlBNTU4QkE1MTRCODk0QUYxOTkwOEIiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6MTFkZTUwM2ItYzMzZi00YTEyLWI1YzctMTlmN2JhYjdjZmI5PC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+bUFHWWZGQ2pkdXVMWFR1VkZOWVQzdFRtZkhvRnBVSkVwbndCcS9FQlFWQ1Q2QVlsZnlMZlZGQktCRS9Tc3lUTXc4akRoUDIvS1hpeVc3UDhhZUIxTUdNTmY4Y3QrMldodjZGRFExODVSUmN2SC9yQlh4SHFkelh5eHMrVUF3ZWRHMmlEMUNXRUlmTjMxR3J3ekR1cHRFUEF4clpjdXJab25FKzB6OHF2cENvQ0ZHbFZqQ0dWdjkzQ2pCdGRYTzdidldLaW9KZ3dRZkN4RjNlQUgvNmxrTlpnMGJoYkpDOWJYZi9QVCsrV28rM1BtZTV4d1BTREVoakJKZFRWV2VzcWg0SWFJU2gyNjkrU0pDNEFrREtlcER2SzVERDNSSnBFbG15WElsNXNGdVgxN3kzRC9hWml0MDNTUW9MTlE3MUt1cFRlc0RERGx4NGNUM054Tk1INEhUUThPQVk0VVdMdDlqa0RTS3hCWmJ3dEJFOVNuWjR5MEJ0YlZYUi92YTQxbW1JTEpuajNCN1RId3h5blVRdnJGZkdUd0s1SURLZ3ViTjBzTlZBNk8xN3dsbFVLOXY1NlRabXcrMjlMKzEzMFM3aGFlNUZMZ3RYUGJCTEQwd1hFdWNjRUZSV0VycGp4WXlwK2Z3c2JUaVJ1TXdmMDZGZ0JRc0xaSnFJSWdoVmpnR3J4bG5SdjlVMjY3czZPeE5IQVhUTE92bFM1cm1UNmtPSERCQVBlaUNlQ0VDcFRwQU0ySnEvSGxmTnJmbDFjeURJQXVCVk5KY2J6ZFpkM3JEVTlCQ0xuc1hnVm9mSGY1TndPM29RTkx1OXMwQndHbUNYYnNTZWJlN2ZPVEVzUFJaRjlwQjBtdmdZSmRCKzN4cGd1Zy9NRW9lM0c4ZW5qOUNiQjZlLzV3NFc1QjQxekVBbC9UNFllZ1hqajNSWSsyV0F4WTFGVU1VOG9PZFE1MzR2Q1ZqOHJrb3QyVDZGT2U3QnQ1RE9SZEVWRXJYbmM4VnhiWjZQeE5OblNVbWJ3enZQR1BoRWllU1NDU0prK3o0QSt1dTI3dCtqZXFGaVQ4WHlFajBCWThRbkZGNC92Qm51UXNBTlN3UVhEN1YxQnZ4MGE3WkJlVm5sZ2c5REtoYkkxOXRVWnNtellpaFh2Rys2a2NkRTFyK3gwcnFKdlZERVRJcWtZQk1VWCs5SlFZQmJWRVZnQ2laZFljVWJ3ZVRUOXhGRVg1aUZqRmU1VVRGZUxzL3NMMGVuNWxoRkdXaTFWSUJ4OHE3OTBPVlNGekhtZ0V2Vy90ckJnL21wYjNJak40cUFYWVFIcmR1bkVTRTJ4UUkxZE9tbkZvb2lRU0lGMUE0U0dBbkxlRGlwOGhsRm9JdnM2TS9VcUZiRkpaOXNsMEVJTnU4UmZXdmZQZ2JR; FedAuth1=eHVlWUtzTnQzWUVSbW9ZSDFIc0ZQUWtWcGdndjlweFREYnc9PTwvQ29va2llPjwvU2VjdXJpdHlDb250ZXh0VG9rZW4+; Track_User=91DF730983409515281F82D9C76FD7D21FFAB05B9D3D1D91B15063B1648977AB; RefreshFilter=http%3a%2f%2fefr-perftest.optum.com%2fVer6%2fver5%2fFindAccount%2f; MenuBarContent_${clientidkey}_4733=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; dcjq-accordion=2"/>
+    <header name="Host" value="efr-perftest.optum.com"/>
+    <header name="Referer" value="https://efr-perftest.optum.com/Ver6/ver5/FindAccount/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Content-Encoding: gzip&#xd;
+Expires: -1&#xd;
+Vary: Accept-Encoding&#xd;
+X-dynaTrace: PT=1085;PA=-649476813;SP=Optum360;PS=-1845309448&#xd;
+dynaTrace: PT=1085;PA=-649476813;SP=Optum360;PS=-1845309448&#xd;
+X-dynaTrace: PT=1085;PA=-649476813;SP=Optum360;PS=-1845309448&#xd;
+dynaTrace: PT=1085;PA=-649476813;SP=Optum360;PS=-1845309448&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Fri, 04 May 2018 11:39:28 GMT&#xd;
+Content-Length: 41235</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"txtWListFilerId":"9···CHANDLER REGIONAL MED CTR,0···Dignity Health - Phoenix (Default),8···MERCY GILBERT MED CTR,10···PHOENIX COE OTHER,3···ST JOHNS PLEASANT VALLEY HOSPITAL,2···ST JOHNS REGIONAL MED CTR,1···ST JOSEPHS MED CTR,6···ST ROSE DOMINICAN ROSE DE LIMA CAMPUS,5···ST ROSE DOMINICAN SAN MARTIN CAMPUS,4···ST ROSE DOMINICAN SIENA CAMPUS,11···Saint Marys Regional Medical Center,7···WESTGATE,\u0001PatientVisitAccount·PatientVisitAccount·tblPatientVisits·text·Equal To·{PatientVisitAccount}·Account # Equal To {PatientVisitAccount}·Account #\u0001","noMenu":"true","searchBy":"Account","searchText":"<option value=\"9···CHANDLER REGIONAL MED CTR,0···Dignity Health - Phoenix (Default),8···MERCY GILBERT MED CTR,10···PHOENIX COE OTHER,3···ST JOHNS PLEASANT VALLEY HOSPITAL,2···ST JOHNS REGIONAL MED CTR,1···ST JOSEPHS MED CTR,6···ST ROSE DOMINICAN ROSE DE LIMA CAMPUS,5···ST ROSE DOMINICAN SAN MARTIN CAMPUS,4···ST ROSE DOMINICAN SIENA CAMPUS,11···Saint Marys Regional Medical Center,7···WESTGATE,\">Hospital  Equal To All</option><option value=\"PatientVisitAccount·PatientVisitAccount·tblPatientVisits·text·Equal To·{PatientVisitAccount}·Account # Equal To {PatientVisitAccount}·Account #\">Account # Equal To {PatientVisitAccount}</option>"}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="&quot;aca2cafcdae3d31:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 04 May 2018 19:06:20 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/Ver6/Content/cmenu-vista-bg.gif"
+    path="/Ver6/Content/cmenu-vista-bg.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_500/%resources%/recorded-artifacts/49470efc-16de-4d16-918a-bf769efdd2be.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="efr-perftest.optum.com_1" slaProfileEnabled="false"
+    uid="c108223b-b668-46be-a028-f8d07138ec91" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c108223b-b668-46be-a028-f8d07138ec91.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c087d758-25ca-4455-95c7-c869643f84ad.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il8wNmRjZjVhOC02YTFiLTRlNzctYjUxYi04ZjA5ODcyOTdlNjktQUJBNURGQzg0QzlBNTU4QkE1MTRCODk0QUYxOTkwOEIiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6MTFkZTUwM2ItYzMzZi00YTEyLWI1YzctMTlmN2JhYjdjZmI5PC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+bUFHWWZGQ2pkdXVMWFR1VkZOWVQzdFRtZkhvRnBVSkVwbndCcS9FQlFWQ1Q2QVlsZnlMZlZGQktCRS9Tc3lUTXc4akRoUDIvS1hpeVc3UDhhZUIxTUdNTmY4Y3QrMldodjZGRFExODVSUmN2SC9yQlh4SHFkelh5eHMrVUF3ZWRHMmlEMUNXRUlmTjMxR3J3ekR1cHRFUEF4clpjdXJab25FKzB6OHF2cENvQ0ZHbFZqQ0dWdjkzQ2pCdGRYTzdidldLaW9KZ3dRZkN4RjNlQUgvNmxrTlpnMGJoYkpDOWJYZi9QVCsrV28rM1BtZTV4d1BTREVoakJKZFRWV2VzcWg0SWFJU2gyNjkrU0pDNEFrREtlcER2SzVERDNSSnBFbG15WElsNXNGdVgxN3kzRC9hWml0MDNTUW9MTlE3MUt1cFRlc0RERGx4NGNUM054Tk1INEhUUThPQVk0VVdMdDlqa0RTS3hCWmJ3dEJFOVNuWjR5MEJ0YlZYUi92YTQxbW1JTEpuajNCN1RId3h5blVRdnJGZkdUd0s1SURLZ3ViTjBzTlZBNk8xN3dsbFVLOXY1NlRabXcrMjlMKzEzMFM3aGFlNUZMZ3RYUGJCTEQwd1hFdWNjRUZSV0VycGp4WXlwK2Z3c2JUaVJ1TXdmMDZGZ0JRc0xaSnFJSWdoVmpnR3J4bG5SdjlVMjY3czZPeE5IQVhUTE92bFM1cm1UNmtPSERCQVBlaUNlQ0VDcFRwQU0ySnEvSGxmTnJmbDFjeURJQXVCVk5KY2J6ZFpkM3JEVTlCQ0xuc1hnVm9mSGY1TndPM29RTkx1OXMwQndHbUNYYnNTZWJlN2ZPVEVzUFJaRjlwQjBtdmdZSmRCKzN4cGd1Zy9NRW9lM0c4ZW5qOUNiQjZlLzV3NFc1QjQxekVBbC9UNFllZ1hqajNSWSsyV0F4WTFGVU1VOG9PZFE1MzR2Q1ZqOHJrb3QyVDZGT2U3QnQ1RE9SZEVWRXJYbmM4VnhiWjZQeE5OblNVbWJ3enZQR1BoRWllU1NDU0prK3o0QSt1dTI3dCtqZXFGaVQ4WHlFajBCWThRbkZGNC92Qm51UXNBTlN3UVhEN1YxQnZ4MGE3WkJlVm5sZ2c5REtoYkkxOXRVWnNtellpaFh2Rys2a2NkRTFyK3gwcnFKdlZERVRJcWtZQk1VWCs5SlFZQmJWRVZnQ2laZFljVWJ3ZVRUOXhGRVg1aUZqRmU1VVRGZUxzL3NMMGVuNWxoRkdXaTFWSUJ4OHE3OTBPVlNGekhtZ0V2Vy90ckJnL21wYjNJak40cUFYWVFIcmR1bkVTRTJ4UUkxZE9tbkZvb2lRU0lGMUE0U0dBbkxlRGlwOGhsRm9JdnM2TS9VcUZiRkpaOXNsMEVJTnU4UmZXdmZQZ2JR; FedAuth1=eHVlWUtzTnQzWUVSbW9ZSDFIc0ZQUWtWcGdndjlweFREYnc9PTwvQ29va2llPjwvU2VjdXJpdHlDb250ZXh0VG9rZW4+; Track_User=91DF730983409515281F82D9C76FD7D21FFAB05B9D3D1D91B15063B1648977AB; RefreshFilter=http%3a%2f%2fefr-perftest.optum.com%2fVer6%2fver5%2fFindAccount%2f; MenuBarContent_${clientidkey}_4733=tTcAAB+LCAAAAAAABAC9W21v2zgS/itEDrjsAteod4ceFt0khSOnTYC48dpu+nHBSLTDRiIFkkrr/fU3fJEsS1Tqhux+yYtmPA85mnfSpwU9P8XoQZD12dE/js4nWcZrptAMM7whJWHqNMHnp3VxftrhTO6I+F+ySGfLZCUwk2siTrB8+PZuhcWGqLOTk+SJiDfJZy4eb6hUS1KQTFHOkvSBZI/6cQGPZWqwlP3Q0Z+KV0fnmojcMqQBTzTyC9DfU5Y7QUkPRJO8srUOFqTiQlG2Cdn6JP9SS6UVKK283go69KBNTmZTntVajlY0LNqPVudUoYYTOdYg4ClWeMJwsZVU9tWraaghBm7v8mrh3RI8BzPRRoUs3YvzBT9hmQlaqbe8Iqx9tXOw7l+OHpSq3ibJaj5J0z/uPi//8/pNenF9kmEBpp/T7IQR9fa310nKN4zLf79Osg19dU9ZkpkHJ/Dvu/s/sVnFmX12R8lXIo5+7a+WKSIqQSVB++b1UsWssHx0lvWOytm28/+ZEjXp4c+2yHCMGv1c8LyGjTxRtXVLlCH235XnxL0T5vdqW5Gz2XaKabHdQx2s2LCgLk+QyjxLSuzv2faTJGJ/fV3uJcOVfOB9E5ztLw41bLFX2V3Y99T283XWXc0BSvrbNTSjBZGKMzL21hp6nNW04laCsBzcehSuYfiZm29S68jeG3KcrTfSRnbegg03nuio8lLYBVnXLPenVUeLFVp70nsh1LsLHUyXW6lICUUUhbDPMMuIL5RqzpTn5Ht8h647LTAtbV2xIFhyZoTv78DwoF3xgSwn0qwS/XJ1PZ9Mfg3SnkFYKqxq6cV2pJ8CuCLf+q9sD1TTw7Bg1drPBlvTmjaEMPHzldVLT/p8ZfUVVrBRrAsUKn0QLTEC0FVWZV6Qq3SeLiMAmHeaYkU2XPTznzEo1BLDwT5ydkWrCvs2BLRXDjAYZ0FKqpSOAT6kHRWc94lmuowsMXRKI340Gpqm1FSrGHRzQHi6oEWhA3v7KUqCqkLz5qZEdx/YlO77u2zgrNN2+MJU68QaqfJW0A19HtiyRMScUlmBc3l2nE5QN0IF2tAe6BUvchvd/YFY0134D0Od6VYJWqaFqjwZp6GixWoewU1mi5VVlc9LgLiXXyIVHCkkS14SsSRCu954cnV8yDF2k2voJAO8lOIC3pzsb7olIkONCKQT2vNgJueFJQuCC/UwL3DfMywBaUokAM92OiARttI6XB9l52nhtnDDM1/obB4Hyb4VG8zoXz75XVJYAwMioPD0vAxHCX8R1g87mc6Pc0chJKOJUoLe14oMk1ws/Dtc1INY9d1VbJH9XIylYIUvCzPOPXAZYahzvCUi5WWF2VD5QEKOFg7iMaPf/vsGWZRgQ5o/bCWFaNd3hvZ5oJoaMT5naKGDd+GykQekyVPBEKYxfr5ZfqHUD4LXlUcyMoTgKaom2vmtr57okCOULh1pvh6yC7b/QkaL+RuiFNh5pPnBFDoKlluZU8IgyfvLR8uHHLjlHBaSo4vWY6F1wb/GWvZkcc10iam46J96LFBLCmz7y6og+s34BxstOUZz2wrzOGwHKdhn31NS5Df4nhTDihIoyJKCID6sLnuiPxT8HqzFfMr0Q7rrunwKPgb7yFVfV/pRkMw/alL7oqZ5Hq5/I6avevswcJAg6/uSqtbP+pOEV5aOFEcNTxgg5yrF0Lx6W2tNRYbs+uo4WM3p4jhalPPH3fR+ONu2QaxhCMNp5C3qYmATLZYhRoH5LB5vpLqtzGxlbGzvyFGOCHxpvAUapvLR5DGjMiMFtGuEQxiOlEE+sYLbWwkef7HEOJ5iZTV3LLw4juhThe+v/nSvOeF//v7G7pZD0DTvugQMmxEXlUrsX5Bxybfe3gyjm8wEKXAfsV/NQponObJg6ZgWe2pYQhUDphekh0brrsXql0vNO3HksCG+E+bzpxbIEAMPC5ysJa9F1g9+LZClRgHy5NkW5sBqeEWgOMIq2nnaDd/wfnA0z8K6ALfKQfnfPH/e9Xt7TrEkkS5rTWapILCAj+SrvS7UKz0NEQEVadDQS0tY4Rllw0Njc3XIUgIhbtOFLoWKwcgDCMhRAiFmWMpPVe55m5qCHGn0zs3hx8SHn9ocvvhJVRFcpFz044gloDvC8sC+CUC0JV1LObiQZAzXEGIgeMeuBsJSAjH8XZ8WHyGngRmZIxKaQ3dXEmHG7yDb1/5pyODGYzK7ZtB7gWnmF/3xXHNwGgiQcqYEztR7KspBC2tJSNNCowhUg7WU4BnWn31JpGVxPh9Bf+XuTMH6ykRKDq/NMzbvHjDooYnzrc4H4pi/2Vmv6DIvuUD6rmt4NDU43moA+my63saoBZrdUPl4Q55I0e/t4DkyhEAUfdlvStaUEf/8Q9ORY4gxBtlHhI7HeyCwj6qvR7+wCZjkJeRPCV7W2pcnpSxJVovmeuALk4ivCo1QfBpNDJXzAzevvq+Cg9+d7ccgnz8Oi5XdbXlDDb/UcgnmzwWEyDXd1MIXUOzZveVDe4zh6NelbgnJAfgNZ8QV2H8nLL+oc/hjMPLX/5kQaunB3wx4bpOaPra1UdMzVhvP8GxRr4W+pwWoelhhajoyqI4j8JRIzQXlOiS0388YHBcp1PCglim4G+IC6tp2GDTsigy9xYsyjoL8SzfM06y3y9hxhE3AdTT0nY5Z+RDpw4/JrnhJKm0LvdKjeTwjUsLvOEdxTdrwHclp7zT2aPOCT4VB93CuaIWx92KuvYTXHWk976sfCCMCaqNPrWJe6KX6h1a0eQm6NfO8BK/ie19MWRIssgfzrZTjH57RmM8e/+v4uP+tk92gxrD8rIXMBf9CMnXN1lyUJvD5FuO4UIct7PQcIh60xAXIXdNicH7uqMiRx4ziXiTuR2MePzIeqtXR+SktN0iK7KyrL2MTZhIpHePJhq6PkVTbgpwdgwAFLV/xChfgIm9RSfO8IMfo4nYxvVycHb8+Pv8nu5fV7/anldBu4f8lGO1KtTcAAA==; dcjq-accordion=2"/>
+    <header name="Host" value="efr-perftest.optum.com"/>
+    <header name="Referer" value="https://efr-perftest.optum.com/Ver6/ver5/FindAccount/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: public,max-age=86400&#xd;
+Content-Type: image/gif&#xd;
+Last-Modified: Fri, 30 Mar 2018 02:38:56 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "f7a6f23fd0c7d31:0"&#xd;
+X-dynaTrace: PT=175637;PA=1327948907;SP=Optum360;PS=-1845309448&#xd;
+dynaTrace: PT=175637;PA=1327948907;SP=Optum360;PS=-1845309448&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Fri, 04 May 2018 11:39:26 GMT&#xd;
+Content-Length: 64</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="&quot;428b4a3dbe3d31:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 04 May 2018 19:06:31 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/Ver6/RCMS/Home/Images/Troubleshoot.gif"
+    path="/Ver6/RCMS/Home/Images/Troubleshoot.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_500/%resources%/recorded-artifacts/49470efc-16de-4d16-918a-bf769efdd2be.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="efr-perftest.optum.com_1" slaProfileEnabled="false"
+    uid="d6b0ce8c-a2fe-4eab-98b3-17f4f9013f49" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d6b0ce8c-a2fe-4eab-98b3-17f4f9013f49.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b4bd2611-cc9d-43b4-8637-272df075d6f4.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il8wNmRjZjVhOC02YTFiLTRlNzctYjUxYi04ZjA5ODcyOTdlNjktQUJBNURGQzg0QzlBNTU4QkE1MTRCODk0QUYxOTkwOEIiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6MTFkZTUwM2ItYzMzZi00YTEyLWI1YzctMTlmN2JhYjdjZmI5PC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+bUFHWWZGQ2pkdXVMWFR1VkZOWVQzdFRtZkhvRnBVSkVwbndCcS9FQlFWQ1Q2QVlsZnlMZlZGQktCRS9Tc3lUTXc4akRoUDIvS1hpeVc3UDhhZUIxTUdNTmY4Y3QrMldodjZGRFExODVSUmN2SC9yQlh4SHFkelh5eHMrVUF3ZWRHMmlEMUNXRUlmTjMxR3J3ekR1cHRFUEF4clpjdXJab25FKzB6OHF2cENvQ0ZHbFZqQ0dWdjkzQ2pCdGRYTzdidldLaW9KZ3dRZkN4RjNlQUgvNmxrTlpnMGJoYkpDOWJYZi9QVCsrV28rM1BtZTV4d1BTREVoakJKZFRWV2VzcWg0SWFJU2gyNjkrU0pDNEFrREtlcER2SzVERDNSSnBFbG15WElsNXNGdVgxN3kzRC9hWml0MDNTUW9MTlE3MUt1cFRlc0RERGx4NGNUM054Tk1INEhUUThPQVk0VVdMdDlqa0RTS3hCWmJ3dEJFOVNuWjR5MEJ0YlZYUi92YTQxbW1JTEpuajNCN1RId3h5blVRdnJGZkdUd0s1SURLZ3ViTjBzTlZBNk8xN3dsbFVLOXY1NlRabXcrMjlMKzEzMFM3aGFlNUZMZ3RYUGJCTEQwd1hFdWNjRUZSV0VycGp4WXlwK2Z3c2JUaVJ1TXdmMDZGZ0JRc0xaSnFJSWdoVmpnR3J4bG5SdjlVMjY3czZPeE5IQVhUTE92bFM1cm1UNmtPSERCQVBlaUNlQ0VDcFRwQU0ySnEvSGxmTnJmbDFjeURJQXVCVk5KY2J6ZFpkM3JEVTlCQ0xuc1hnVm9mSGY1TndPM29RTkx1OXMwQndHbUNYYnNTZWJlN2ZPVEVzUFJaRjlwQjBtdmdZSmRCKzN4cGd1Zy9NRW9lM0c4ZW5qOUNiQjZlLzV3NFc1QjQxekVBbC9UNFllZ1hqajNSWSsyV0F4WTFGVU1VOG9PZFE1MzR2Q1ZqOHJrb3QyVDZGT2U3QnQ1RE9SZEVWRXJYbmM4VnhiWjZQeE5OblNVbWJ3enZQR1BoRWllU1NDU0prK3o0QSt1dTI3dCtqZXFGaVQ4WHlFajBCWThRbkZGNC92Qm51UXNBTlN3UVhEN1YxQnZ4MGE3WkJlVm5sZ2c5REtoYkkxOXRVWnNtellpaFh2Rys2a2NkRTFyK3gwcnFKdlZERVRJcWtZQk1VWCs5SlFZQmJWRVZnQ2laZFljVWJ3ZVRUOXhGRVg1aUZqRmU1VVRGZUxzL3NMMGVuNWxoRkdXaTFWSUJ4OHE3OTBPVlNGekhtZ0V2Vy90ckJnL21wYjNJak40cUFYWVFIcmR1bkVTRTJ4UUkxZE9tbkZvb2lRU0lGMUE0U0dBbkxlRGlwOGhsRm9JdnM2TS9VcUZiRkpaOXNsMEVJTnU4UmZXdmZQZ2JR; FedAuth1=eHVlWUtzTnQzWUVSbW9ZSDFIc0ZQUWtWcGdndjlweFREYnc9PTwvQ29va2llPjwvU2VjdXJpdHlDb250ZXh0VG9rZW4+; Track_User=91DF730983409515281F82D9C76FD7D21FFAB05B9D3D1D91B15063B1648977AB; RefreshFilter=http%3a%2f%2fefr-perftest.optum.com%2fVer6%2fver5%2fFindAccount%2f; MenuBarContent_${clientidkey}_4733=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; dcjq-accordion=2"/>
+    <header name="Host" value="efr-perftest.optum.com"/>
+    <header name="Referer" value="https://efr-perftest.optum.com/Ver6/ver5/FindAccount/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: public,max-age=86400&#xd;
+Content-Type: image/gif&#xd;
+Last-Modified: Fri, 30 Mar 2018 02:38:42 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "da9beb37d0c7d31:0"&#xd;
+X-dynaTrace: PT=1087;PA=-649476813;SP=Optum360;PS=-1845309448&#xd;
+dynaTrace: PT=1087;PA=-649476813;SP=Optum360;PS=-1845309448&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Fri, 04 May 2018 11:39:28 GMT&#xd;
+Content-Length: 4365</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="&quot;bf3b5b3dbe3d31:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 04 May 2018 19:06:31 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/Ver6/RCMS/Home/Images/ApplyNote.gif"
+    path="/Ver6/RCMS/Home/Images/ApplyNote.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_500/%resources%/recorded-artifacts/49470efc-16de-4d16-918a-bf769efdd2be.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="efr-perftest.optum.com_1" slaProfileEnabled="false"
+    uid="578f4db9-0e15-415f-948f-1b07e68120e8" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_578f4db9-0e15-415f-948f-1b07e68120e8.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_eff79eec-a14f-475c-b12c-9d227c33de90.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il8wNmRjZjVhOC02YTFiLTRlNzctYjUxYi04ZjA5ODcyOTdlNjktQUJBNURGQzg0QzlBNTU4QkE1MTRCODk0QUYxOTkwOEIiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6MTFkZTUwM2ItYzMzZi00YTEyLWI1YzctMTlmN2JhYjdjZmI5PC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+bUFHWWZGQ2pkdXVMWFR1VkZOWVQzdFRtZkhvRnBVSkVwbndCcS9FQlFWQ1Q2QVlsZnlMZlZGQktCRS9Tc3lUTXc4akRoUDIvS1hpeVc3UDhhZUIxTUdNTmY4Y3QrMldodjZGRFExODVSUmN2SC9yQlh4SHFkelh5eHMrVUF3ZWRHMmlEMUNXRUlmTjMxR3J3ekR1cHRFUEF4clpjdXJab25FKzB6OHF2cENvQ0ZHbFZqQ0dWdjkzQ2pCdGRYTzdidldLaW9KZ3dRZkN4RjNlQUgvNmxrTlpnMGJoYkpDOWJYZi9QVCsrV28rM1BtZTV4d1BTREVoakJKZFRWV2VzcWg0SWFJU2gyNjkrU0pDNEFrREtlcER2SzVERDNSSnBFbG15WElsNXNGdVgxN3kzRC9hWml0MDNTUW9MTlE3MUt1cFRlc0RERGx4NGNUM054Tk1INEhUUThPQVk0VVdMdDlqa0RTS3hCWmJ3dEJFOVNuWjR5MEJ0YlZYUi92YTQxbW1JTEpuajNCN1RId3h5blVRdnJGZkdUd0s1SURLZ3ViTjBzTlZBNk8xN3dsbFVLOXY1NlRabXcrMjlMKzEzMFM3aGFlNUZMZ3RYUGJCTEQwd1hFdWNjRUZSV0VycGp4WXlwK2Z3c2JUaVJ1TXdmMDZGZ0JRc0xaSnFJSWdoVmpnR3J4bG5SdjlVMjY3czZPeE5IQVhUTE92bFM1cm1UNmtPSERCQVBlaUNlQ0VDcFRwQU0ySnEvSGxmTnJmbDFjeURJQXVCVk5KY2J6ZFpkM3JEVTlCQ0xuc1hnVm9mSGY1TndPM29RTkx1OXMwQndHbUNYYnNTZWJlN2ZPVEVzUFJaRjlwQjBtdmdZSmRCKzN4cGd1Zy9NRW9lM0c4ZW5qOUNiQjZlLzV3NFc1QjQxekVBbC9UNFllZ1hqajNSWSsyV0F4WTFGVU1VOG9PZFE1MzR2Q1ZqOHJrb3QyVDZGT2U3QnQ1RE9SZEVWRXJYbmM4VnhiWjZQeE5OblNVbWJ3enZQR1BoRWllU1NDU0prK3o0QSt1dTI3dCtqZXFGaVQ4WHlFajBCWThRbkZGNC92Qm51UXNBTlN3UVhEN1YxQnZ4MGE3WkJlVm5sZ2c5REtoYkkxOXRVWnNtellpaFh2Rys2a2NkRTFyK3gwcnFKdlZERVRJcWtZQk1VWCs5SlFZQmJWRVZnQ2laZFljVWJ3ZVRUOXhGRVg1aUZqRmU1VVRGZUxzL3NMMGVuNWxoRkdXaTFWSUJ4OHE3OTBPVlNGekhtZ0V2Vy90ckJnL21wYjNJak40cUFYWVFIcmR1bkVTRTJ4UUkxZE9tbkZvb2lRU0lGMUE0U0dBbkxlRGlwOGhsRm9JdnM2TS9VcUZiRkpaOXNsMEVJTnU4UmZXdmZQZ2JR; FedAuth1=eHVlWUtzTnQzWUVSbW9ZSDFIc0ZQUWtWcGdndjlweFREYnc9PTwvQ29va2llPjwvU2VjdXJpdHlDb250ZXh0VG9rZW4+; Track_User=91DF730983409515281F82D9C76FD7D21FFAB05B9D3D1D91B15063B1648977AB; RefreshFilter=http%3a%2f%2fefr-perftest.optum.com%2fVer6%2fver5%2fFindAccount%2f; MenuBarContent_${clientidkey}_4733=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; dcjq-accordion=2"/>
+    <header name="Host" value="efr-perftest.optum.com"/>
+    <header name="Referer" value="https://efr-perftest.optum.com/Ver6/ver5/FindAccount/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: public,max-age=86400&#xd;
+Content-Type: image/gif&#xd;
+Last-Modified: Fri, 30 Mar 2018 02:38:54 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "2165ad3ed0c7d31:0"&#xd;
+X-dynaTrace: PT=175638;PA=1327948907;SP=Optum360;PS=-1845309448&#xd;
+dynaTrace: PT=175638;PA=1327948907;SP=Optum360;PS=-1845309448&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Fri, 04 May 2018 11:39:29 GMT&#xd;
+Content-Length: 3640</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/Ver6/ver5/Common/GetColState"
+    path="/Ver6/ver5/Common/GetColState" postType="4"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_500/%resources%/recorded-artifacts/49470efc-16de-4d16-918a-bf769efdd2be.zip"
+    recordedResponseCode="200" responseSize="177"
+    serverUid="efr-perftest.optum.com_1" slaProfileEnabled="false"
+    uid="9d8abddb-f627-4dff-adeb-38ca4c6accb5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0f650222-4e04-494d-b70c-f6112b094690</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0f650222-4e04-494d-b70c-f6112b094690.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/javascript, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="application/json; charset=utf-8"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il8wNmRjZjVhOC02YTFiLTRlNzctYjUxYi04ZjA5ODcyOTdlNjktQUJBNURGQzg0QzlBNTU4QkE1MTRCODk0QUYxOTkwOEIiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6MTFkZTUwM2ItYzMzZi00YTEyLWI1YzctMTlmN2JhYjdjZmI5PC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+bUFHWWZGQ2pkdXVMWFR1VkZOWVQzdFRtZkhvRnBVSkVwbndCcS9FQlFWQ1Q2QVlsZnlMZlZGQktCRS9Tc3lUTXc4akRoUDIvS1hpeVc3UDhhZUIxTUdNTmY4Y3QrMldodjZGRFExODVSUmN2SC9yQlh4SHFkelh5eHMrVUF3ZWRHMmlEMUNXRUlmTjMxR3J3ekR1cHRFUEF4clpjdXJab25FKzB6OHF2cENvQ0ZHbFZqQ0dWdjkzQ2pCdGRYTzdidldLaW9KZ3dRZkN4RjNlQUgvNmxrTlpnMGJoYkpDOWJYZi9QVCsrV28rM1BtZTV4d1BTREVoakJKZFRWV2VzcWg0SWFJU2gyNjkrU0pDNEFrREtlcER2SzVERDNSSnBFbG15WElsNXNGdVgxN3kzRC9hWml0MDNTUW9MTlE3MUt1cFRlc0RERGx4NGNUM054Tk1INEhUUThPQVk0VVdMdDlqa0RTS3hCWmJ3dEJFOVNuWjR5MEJ0YlZYUi92YTQxbW1JTEpuajNCN1RId3h5blVRdnJGZkdUd0s1SURLZ3ViTjBzTlZBNk8xN3dsbFVLOXY1NlRabXcrMjlMKzEzMFM3aGFlNUZMZ3RYUGJCTEQwd1hFdWNjRUZSV0VycGp4WXlwK2Z3c2JUaVJ1TXdmMDZGZ0JRc0xaSnFJSWdoVmpnR3J4bG5SdjlVMjY3czZPeE5IQVhUTE92bFM1cm1UNmtPSERCQVBlaUNlQ0VDcFRwQU0ySnEvSGxmTnJmbDFjeURJQXVCVk5KY2J6ZFpkM3JEVTlCQ0xuc1hnVm9mSGY1TndPM29RTkx1OXMwQndHbUNYYnNTZWJlN2ZPVEVzUFJaRjlwQjBtdmdZSmRCKzN4cGd1Zy9NRW9lM0c4ZW5qOUNiQjZlLzV3NFc1QjQxekVBbC9UNFllZ1hqajNSWSsyV0F4WTFGVU1VOG9PZFE1MzR2Q1ZqOHJrb3QyVDZGT2U3QnQ1RE9SZEVWRXJYbmM4VnhiWjZQeE5OblNVbWJ3enZQR1BoRWllU1NDU0prK3o0QSt1dTI3dCtqZXFGaVQ4WHlFajBCWThRbkZGNC92Qm51UXNBTlN3UVhEN1YxQnZ4MGE3WkJlVm5sZ2c5REtoYkkxOXRVWnNtellpaFh2Rys2a2NkRTFyK3gwcnFKdlZERVRJcWtZQk1VWCs5SlFZQmJWRVZnQ2laZFljVWJ3ZVRUOXhGRVg1aUZqRmU1VVRGZUxzL3NMMGVuNWxoRkdXaTFWSUJ4OHE3OTBPVlNGekhtZ0V2Vy90ckJnL21wYjNJak40cUFYWVFIcmR1bkVTRTJ4UUkxZE9tbkZvb2lRU0lGMUE0U0dBbkxlRGlwOGhsRm9JdnM2TS9VcUZiRkpaOXNsMEVJTnU4UmZXdmZQZ2JR; FedAuth1=eHVlWUtzTnQzWUVSbW9ZSDFIc0ZQUWtWcGdndjlweFREYnc9PTwvQ29va2llPjwvU2VjdXJpdHlDb250ZXh0VG9rZW4+; Track_User=91DF730983409515281F82D9C76FD7D21FFAB05B9D3D1D91B15063B1648977AB; RefreshFilter=http%3a%2f%2fefr-perftest.optum.com%2fVer6%2fver5%2fFindAccount%2f; MenuBarContent_${clientidkey}_4733=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; dcjq-accordion=2"/>
+    <header name="Host" value="efr-perftest.optum.com"/>
+    <header name="Referer" value="https://efr-perftest.optum.com/Ver6/ver5/FindAccount/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Expires: -1&#xd;
+X-dynaTrace: PT=175639;PA=1327948907;SP=Optum360;PS=-1845309448&#xd;
+dynaTrace: PT=175639;PA=1327948907;SP=Optum360;PS=-1845309448&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Fri, 04 May 2018 11:39:29 GMT&#xd;
+Content-Length: 177</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"name":"Worklist0.colState"}]]></textPostContent>
+</http-action>
+<http-page executeResourcesDynamically="false"
+    name="/Ver6/ver5/TroubleshootAccount/GetRuleDetails"
+    playRequestsSequentially="false" slaProfileEnabled="false"
+    thinkTime="129" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="d9517e0b-41b6-41e9-be48-da7ccf29d78a">
+    <embedded-action>a679669c-5694-4ab8-af9b-d7b70e3a8ee9</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_8ad93555-07f0-43c0-8b13-8531a27fce9d.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/Ver6/ver5/TroubleshootAccount/GetRuleDetails"
+    path="/Ver6/ver5/TroubleshootAccount/GetRuleDetails"
+    postCharset="UTF-8" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_500/%resources%/recorded-artifacts/49470efc-16de-4d16-918a-bf769efdd2be.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="efr-perftest.optum.com_1" slaProfileEnabled="false"
+    uid="a679669c-5694-4ab8-af9b-d7b70e3a8ee9" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[X3NlYXJjaD1mYWxzZSZuZD0xNTI1NDMzOTcwNTkyJnJvd3M9MTAwMCZwYWdlPTEmc2lkeD1MYXltYW5UZXh0JnNvcmQ9YXNj]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_a679669c-5694-4ab8-af9b-d7b70e3a8ee9.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_44c17553-f4b5-4c60-a5b3-2bd3e877b0e0.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="_search"
+        recordRawValue="false" separator="=" value="false" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="nd"
+        recordRawValue="1525433970592" separator="="
+        value="1525433970592" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="rows"
+        recordRawValue="1000" separator="=" value="1000" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="page"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sidx"
+        recordRawValue="LaymanText" separator="=" value="LaymanText" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sord"
+        recordRawValue="asc" separator="=" value="asc" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/javascript, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded; charset=UTF-8"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il8wNmRjZjVhOC02YTFiLTRlNzctYjUxYi04ZjA5ODcyOTdlNjktQUJBNURGQzg0QzlBNTU4QkE1MTRCODk0QUYxOTkwOEIiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6MTFkZTUwM2ItYzMzZi00YTEyLWI1YzctMTlmN2JhYjdjZmI5PC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+bUFHWWZGQ2pkdXVMWFR1VkZOWVQzdFRtZkhvRnBVSkVwbndCcS9FQlFWQ1Q2QVlsZnlMZlZGQktCRS9Tc3lUTXc4akRoUDIvS1hpeVc3UDhhZUIxTUdNTmY4Y3QrMldodjZGRFExODVSUmN2SC9yQlh4SHFkelh5eHMrVUF3ZWRHMmlEMUNXRUlmTjMxR3J3ekR1cHRFUEF4clpjdXJab25FKzB6OHF2cENvQ0ZHbFZqQ0dWdjkzQ2pCdGRYTzdidldLaW9KZ3dRZkN4RjNlQUgvNmxrTlpnMGJoYkpDOWJYZi9QVCsrV28rM1BtZTV4d1BTREVoakJKZFRWV2VzcWg0SWFJU2gyNjkrU0pDNEFrREtlcER2SzVERDNSSnBFbG15WElsNXNGdVgxN3kzRC9hWml0MDNTUW9MTlE3MUt1cFRlc0RERGx4NGNUM054Tk1INEhUUThPQVk0VVdMdDlqa0RTS3hCWmJ3dEJFOVNuWjR5MEJ0YlZYUi92YTQxbW1JTEpuajNCN1RId3h5blVRdnJGZkdUd0s1SURLZ3ViTjBzTlZBNk8xN3dsbFVLOXY1NlRabXcrMjlMKzEzMFM3aGFlNUZMZ3RYUGJCTEQwd1hFdWNjRUZSV0VycGp4WXlwK2Z3c2JUaVJ1TXdmMDZGZ0JRc0xaSnFJSWdoVmpnR3J4bG5SdjlVMjY3czZPeE5IQVhUTE92bFM1cm1UNmtPSERCQVBlaUNlQ0VDcFRwQU0ySnEvSGxmTnJmbDFjeURJQXVCVk5KY2J6ZFpkM3JEVTlCQ0xuc1hnVm9mSGY1TndPM29RTkx1OXMwQndHbUNYYnNTZWJlN2ZPVEVzUFJaRjlwQjBtdmdZSmRCKzN4cGd1Zy9NRW9lM0c4ZW5qOUNiQjZlLzV3NFc1QjQxekVBbC9UNFllZ1hqajNSWSsyV0F4WTFGVU1VOG9PZFE1MzR2Q1ZqOHJrb3QyVDZGT2U3QnQ1RE9SZEVWRXJYbmM4VnhiWjZQeE5OblNVbWJ3enZQR1BoRWllU1NDU0prK3o0QSt1dTI3dCtqZXFGaVQ4WHlFajBCWThRbkZGNC92Qm51UXNBTlN3UVhEN1YxQnZ4MGE3WkJlVm5sZ2c5REtoYkkxOXRVWnNtellpaFh2Rys2a2NkRTFyK3gwcnFKdlZERVRJcWtZQk1VWCs5SlFZQmJWRVZnQ2laZFljVWJ3ZVRUOXhGRVg1aUZqRmU1VVRGZUxzL3NMMGVuNWxoRkdXaTFWSUJ4OHE3OTBPVlNGekhtZ0V2Vy90ckJnL21wYjNJak40cUFYWVFIcmR1bkVTRTJ4UUkxZE9tbkZvb2lRU0lGMUE0U0dBbkxlRGlwOGhsRm9JdnM2TS9VcUZiRkpaOXNsMEVJTnU4UmZXdmZQZ2JR; FedAuth1=eHVlWUtzTnQzWUVSbW9ZSDFIc0ZQUWtWcGdndjlweFREYnc9PTwvQ29va2llPjwvU2VjdXJpdHlDb250ZXh0VG9rZW4+; Track_User=91DF730983409515281F82D9C76FD7D21FFAB05B9D3D1D91B15063B1648977AB; RefreshFilter=http%3a%2f%2fefr-perftest.optum.com%2fVer6%2fver5%2fFindAccount%2f; MenuBarContent_${clientidkey}_4733=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; dcjq-accordion=2"/>
+    <header name="Host" value="efr-perftest.optum.com"/>
+    <header name="Referer" value="https://efr-perftest.optum.com/Ver6/ver5/FindAccount/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Content-Type: text/html&#xd;
+Content-Encoding: gzip&#xd;
+Expires: -1&#xd;
+Vary: Accept-Encoding&#xd;
+X-dynaTrace: PT=175640;PA=1327948907;SP=Optum360;PS=-1845309448&#xd;
+dynaTrace: PT=175640;PA=1327948907;SP=Optum360;PS=-1845309448&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Fri, 04 May 2018 11:39:29 GMT&#xd;
+Content-Length: 119</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-page executeResourcesDynamically="false"
+    name="/Ver6/ver5/TroubleshootAccount/GetFutureActions"
+    playRequestsSequentially="false" slaProfileEnabled="false"
+    thinkTime="0" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="4684f07e-9e4b-426c-a42d-1a6795baac10">
+    <embedded-action>ef2e7197-479b-4e28-a2ae-d9f9d8b43890</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_e0fcb0a2-bf2a-4063-8a57-b58ae1bfca5a.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/Ver6/ver5/TroubleshootAccount/GetFutureActions"
+    path="/Ver6/ver5/TroubleshootAccount/GetFutureActions"
+    postCharset="UTF-8" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_500/%resources%/recorded-artifacts/49470efc-16de-4d16-918a-bf769efdd2be.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="efr-perftest.optum.com_1" slaProfileEnabled="false"
+    uid="ef2e7197-479b-4e28-a2ae-d9f9d8b43890" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[X3NlYXJjaD1mYWxzZSZuZD0xNTI1NDMzOTcwNjI2JnJvd3M9MTAwMCZwYWdlPTEmc2lkeD1OZXh0QWN0aW9uRGF0ZSZzb3JkPWFzYw==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_ef2e7197-479b-4e28-a2ae-d9f9d8b43890.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b855aeed-d692-49b5-998a-1e63ad42887d.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="_search"
+        recordRawValue="false" separator="=" value="false" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="nd"
+        recordRawValue="1525433970626" separator="="
+        value="1525433970626" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="rows"
+        recordRawValue="1000" separator="=" value="1000" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="page"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sidx"
+        recordRawValue="NextActionDate" separator="="
+        value="NextActionDate" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sord"
+        recordRawValue="asc" separator="=" value="asc" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/javascript, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded; charset=UTF-8"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il8wNmRjZjVhOC02YTFiLTRlNzctYjUxYi04ZjA5ODcyOTdlNjktQUJBNURGQzg0QzlBNTU4QkE1MTRCODk0QUYxOTkwOEIiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6MTFkZTUwM2ItYzMzZi00YTEyLWI1YzctMTlmN2JhYjdjZmI5PC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+bUFHWWZGQ2pkdXVMWFR1VkZOWVQzdFRtZkhvRnBVSkVwbndCcS9FQlFWQ1Q2QVlsZnlMZlZGQktCRS9Tc3lUTXc4akRoUDIvS1hpeVc3UDhhZUIxTUdNTmY4Y3QrMldodjZGRFExODVSUmN2SC9yQlh4SHFkelh5eHMrVUF3ZWRHMmlEMUNXRUlmTjMxR3J3ekR1cHRFUEF4clpjdXJab25FKzB6OHF2cENvQ0ZHbFZqQ0dWdjkzQ2pCdGRYTzdidldLaW9KZ3dRZkN4RjNlQUgvNmxrTlpnMGJoYkpDOWJYZi9QVCsrV28rM1BtZTV4d1BTREVoakJKZFRWV2VzcWg0SWFJU2gyNjkrU0pDNEFrREtlcER2SzVERDNSSnBFbG15WElsNXNGdVgxN3kzRC9hWml0MDNTUW9MTlE3MUt1cFRlc0RERGx4NGNUM054Tk1INEhUUThPQVk0VVdMdDlqa0RTS3hCWmJ3dEJFOVNuWjR5MEJ0YlZYUi92YTQxbW1JTEpuajNCN1RId3h5blVRdnJGZkdUd0s1SURLZ3ViTjBzTlZBNk8xN3dsbFVLOXY1NlRabXcrMjlMKzEzMFM3aGFlNUZMZ3RYUGJCTEQwd1hFdWNjRUZSV0VycGp4WXlwK2Z3c2JUaVJ1TXdmMDZGZ0JRc0xaSnFJSWdoVmpnR3J4bG5SdjlVMjY3czZPeE5IQVhUTE92bFM1cm1UNmtPSERCQVBlaUNlQ0VDcFRwQU0ySnEvSGxmTnJmbDFjeURJQXVCVk5KY2J6ZFpkM3JEVTlCQ0xuc1hnVm9mSGY1TndPM29RTkx1OXMwQndHbUNYYnNTZWJlN2ZPVEVzUFJaRjlwQjBtdmdZSmRCKzN4cGd1Zy9NRW9lM0c4ZW5qOUNiQjZlLzV3NFc1QjQxekVBbC9UNFllZ1hqajNSWSsyV0F4WTFGVU1VOG9PZFE1MzR2Q1ZqOHJrb3QyVDZGT2U3QnQ1RE9SZEVWRXJYbmM4VnhiWjZQeE5OblNVbWJ3enZQR1BoRWllU1NDU0prK3o0QSt1dTI3dCtqZXFGaVQ4WHlFajBCWThRbkZGNC92Qm51UXNBTlN3UVhEN1YxQnZ4MGE3WkJlVm5sZ2c5REtoYkkxOXRVWnNtellpaFh2Rys2a2NkRTFyK3gwcnFKdlZERVRJcWtZQk1VWCs5SlFZQmJWRVZnQ2laZFljVWJ3ZVRUOXhGRVg1aUZqRmU1VVRGZUxzL3NMMGVuNWxoRkdXaTFWSUJ4OHE3OTBPVlNGekhtZ0V2Vy90ckJnL21wYjNJak40cUFYWVFIcmR1bkVTRTJ4UUkxZE9tbkZvb2lRU0lGMUE0U0dBbkxlRGlwOGhsRm9JdnM2TS9VcUZiRkpaOXNsMEVJTnU4UmZXdmZQZ2JR; FedAuth1=eHVlWUtzTnQzWUVSbW9ZSDFIc0ZQUWtWcGdndjlweFREYnc9PTwvQ29va2llPjwvU2VjdXJpdHlDb250ZXh0VG9rZW4+; Track_User=91DF730983409515281F82D9C76FD7D21FFAB05B9D3D1D91B15063B1648977AB; RefreshFilter=http%3a%2f%2fefr-perftest.optum.com%2fVer6%2fver5%2fFindAccount%2f; MenuBarContent_${clientidkey}_4733=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; dcjq-accordion=2"/>
+    <header name="Host" value="efr-perftest.optum.com"/>
+    <header name="Referer" value="https://efr-perftest.optum.com/Ver6/ver5/FindAccount/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Content-Type: text/html&#xd;
+Content-Encoding: gzip&#xd;
+Expires: -1&#xd;
+Vary: Accept-Encoding&#xd;
+X-dynaTrace: PT=175641;PA=1327948907;SP=Optum360;PS=-1845309448&#xd;
+dynaTrace: PT=175641;PA=1327948907;SP=Optum360;PS=-1845309448&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Fri, 04 May 2018 11:39:29 GMT&#xd;
+Content-Length: 119</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-page executeResourcesDynamically="false"
+    name="/Ver6/ver5/TroubleshootAccount/GetUserActions"
+    playRequestsSequentially="false" slaProfileEnabled="false"
+    thinkTime="0" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="f1e9c1b9-4b31-4db9-b56f-3e96a4ebc2e4">
+    <embedded-action>e228ccc3-8cf4-42f7-b428-9b7bb472e71b</embedded-action>
+    <embedded-action>d2a68e4e-23be-4628-a518-365c0f666c68</embedded-action>
+    <embedded-action>2768b952-9e09-446b-a6db-0e5a36b9f166</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_42e45ea7-fccf-4aaf-9d1d-545b712a9dd4.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/Ver6/ver5/TroubleshootAccount/GetUserActions"
+    path="/Ver6/ver5/TroubleshootAccount/GetUserActions"
+    postCharset="UTF-8" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_500/%resources%/recorded-artifacts/49470efc-16de-4d16-918a-bf769efdd2be.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="efr-perftest.optum.com_1" slaProfileEnabled="false"
+    uid="e228ccc3-8cf4-42f7-b428-9b7bb472e71b" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[X3NlYXJjaD1mYWxzZSZuZD0xNTI1NDMzOTcwNjYzJnJvd3M9MTAwMCZwYWdlPTEmc2lkeD1BY3Rpb25EYXRlJnNvcmQ9YXNjJnNlbGVjdFR5cGU9Ng==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_e228ccc3-8cf4-42f7-b428-9b7bb472e71b.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b8428161-d1d4-46f1-b304-bae86991501a.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="_search"
+        recordRawValue="false" separator="=" value="false" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="nd"
+        recordRawValue="1525433970663" separator="="
+        value="1525433970663" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="rows"
+        recordRawValue="1000" separator="=" value="1000" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="page"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sidx"
+        recordRawValue="ActionDate" separator="=" value="ActionDate" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sord"
+        recordRawValue="asc" separator="=" value="asc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="selectType"
+        recordRawValue="6" separator="=" value="6" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/javascript, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded; charset=UTF-8"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il8wNmRjZjVhOC02YTFiLTRlNzctYjUxYi04ZjA5ODcyOTdlNjktQUJBNURGQzg0QzlBNTU4QkE1MTRCODk0QUYxOTkwOEIiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6MTFkZTUwM2ItYzMzZi00YTEyLWI1YzctMTlmN2JhYjdjZmI5PC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+bUFHWWZGQ2pkdXVMWFR1VkZOWVQzdFRtZkhvRnBVSkVwbndCcS9FQlFWQ1Q2QVlsZnlMZlZGQktCRS9Tc3lUTXc4akRoUDIvS1hpeVc3UDhhZUIxTUdNTmY4Y3QrMldodjZGRFExODVSUmN2SC9yQlh4SHFkelh5eHMrVUF3ZWRHMmlEMUNXRUlmTjMxR3J3ekR1cHRFUEF4clpjdXJab25FKzB6OHF2cENvQ0ZHbFZqQ0dWdjkzQ2pCdGRYTzdidldLaW9KZ3dRZkN4RjNlQUgvNmxrTlpnMGJoYkpDOWJYZi9QVCsrV28rM1BtZTV4d1BTREVoakJKZFRWV2VzcWg0SWFJU2gyNjkrU0pDNEFrREtlcER2SzVERDNSSnBFbG15WElsNXNGdVgxN3kzRC9hWml0MDNTUW9MTlE3MUt1cFRlc0RERGx4NGNUM054Tk1INEhUUThPQVk0VVdMdDlqa0RTS3hCWmJ3dEJFOVNuWjR5MEJ0YlZYUi92YTQxbW1JTEpuajNCN1RId3h5blVRdnJGZkdUd0s1SURLZ3ViTjBzTlZBNk8xN3dsbFVLOXY1NlRabXcrMjlMKzEzMFM3aGFlNUZMZ3RYUGJCTEQwd1hFdWNjRUZSV0VycGp4WXlwK2Z3c2JUaVJ1TXdmMDZGZ0JRc0xaSnFJSWdoVmpnR3J4bG5SdjlVMjY3czZPeE5IQVhUTE92bFM1cm1UNmtPSERCQVBlaUNlQ0VDcFRwQU0ySnEvSGxmTnJmbDFjeURJQXVCVk5KY2J6ZFpkM3JEVTlCQ0xuc1hnVm9mSGY1TndPM29RTkx1OXMwQndHbUNYYnNTZWJlN2ZPVEVzUFJaRjlwQjBtdmdZSmRCKzN4cGd1Zy9NRW9lM0c4ZW5qOUNiQjZlLzV3NFc1QjQxekVBbC9UNFllZ1hqajNSWSsyV0F4WTFGVU1VOG9PZFE1MzR2Q1ZqOHJrb3QyVDZGT2U3QnQ1RE9SZEVWRXJYbmM4VnhiWjZQeE5OblNVbWJ3enZQR1BoRWllU1NDU0prK3o0QSt1dTI3dCtqZXFGaVQ4WHlFajBCWThRbkZGNC92Qm51UXNBTlN3UVhEN1YxQnZ4MGE3WkJlVm5sZ2c5REtoYkkxOXRVWnNtellpaFh2Rys2a2NkRTFyK3gwcnFKdlZERVRJcWtZQk1VWCs5SlFZQmJWRVZnQ2laZFljVWJ3ZVRUOXhGRVg1aUZqRmU1VVRGZUxzL3NMMGVuNWxoRkdXaTFWSUJ4OHE3OTBPVlNGekhtZ0V2Vy90ckJnL21wYjNJak40cUFYWVFIcmR1bkVTRTJ4UUkxZE9tbkZvb2lRU0lGMUE0U0dBbkxlRGlwOGhsRm9JdnM2TS9VcUZiRkpaOXNsMEVJTnU4UmZXdmZQZ2JR; FedAuth1=eHVlWUtzTnQzWUVSbW9ZSDFIc0ZQUWtWcGdndjlweFREYnc9PTwvQ29va2llPjwvU2VjdXJpdHlDb250ZXh0VG9rZW4+; Track_User=91DF730983409515281F82D9C76FD7D21FFAB05B9D3D1D91B15063B1648977AB; RefreshFilter=http%3a%2f%2fefr-perftest.optum.com%2fVer6%2fver5%2fFindAccount%2f; MenuBarContent_${clientidkey}_4733=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; dcjq-accordion=2"/>
+    <header name="Host" value="efr-perftest.optum.com"/>
+    <header name="Referer" value="https://efr-perftest.optum.com/Ver6/ver5/FindAccount/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Content-Type: text/html&#xd;
+Content-Encoding: gzip&#xd;
+Expires: -1&#xd;
+Vary: Accept-Encoding&#xd;
+X-dynaTrace: PT=175642;PA=1327948907;SP=Optum360;PS=-1845309448&#xd;
+dynaTrace: PT=175642;PA=1327948907;SP=Optum360;PS=-1845309448&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Fri, 04 May 2018 11:39:29 GMT&#xd;
+Content-Length: 119</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8" enabled="false"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/Ver6/ver5/FindAccount/GetFindAccountDetails"
+    path="/Ver6/ver5/FindAccount/GetFindAccountDetails"
+    postCharset="UTF-8" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_500/%resources%/recorded-artifacts/49470efc-16de-4d16-918a-bf769efdd2be.zip"
+    recordedResponseCode="200" responseSize="916"
+    serverUid="efr-perftest.optum.com_1" slaProfileEnabled="false"
+    uid="d2a68e4e-23be-4628-a518-365c0f666c68" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[ZmlsdGVycz0mX3NlYXJjaD1mYWxzZSZuZD0xNTI4NzM4Mjk3NzE2JnJvd3M9NTAmcGFnZT0xJnNpZHg9UGF0aWVudFZpc2l0SUQmc29yZD1hc2MmaWQ9MTclQzIlQjclQzIlQjclQzIlQjdBUlJPWU8rR1JBTkRFJTJDNSVDMiVCNyVDMiVCNyVDMiVCN0NBTElGT1JOSUErTUVESUNBTCtDRU5URVIlMkMwJUMyJUI3JUMyJUI3JUMyJUI3RGlnbml0eStIZWFsdGgrLStTYWNyYW1lbnRvKyhEZWZhdWx0KSUyQzE4JUMyJUI3JUMyJUI3JUMyJUI3RlJFTkNIK0hPU1BJVEFMK01FRElDQUwlMkM2JUMyJUI3JUMyJUI3JUMyJUI3R0xFTkRBTEUrTUVNT1JJQUwrSE9TUElUQUwlMkMxOSVDMiVCNyVDMiVCNyVDMiVCN01BUklBTitNRURJQ0FMK0NFTlRFUiUyQzEwJUMyJUI3JUMyJUI3JUMyJUI3TUVSQ1krR0VORVJBTCtIT1NQSVRBTCUyQzEyJUMyJUI3JUMyJUI3JUMyJUI3TUVSQ1krSE9TUElUQUwrRk9MU09NJTJDMTUlQzIlQjclQzIlQjclQzIlQjdNRVJDWStNVCtTSEFTVEElMkMxNiVDMiVCNyVDMiVCNyVDMiVCN01FUkNZK1JFRERJTkclMkMxMSVDMiVCNyVDMiVCNyVDMiVCN01FUkNZK1NBTitKVUFOJTJDOCVDMiVCNyVDMiVCNyVDMiVCN01FVEhPRElTVCtIT1NQSVRBTCUyQzclQzIlQjclQzIlQjclQzIlQjdOT1JUSFJJREdFK0hPU1ArUk9TQ09FJTJDMjAlQzIlQjclQzIlQjclQzIlQjdQUENPRSs4MzUrT3RoZXIlMkMyJUMyJUI3JUMyJUI3JUMyJUI3U0FJTlQrRlJBTkNJUytNRU1PUklBTCUyQzElQzIlQjclQzIlQjclQzIlQjdTRVFVT0lBK0hPU1BJVEFMJTJDOSVDMiVCNyVDMiVCNyVDMiVCN1NJRVJSQStORVZBREErSE9TUElUQUwlMkMxNCVDMiVCNyVDMiVCNyVDMiVCN1NULitFTElaQUJFVEgrQ09NTSUyQzQlQzIlQjclQzIlQjclQzIlQjdTVC4rTUFSWVMrTE9ORytCRUFDSCUyQzIxJUMyJUI3JUMyJUI3JUMyJUI3U1QuK01BUllTK0xPTkcrQkVBQ0grTEVHQUNZJTJDMyVDMiVCNyVDMiVCNyVDMiVCN1NULitNQVJZUytTQU4rRlJBTkNJU0NPJTJDMTMlQzIlQjclQzIlQjclQzIlQjdXT09ETEFORCtNRU1PUklBTCUyQyUwMVBhdGllbnRWaXNpdEFjY291bnQlQzIlQjdQYXRpZW50VmlzaXRBY2NvdW50JUMyJUI3dGJsUGF0aWVudFZpc2l0cyVDMiVCN3RleHQlQzIlQjdFcXVhbCtUbyVDMiVCNzczMTUyMjMzJUMyJUI3QWNjb3VudCslMjMrRXF1YWwrVG8rNzMxNTIyMzMlQzIlQjdBY2NvdW50KyUyMyUwMQ==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_d2a68e4e-23be-4628-a518-365c0f666c68</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d2a68e4e-23be-4628-a518-365c0f666c68.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="4" extractTypeAdv="0" extractTypeSimple="4"
+        jsonpath="$.rows[0].cell.WorklistID" matchNumber="1"
+        matchNumberAdv="1" matchNumberSimple="1" name="WorkListId"
+        refererUid="d2a68e4e-23be-4628-a518-365c0f666c68" regExp="(.*)"
+        regExpAdv="" setDefaultValue="true" startsWithSimple=""
+        template="$1$" templateAdv="$1$"
+        uid="69fa7569-05ef-4fa5-9c38-089304c233b9" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="true" name="filters"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="_search"
+        recordRawValue="false" separator="=" value="false" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="nd"
+        recordRawValue="1528738297716" separator="="
+        value="1528738297716" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="rows"
+        recordRawValue="50" separator="=" value="50" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="page"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sidx"
+        recordRawValue="PatientVisitID" separator="="
+        value="PatientVisitID" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sord"
+        recordRawValue="asc" separator="=" value="asc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false" name="id"
+        recordRawValue="17%C2%B7%C2%B7%C2%B7ARROYO+GRANDE%2C5%C2%B7%C2%B7%C2%B7CALIFORNIA+MEDICAL+CENTER%2C0%C2%B7%C2%B7%C2%B7Dignity+Health+-+Sacramento+(Default)%2C18%C2%B7%C2%B7%C2%B7FRENCH+HOSPITAL+MEDICAL%2C6%C2%B7%C2%B7%C2%B7GLENDALE+MEMORIAL+HOSPITAL%2C19%C2%B7%C2%B7%C2%B7MARIAN+MEDICAL+CENTER%2C10%C2%B7%C2%B7%C2%B7MERCY+GENERAL+HOSPITAL%2C12%C2%B7%C2%B7%C2%B7MERCY+HOSPITAL+FOLSOM%2C15%C2%B7%C2%B7%C2%B7MERCY+MT+SHASTA%2C16%C2%B7%C2%B7%C2%B7MERCY+REDDING%2C11%C2%B7%C2%B7%C2%B7MERCY+SAN+JUAN%2C8%C2%B7%C2%B7%C2%B7METHODIST+HOSPITAL%2C7%C2%B7%C2%B7%C2%B7NORTHRIDGE+HOSP+ROSCOE%2C20%C2%B7%C2%B7%C2%B7PPCOE+835+Other%2C2%C2%B7%C2%B7%C2%B7SAINT+FRANCIS+MEMORIAL%2C1%C2%B7%C2%B7%C2%B7SEQUOIA+HOSPITAL%2C9%C2%B7%C2%B7%C2%B7SIERRA+NEVADA+HOSPITAL%2C14%C2%B7%C2%B7%C2%B7ST.+ELIZABETH+COMM%2C4%C2%B7%C2%B7%C2%B7ST.+MARYS+LONG+BEACH%2C21%C2%B7%C2%B7%C2%B7ST.+MARYS+LONG+BEACH+LEGACY%2C3%C2%B7%C2%B7%C2%B7ST.+MARYS+SAN+FRANCISCO%2C13%C2%B7%C2%B7%C2%B7WOODLAND+MEMORIAL%2C%01PatientVisitAccount%C2%B7PatientVisitAccount%C2%B7tblPatientVisits%C2%B7text%C2%B7Equal+To%C2%B773152233%C2%B7Account+%23+Equal+To+73152233%C2%B7Account+%23%01"
+        separator="="
+        value="17%C2%B7%C2%B7%C2%B7ARROYO+GRANDE%2C5%C2%B7%C2%B7%C2%B7CALIFORNIA+MEDICAL+CENTER%2C0%C2%B7%C2%B7%C2%B7Dignity+Health+-+Sacramento+(Default)%2C18%C2%B7%C2%B7%C2%B7FRENCH+HOSPITAL+MEDICAL%2C6%C2%B7%C2%B7%C2%B7GLENDALE+MEMORIAL+HOSPITAL%2C19%C2%B7%C2%B7%C2%B7MARIAN+MEDICAL+CENTER%2C10%C2%B7%C2%B7%C2%B7MERCY+GENERAL+HOSPITAL%2C12%C2%B7%C2%B7%C2%B7MERCY+HOSPITAL+FOLSOM%2C15%C2%B7%C2%B7%C2%B7MERCY+MT+SHASTA%2C16%C2%B7%C2%B7%C2%B7MERCY+REDDING%2C11%C2%B7%C2%B7%C2%B7MERCY+SAN+JUAN%2C8%C2%B7%C2%B7%C2%B7METHODIST+HOSPITAL%2C7%C2%B7%C2%B7%C2%B7NORTHRIDGE+HOSP+ROSCOE%2C20%C2%B7%C2%B7%C2%B7PPCOE+835+Other%2C2%C2%B7%C2%B7%C2%B7SAINT+FRANCIS+MEMORIAL%2C1%C2%B7%C2%B7%C2%B7SEQUOIA+HOSPITAL%2C9%C2%B7%C2%B7%C2%B7SIERRA+NEVADA+HOSPITAL%2C14%C2%B7%C2%B7%C2%B7ST.+ELIZABETH+COMM%2C4%C2%B7%C2%B7%C2%B7ST.+MARYS+LONG+BEACH%2C21%C2%B7%C2%B7%C2%B7ST.+MARYS+LONG+BEACH+LEGACY%2C3%C2%B7%C2%B7%C2%B7ST.+MARYS+SAN+FRANCISCO%2C13%C2%B7%C2%B7%C2%B7WOODLAND+MEMORIAL%2C%01PatientVisitAccount%C2%B7PatientVisitAccount%C2%B7tblPatientVisits%C2%B7text%C2%B7Equal+To%C2%B7${PatientVisitID}%C2%B7Account+%23+Equal+To+${PatientVisitID}%C2%B7Account+%23%01" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="searchBy" recordRawValue="Account" separator="="
+        value="Account" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/javascript, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded; charset=UTF-8"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il9mZWZlYzI1Zi0yOTczLTRiNGItYTZlNS0xZWQxYmJiYTljNWQtRjIwRTRCQjk1MDRBRkQ2QkNCMEM4MjcxREVDNTA5QTciIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6ZDljM2FhOWMtZjJjYS00MGExLTljM2EtOWUyYjBhNjczODZiPC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+R0tqbVdmejVoTkVlc3plK2lxaXd0QUVHZ1FVQ0FXV2Faa3ZCOUFha1FRS3ZJLzBiTUlVWjR0cXlldU1Dem1hd1pWMjRMV05nd1BhM2RhMmpPa0tRMlJQUUFQKzl0c1hiaFJtNFZwVHpHdFpTamVwNXpsVnJ0ay8yUmJrazdOakJEdVJLaGpNTFNQanNQSjV0dVdQY0J6VzNEcHlmb3ZvUStDTDJYbTNUVWVDeVM3SGpFVGlnKzk0cDFwdnBtand1RU5pVVhuTWxxWXlmblZodGhnVE4wY25CRG1qazZ1UzV6dlhzTnQvd25scXR1STV1TXZpaDJPdStyejdROWV1akJRUjNaQWtWZmhhSHZ6UzQ5Yk9MNzk1NHBNQ09wK0p5L050TnZSQzEwN1FrOFdZcFJvbmtVaXhNTEtTakVaS0w0UHdVQy9TYjRscStqNFBPL3A5WEFhaVJaYjRab0FPNlVtcjdMeW83ZThGWXlEVEY5bkF4MzMxdmhRT3N3eXVSbDFJakpva0dZNncxMXRmUlc1OCtsY2pybjNnL1hGVUk3K090UnJTWE5jdDZWT1hjTGI4cnVVaWxuTXM3N21admZZWVp1cTZtaXEzM0pKTnhZMWxvcGNsc2FtUEFpckg2MGVCY2NOTDBNSUtHOUdXY1laMFNoWUpHTEcwZk5lSnlqYTczOFVjVitCb1JDS3dkTUxxYVNxMXV2ZFBNdUV3RFVCVGZidWEwSjQ2NzVYTXJWTUhsem9LVEhQMWNxZjJBS09oRFVYZDNrNjlsaHVhamZGMDBsS2Q4QmNaYUN1di90LytjZHNzNnRDN2h6a3U2TnM0V2lXWEFNRUd1MjdXaldPV2RkcjNJbXg1dEMybCtiMlpSa2ZIM0NwUU5qbW85aFpscVRlRHdMTVdLRXd2Rm9HbTg1MGxBeGFaRDFUbjNOSHZkeEhvR3krSmoxRDdvcEl3VzVvT1BTZUIrN3M4Zm5wZGQrVTROUTlHV3lyeUZZSWtOTEtQbDIvU2xHc1hOekFNSjVzeXF0OG5LMzhiM1RBS0dMZXlWbGFhdzIxVFF5WjMwSllMcEhvZURpRlJLRWgraWt6c0lkUkppem5oenJFSU1VNWtNRGd6RHFlekFwaW5LMXAzbHBscG1OdHlna3htMnV6QlhvdCthL2lRSEpJaHljSXhTc3ExYlBtK1orVHp3ck5QRGRscERXdzdsV3VIc29BVFU2azMzeEtpb040VWZzczc2elgrM0syODB1TUpmQW5NVVhqWFQ5Vk1Ka0pRTkVCc0FRYjJhb2VMQ0hUd0Q2d0owL2dOdjIwL1pITStDclFOUDROczlaNGxvT1UyZVJxZXR4NXg5eEhtWWZEMENDbXNKaEVOU1poaXFjYlBCWjB0bW9Yc05Nc21HUFU1; FedAuth1=S2xFdnNhakRhb2s3S1FzMUJWTFU5MzZlMkdPSFliVTFneXc9PTwvQ29va2llPjwvU2VjdXJpdHlDb250ZXh0VG9rZW4+; Track_User=DC3FE78FB2CBA868402468D9B7EDD51A79F1008C1425EFACD72562BB7A38F4F3; RefreshFilter=http%3a%2f%2fefr-perftest.optum.com%2fVer6%2fver5%2fFindAccount%2f; MenuBarContent_PPCO9462PRF_5308=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; dcjq-accordion=2"/>
+    <header name="Host" value="efr-perftest.optum.com"/>
+    <header name="Referer" value="https://efr-perftest.optum.com/Ver6/ver5/FindAccount/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Expires: -1&#xd;
+X-dynaTrace: PT=251;PA=-407752579;SP=Optum360;PS=-1845309448&#xd;
+dynaTrace: PT=251;PA=-407752579;SP=Optum360;PS=-1845309448&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Mon, 11 Jun 2018 17:31:37 GMT&#xd;
+Content-Length: 916</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;bc199d4dbe3d31:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 04 May 2018 19:06:33 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/Ver6/Content/themes/otm-css-v1/images/ui-icons_444444_256x240.png"
+    path="/Ver6/Content/themes/otm-css-v1/images/ui-icons_444444_256x240.png"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_500/%resources%/recorded-artifacts/49470efc-16de-4d16-918a-bf769efdd2be.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="efr-perftest.optum.com_1" slaProfileEnabled="false"
+    uid="2768b952-9e09-446b-a6db-0e5a36b9f166" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2768b952-9e09-446b-a6db-0e5a36b9f166.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_50bb3a5d-4d43-48bd-8c5b-d155f1a187a7.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il8wNmRjZjVhOC02YTFiLTRlNzctYjUxYi04ZjA5ODcyOTdlNjktQUJBNURGQzg0QzlBNTU4QkE1MTRCODk0QUYxOTkwOEIiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6MTFkZTUwM2ItYzMzZi00YTEyLWI1YzctMTlmN2JhYjdjZmI5PC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+bUFHWWZGQ2pkdXVMWFR1VkZOWVQzdFRtZkhvRnBVSkVwbndCcS9FQlFWQ1Q2QVlsZnlMZlZGQktCRS9Tc3lUTXc4akRoUDIvS1hpeVc3UDhhZUIxTUdNTmY4Y3QrMldodjZGRFExODVSUmN2SC9yQlh4SHFkelh5eHMrVUF3ZWRHMmlEMUNXRUlmTjMxR3J3ekR1cHRFUEF4clpjdXJab25FKzB6OHF2cENvQ0ZHbFZqQ0dWdjkzQ2pCdGRYTzdidldLaW9KZ3dRZkN4RjNlQUgvNmxrTlpnMGJoYkpDOWJYZi9QVCsrV28rM1BtZTV4d1BTREVoakJKZFRWV2VzcWg0SWFJU2gyNjkrU0pDNEFrREtlcER2SzVERDNSSnBFbG15WElsNXNGdVgxN3kzRC9hWml0MDNTUW9MTlE3MUt1cFRlc0RERGx4NGNUM054Tk1INEhUUThPQVk0VVdMdDlqa0RTS3hCWmJ3dEJFOVNuWjR5MEJ0YlZYUi92YTQxbW1JTEpuajNCN1RId3h5blVRdnJGZkdUd0s1SURLZ3ViTjBzTlZBNk8xN3dsbFVLOXY1NlRabXcrMjlMKzEzMFM3aGFlNUZMZ3RYUGJCTEQwd1hFdWNjRUZSV0VycGp4WXlwK2Z3c2JUaVJ1TXdmMDZGZ0JRc0xaSnFJSWdoVmpnR3J4bG5SdjlVMjY3czZPeE5IQVhUTE92bFM1cm1UNmtPSERCQVBlaUNlQ0VDcFRwQU0ySnEvSGxmTnJmbDFjeURJQXVCVk5KY2J6ZFpkM3JEVTlCQ0xuc1hnVm9mSGY1TndPM29RTkx1OXMwQndHbUNYYnNTZWJlN2ZPVEVzUFJaRjlwQjBtdmdZSmRCKzN4cGd1Zy9NRW9lM0c4ZW5qOUNiQjZlLzV3NFc1QjQxekVBbC9UNFllZ1hqajNSWSsyV0F4WTFGVU1VOG9PZFE1MzR2Q1ZqOHJrb3QyVDZGT2U3QnQ1RE9SZEVWRXJYbmM4VnhiWjZQeE5OblNVbWJ3enZQR1BoRWllU1NDU0prK3o0QSt1dTI3dCtqZXFGaVQ4WHlFajBCWThRbkZGNC92Qm51UXNBTlN3UVhEN1YxQnZ4MGE3WkJlVm5sZ2c5REtoYkkxOXRVWnNtellpaFh2Rys2a2NkRTFyK3gwcnFKdlZERVRJcWtZQk1VWCs5SlFZQmJWRVZnQ2laZFljVWJ3ZVRUOXhGRVg1aUZqRmU1VVRGZUxzL3NMMGVuNWxoRkdXaTFWSUJ4OHE3OTBPVlNGekhtZ0V2Vy90ckJnL21wYjNJak40cUFYWVFIcmR1bkVTRTJ4UUkxZE9tbkZvb2lRU0lGMUE0U0dBbkxlRGlwOGhsRm9JdnM2TS9VcUZiRkpaOXNsMEVJTnU4UmZXdmZQZ2JR; FedAuth1=eHVlWUtzTnQzWUVSbW9ZSDFIc0ZQUWtWcGdndjlweFREYnc9PTwvQ29va2llPjwvU2VjdXJpdHlDb250ZXh0VG9rZW4+; Track_User=91DF730983409515281F82D9C76FD7D21FFAB05B9D3D1D91B15063B1648977AB; RefreshFilter=http%3a%2f%2fefr-perftest.optum.com%2fVer6%2fver5%2fFindAccount%2f; MenuBarContent_${clientidkey}_4733=tTcAAB+LCAAAAAAABAC9W21v2zgS/itEDrjsAteod4ceFt0khSOnTYC48dpu+nHBSLTDRiIFkkrr/fU3fJEsS1Tqhux+yYtmPA85mnfSpwU9P8XoQZD12dE/js4nWcZrptAMM7whJWHqNMHnp3VxftrhTO6I+F+ySGfLZCUwk2siTrB8+PZuhcWGqLOTk+SJiDfJZy4eb6hUS1KQTFHOkvSBZI/6cQGPZWqwlP3Q0Z+KV0fnmojcMqQBTzTyC9DfU5Y7QUkPRJO8srUOFqTiQlG2Cdn6JP9SS6UVKK283go69KBNTmZTntVajlY0LNqPVudUoYYTOdYg4ClWeMJwsZVU9tWraaghBm7v8mrh3RI8BzPRRoUs3YvzBT9hmQlaqbe8Iqx9tXOw7l+OHpSq3ibJaj5J0z/uPi//8/pNenF9kmEBpp/T7IQR9fa310nKN4zLf79Osg19dU9ZkpkHJ/Dvu/s/sVnFmX12R8lXIo5+7a+WKSIqQSVB++b1UsWssHx0lvWOytm28/+ZEjXp4c+2yHCMGv1c8LyGjTxRtXVLlCH235XnxL0T5vdqW5Gz2XaKabHdQx2s2LCgLk+QyjxLSuzv2faTJGJ/fV3uJcOVfOB9E5ztLw41bLFX2V3Y99T283XWXc0BSvrbNTSjBZGKMzL21hp6nNW04laCsBzcehSuYfiZm29S68jeG3KcrTfSRnbegg03nuio8lLYBVnXLPenVUeLFVp70nsh1LsLHUyXW6lICUUUhbDPMMuIL5RqzpTn5Ht8h647LTAtbV2xIFhyZoTv78DwoF3xgSwn0qwS/XJ1PZ9Mfg3SnkFYKqxq6cV2pJ8CuCLf+q9sD1TTw7Bg1drPBlvTmjaEMPHzldVLT/p8ZfUVVrBRrAsUKn0QLTEC0FVWZV6Qq3SeLiMAmHeaYkU2XPTznzEo1BLDwT5ydkWrCvs2BLRXDjAYZ0FKqpSOAT6kHRWc94lmuowsMXRKI340Gpqm1FSrGHRzQHi6oEWhA3v7KUqCqkLz5qZEdx/YlO77u2zgrNN2+MJU68QaqfJW0A19HtiyRMScUlmBc3l2nE5QN0IF2tAe6BUvchvd/YFY0134D0Od6VYJWqaFqjwZp6GixWoewU1mi5VVlc9LgLiXXyIVHCkkS14SsSRCu954cnV8yDF2k2voJAO8lOIC3pzsb7olIkONCKQT2vNgJueFJQuCC/UwL3DfMywBaUokAM92OiARttI6XB9l52nhtnDDM1/obB4Hyb4VG8zoXz75XVJYAwMioPD0vAxHCX8R1g87mc6Pc0chJKOJUoLe14oMk1ws/Dtc1INY9d1VbJH9XIylYIUvCzPOPXAZYahzvCUi5WWF2VD5QEKOFg7iMaPf/vsGWZRgQ5o/bCWFaNd3hvZ5oJoaMT5naKGDd+GykQekyVPBEKYxfr5ZfqHUD4LXlUcyMoTgKaom2vmtr57okCOULh1pvh6yC7b/QkaL+RuiFNh5pPnBFDoKlluZU8IgyfvLR8uHHLjlHBaSo4vWY6F1wb/GWvZkcc10iam46J96LFBLCmz7y6og+s34BxstOUZz2wrzOGwHKdhn31NS5Df4nhTDihIoyJKCID6sLnuiPxT8HqzFfMr0Q7rrunwKPgb7yFVfV/pRkMw/alL7oqZ5Hq5/I6avevswcJAg6/uSqtbP+pOEV5aOFEcNTxgg5yrF0Lx6W2tNRYbs+uo4WM3p4jhalPPH3fR+ONu2QaxhCMNp5C3qYmATLZYhRoH5LB5vpLqtzGxlbGzvyFGOCHxpvAUapvLR5DGjMiMFtGuEQxiOlEE+sYLbWwkef7HEOJ5iZTV3LLw4juhThe+v/nSvOeF//v7G7pZD0DTvugQMmxEXlUrsX5Bxybfe3gyjm8wEKXAfsV/NQponObJg6ZgWe2pYQhUDphekh0brrsXql0vNO3HksCG+E+bzpxbIEAMPC5ysJa9F1g9+LZClRgHy5NkW5sBqeEWgOMIq2nnaDd/wfnA0z8K6ALfKQfnfPH/e9Xt7TrEkkS5rTWapILCAj+SrvS7UKz0NEQEVadDQS0tY4Rllw0Njc3XIUgIhbtOFLoWKwcgDCMhRAiFmWMpPVe55m5qCHGn0zs3hx8SHn9ocvvhJVRFcpFz044gloDvC8sC+CUC0JV1LObiQZAzXEGIgeMeuBsJSAjH8XZ8WHyGngRmZIxKaQ3dXEmHG7yDb1/5pyODGYzK7ZtB7gWnmF/3xXHNwGgiQcqYEztR7KspBC2tJSNNCowhUg7WU4BnWn31JpGVxPh9Bf+XuTMH6ykRKDq/NMzbvHjDooYnzrc4H4pi/2Vmv6DIvuUD6rmt4NDU43moA+my63saoBZrdUPl4Q55I0e/t4DkyhEAUfdlvStaUEf/8Q9ORY4gxBtlHhI7HeyCwj6qvR7+wCZjkJeRPCV7W2pcnpSxJVovmeuALk4ivCo1QfBpNDJXzAzevvq+Cg9+d7ccgnz8Oi5XdbXlDDb/UcgnmzwWEyDXd1MIXUOzZveVDe4zh6NelbgnJAfgNZ8QV2H8nLL+oc/hjMPLX/5kQaunB3wx4bpOaPra1UdMzVhvP8GxRr4W+pwWoelhhajoyqI4j8JRIzQXlOiS0388YHBcp1PCglim4G+IC6tp2GDTsigy9xYsyjoL8SzfM06y3y9hxhE3AdTT0nY5Z+RDpw4/JrnhJKm0LvdKjeTwjUsLvOEdxTdrwHclp7zT2aPOCT4VB93CuaIWx92KuvYTXHWk976sfCCMCaqNPrWJe6KX6h1a0eQm6NfO8BK/ie19MWRIssgfzrZTjH57RmM8e/+v4uP+tk92gxrD8rIXMBf9CMnXN1lyUJvD5FuO4UIct7PQcIh60xAXIXdNicH7uqMiRx4ziXiTuR2MePzIeqtXR+SktN0iK7KyrL2MTZhIpHePJhq6PkVTbgpwdgwAFLV/xChfgIm9RSfO8IMfo4nYxvVycHb8+Pv8nu5fV7/anldBu4f8lGO1KtTcAAA==; dcjq-accordion=2"/>
+    <header name="Host" value="efr-perftest.optum.com"/>
+    <header name="Referer" value="https://efr-perftest.optum.com/Ver6/ver5/FindAccount/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: public,max-age=86400&#xd;
+Content-Type: image/png&#xd;
+Last-Modified: Fri, 30 Mar 2018 02:38:45 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "86b35839d0c7d31:0"&#xd;
+X-dynaTrace: PT=1088;PA=-649476813;SP=Optum360;PS=-1845309448&#xd;
+dynaTrace: PT=1088;PA=-649476813;SP=Optum360;PS=-1845309448&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Fri, 04 May 2018 11:39:28 GMT&#xd;
+Content-Length: 6992</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-page executeResourcesDynamically="false"
+    name="/Ver6/ver5/Common/SaveColState"
+    playRequestsSequentially="false" slaProfileEnabled="false"
+    thinkTime="423" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="098250aa-e2bb-4bb8-8db2-7581fcfad7aa">
+    <embedded-action>5dd3d1c4-5e5b-47d7-b6ea-fb909780db0f</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_86f70d79-1f7e-42fa-9a38-ddc35ba7fd37.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/Ver6/ver5/Common/SaveColState"
+    path="/Ver6/ver5/Common/SaveColState" postType="4"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_500/%resources%/recorded-artifacts/49470efc-16de-4d16-918a-bf769efdd2be.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="efr-perftest.optum.com_1" slaProfileEnabled="false"
+    uid="5dd3d1c4-5e5b-47d7-b6ea-fb909780db0f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5dd3d1c4-5e5b-47d7-b6ea-fb909780db0f.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_97194773-c552-47be-b0c5-3d208fcfb6b1.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="application/json; charset=utf-8"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il8wNmRjZjVhOC02YTFiLTRlNzctYjUxYi04ZjA5ODcyOTdlNjktQUJBNURGQzg0QzlBNTU4QkE1MTRCODk0QUYxOTkwOEIiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6MTFkZTUwM2ItYzMzZi00YTEyLWI1YzctMTlmN2JhYjdjZmI5PC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+bUFHWWZGQ2pkdXVMWFR1VkZOWVQzdFRtZkhvRnBVSkVwbndCcS9FQlFWQ1Q2QVlsZnlMZlZGQktCRS9Tc3lUTXc4akRoUDIvS1hpeVc3UDhhZUIxTUdNTmY4Y3QrMldodjZGRFExODVSUmN2SC9yQlh4SHFkelh5eHMrVUF3ZWRHMmlEMUNXRUlmTjMxR3J3ekR1cHRFUEF4clpjdXJab25FKzB6OHF2cENvQ0ZHbFZqQ0dWdjkzQ2pCdGRYTzdidldLaW9KZ3dRZkN4RjNlQUgvNmxrTlpnMGJoYkpDOWJYZi9QVCsrV28rM1BtZTV4d1BTREVoakJKZFRWV2VzcWg0SWFJU2gyNjkrU0pDNEFrREtlcER2SzVERDNSSnBFbG15WElsNXNGdVgxN3kzRC9hWml0MDNTUW9MTlE3MUt1cFRlc0RERGx4NGNUM054Tk1INEhUUThPQVk0VVdMdDlqa0RTS3hCWmJ3dEJFOVNuWjR5MEJ0YlZYUi92YTQxbW1JTEpuajNCN1RId3h5blVRdnJGZkdUd0s1SURLZ3ViTjBzTlZBNk8xN3dsbFVLOXY1NlRabXcrMjlMKzEzMFM3aGFlNUZMZ3RYUGJCTEQwd1hFdWNjRUZSV0VycGp4WXlwK2Z3c2JUaVJ1TXdmMDZGZ0JRc0xaSnFJSWdoVmpnR3J4bG5SdjlVMjY3czZPeE5IQVhUTE92bFM1cm1UNmtPSERCQVBlaUNlQ0VDcFRwQU0ySnEvSGxmTnJmbDFjeURJQXVCVk5KY2J6ZFpkM3JEVTlCQ0xuc1hnVm9mSGY1TndPM29RTkx1OXMwQndHbUNYYnNTZWJlN2ZPVEVzUFJaRjlwQjBtdmdZSmRCKzN4cGd1Zy9NRW9lM0c4ZW5qOUNiQjZlLzV3NFc1QjQxekVBbC9UNFllZ1hqajNSWSsyV0F4WTFGVU1VOG9PZFE1MzR2Q1ZqOHJrb3QyVDZGT2U3QnQ1RE9SZEVWRXJYbmM4VnhiWjZQeE5OblNVbWJ3enZQR1BoRWllU1NDU0prK3o0QSt1dTI3dCtqZXFGaVQ4WHlFajBCWThRbkZGNC92Qm51UXNBTlN3UVhEN1YxQnZ4MGE3WkJlVm5sZ2c5REtoYkkxOXRVWnNtellpaFh2Rys2a2NkRTFyK3gwcnFKdlZERVRJcWtZQk1VWCs5SlFZQmJWRVZnQ2laZFljVWJ3ZVRUOXhGRVg1aUZqRmU1VVRGZUxzL3NMMGVuNWxoRkdXaTFWSUJ4OHE3OTBPVlNGekhtZ0V2Vy90ckJnL21wYjNJak40cUFYWVFIcmR1bkVTRTJ4UUkxZE9tbkZvb2lRU0lGMUE0U0dBbkxlRGlwOGhsRm9JdnM2TS9VcUZiRkpaOXNsMEVJTnU4UmZXdmZQZ2JR; FedAuth1=eHVlWUtzTnQzWUVSbW9ZSDFIc0ZQUWtWcGdndjlweFREYnc9PTwvQ29va2llPjwvU2VjdXJpdHlDb250ZXh0VG9rZW4+; Track_User=91DF730983409515281F82D9C76FD7D21FFAB05B9D3D1D91B15063B1648977AB; RefreshFilter=http%3a%2f%2fefr-perftest.optum.com%2fVer6%2fver5%2fFindAccount%2f; MenuBarContent_${clientidkey}_4733=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; dcjq-accordion=2"/>
+    <header name="Host" value="efr-perftest.optum.com"/>
+    <header name="Referer" value="https://efr-perftest.optum.com/Ver6/ver5/FindAccount/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 Success&#xd;
+Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Content-Type: text/html&#xd;
+Content-Encoding: gzip&#xd;
+Expires: -1&#xd;
+Vary: Accept-Encoding&#xd;
+X-dynaTrace: PT=175644;PA=1327948907;SP=Optum360;PS=-1845309448&#xd;
+dynaTrace: PT=175644;PA=1327948907;SP=Optum360;PS=-1845309448&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Fri, 04 May 2018 11:39:30 GMT&#xd;
+Content-Length: 119</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"search":false,"page":1,"sortname":"PatientVisitID","sortorder":"asc","permutation":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27],"selectedRows":[],"rowNum":50,"colStates":[{"name":"PatientVisitID","width":150,"hidden":true},{"name":"Owner","width":150,"hidden":true},{"name":"ClaimsExtID","width":150,"hidden":true},{"name":"WorklistID","width":150,"hidden":true},{"name":"ClaimID","width":150,"hidden":true},{"name":"FlagCode","width":150,"hidden":false},{"name":"WorklistName","width":150,"hidden":false},{"name":"DateIn","width":150,"hidden":false},{"name":"PatientVisitAccount","width":150,"hidden":false},{"name":"PatientName","width":150,"hidden":false},{"name":"CurrentAccountBalance","width":150,"hidden":false},{"name":"DateActionTaken","width":150,"hidden":false},{"name":"OrgLevel1Name","width":150,"hidden":false},{"name":"PatientDischargeDate","width":150,"hidden":false},{"name":"ActiveHealthPlanNumber","width":150,"hidden":false},{"name":"COB1HealthPlanTypeName","width":150,"hidden":false},{"name":"MiscMoney1","width":150,"hidden":false},{"name":"TotalCharges","width":150,"hidden":false},{"name":"TotalInsurancePayments","width":150,"hidden":false},{"name":"COB2HealthPlanTypeName","width":150,"hidden":false},{"name":"ActionName","width":150,"hidden":false},{"name":"BillTypeCode","width":150,"hidden":false},{"name":"BillDate","width":150,"hidden":false},{"name":"ActiveHealthPlanTypeMnemonic","width":150,"hidden":false},{"name":"PatientTypeName","width":150,"hidden":false},{"name":"MiscInt4","width":150,"hidden":false},{"name":"LocationName","width":150,"hidden":false}],"activeFilterId":-1,"filters":"","Name":"Worklist0.colState"}]]></textPostContent>
+</http-action>
+<http-page executeResourcesDynamically="false"
+    name="/Ver6/Content/themes/otm-css-v1/images/ui-icons_555555_256x240.png"
+    playRequestsSequentially="false" slaProfileEnabled="false"
+    thinkTime="5256" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="57377a59-1e99-4886-95e9-70f326f33dcd">
+    <embedded-action>4f30b805-73ef-4479-a0af-d212e485436b</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_8dc754f7-4622-41dc-84e4-f58aa74334e5.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;28a3a64dbe3d31:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 04 May 2018 19:06:33 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/Ver6/Content/themes/otm-css-v1/images/ui-icons_555555_256x240.png"
+    path="/Ver6/Content/themes/otm-css-v1/images/ui-icons_555555_256x240.png"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_500/%resources%/recorded-artifacts/49470efc-16de-4d16-918a-bf769efdd2be.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="efr-perftest.optum.com_1" slaProfileEnabled="false"
+    uid="4f30b805-73ef-4479-a0af-d212e485436b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4f30b805-73ef-4479-a0af-d212e485436b.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_12cd32ad-415b-4a95-b20b-eaeeaef9def3.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il8wNmRjZjVhOC02YTFiLTRlNzctYjUxYi04ZjA5ODcyOTdlNjktQUJBNURGQzg0QzlBNTU4QkE1MTRCODk0QUYxOTkwOEIiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6MTFkZTUwM2ItYzMzZi00YTEyLWI1YzctMTlmN2JhYjdjZmI5PC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+bUFHWWZGQ2pkdXVMWFR1VkZOWVQzdFRtZkhvRnBVSkVwbndCcS9FQlFWQ1Q2QVlsZnlMZlZGQktCRS9Tc3lUTXc4akRoUDIvS1hpeVc3UDhhZUIxTUdNTmY4Y3QrMldodjZGRFExODVSUmN2SC9yQlh4SHFkelh5eHMrVUF3ZWRHMmlEMUNXRUlmTjMxR3J3ekR1cHRFUEF4clpjdXJab25FKzB6OHF2cENvQ0ZHbFZqQ0dWdjkzQ2pCdGRYTzdidldLaW9KZ3dRZkN4RjNlQUgvNmxrTlpnMGJoYkpDOWJYZi9QVCsrV28rM1BtZTV4d1BTREVoakJKZFRWV2VzcWg0SWFJU2gyNjkrU0pDNEFrREtlcER2SzVERDNSSnBFbG15WElsNXNGdVgxN3kzRC9hWml0MDNTUW9MTlE3MUt1cFRlc0RERGx4NGNUM054Tk1INEhUUThPQVk0VVdMdDlqa0RTS3hCWmJ3dEJFOVNuWjR5MEJ0YlZYUi92YTQxbW1JTEpuajNCN1RId3h5blVRdnJGZkdUd0s1SURLZ3ViTjBzTlZBNk8xN3dsbFVLOXY1NlRabXcrMjlMKzEzMFM3aGFlNUZMZ3RYUGJCTEQwd1hFdWNjRUZSV0VycGp4WXlwK2Z3c2JUaVJ1TXdmMDZGZ0JRc0xaSnFJSWdoVmpnR3J4bG5SdjlVMjY3czZPeE5IQVhUTE92bFM1cm1UNmtPSERCQVBlaUNlQ0VDcFRwQU0ySnEvSGxmTnJmbDFjeURJQXVCVk5KY2J6ZFpkM3JEVTlCQ0xuc1hnVm9mSGY1TndPM29RTkx1OXMwQndHbUNYYnNTZWJlN2ZPVEVzUFJaRjlwQjBtdmdZSmRCKzN4cGd1Zy9NRW9lM0c4ZW5qOUNiQjZlLzV3NFc1QjQxekVBbC9UNFllZ1hqajNSWSsyV0F4WTFGVU1VOG9PZFE1MzR2Q1ZqOHJrb3QyVDZGT2U3QnQ1RE9SZEVWRXJYbmM4VnhiWjZQeE5OblNVbWJ3enZQR1BoRWllU1NDU0prK3o0QSt1dTI3dCtqZXFGaVQ4WHlFajBCWThRbkZGNC92Qm51UXNBTlN3UVhEN1YxQnZ4MGE3WkJlVm5sZ2c5REtoYkkxOXRVWnNtellpaFh2Rys2a2NkRTFyK3gwcnFKdlZERVRJcWtZQk1VWCs5SlFZQmJWRVZnQ2laZFljVWJ3ZVRUOXhGRVg1aUZqRmU1VVRGZUxzL3NMMGVuNWxoRkdXaTFWSUJ4OHE3OTBPVlNGekhtZ0V2Vy90ckJnL21wYjNJak40cUFYWVFIcmR1bkVTRTJ4UUkxZE9tbkZvb2lRU0lGMUE0U0dBbkxlRGlwOGhsRm9JdnM2TS9VcUZiRkpaOXNsMEVJTnU4UmZXdmZQZ2JR; FedAuth1=eHVlWUtzTnQzWUVSbW9ZSDFIc0ZQUWtWcGdndjlweFREYnc9PTwvQ29va2llPjwvU2VjdXJpdHlDb250ZXh0VG9rZW4+; Track_User=91DF730983409515281F82D9C76FD7D21FFAB05B9D3D1D91B15063B1648977AB; RefreshFilter=http%3a%2f%2fefr-perftest.optum.com%2fVer6%2fver5%2fFindAccount%2f; MenuBarContent_${clientidkey}_4733=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; dcjq-accordion=2"/>
+    <header name="Host" value="efr-perftest.optum.com"/>
+    <header name="Referer" value="https://efr-perftest.optum.com/Ver6/ver5/FindAccount/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: public,max-age=86400&#xd;
+Content-Type: image/png&#xd;
+Last-Modified: Fri, 30 Mar 2018 02:38:56 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "e7ac2f40d0c7d31:0"&#xd;
+X-dynaTrace: PT=175645;PA=1327948907;SP=Optum360;PS=-1845309448&#xd;
+dynaTrace: PT=175645;PA=1327948907;SP=Optum360;PS=-1845309448&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Fri, 04 May 2018 11:39:32 GMT&#xd;
+Content-Length: 6988</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

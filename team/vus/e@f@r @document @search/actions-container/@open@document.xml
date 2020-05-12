@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OpenDocument" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="5161a724-975b-4c8e-b216-dbfb8f269867" weightsEnabled="false">
+    <weighted-embedded-action uid="d85d97c0-8fc3-4a7a-910f-9777884cd085"/>
+    <weighted-embedded-action uid="6e4adb5b-dad6-4b71-99ac-f59a89c6459a"/>
+    <weighted-embedded-action uid="62e8d6b9-7216-418b-a974-1e7b3e0927f2"/>
+    <weighted-embedded-action uid="eff50e9b-5d6d-4279-8a24-cb95e799bc0e"/>
+</basic-logical-action-container>

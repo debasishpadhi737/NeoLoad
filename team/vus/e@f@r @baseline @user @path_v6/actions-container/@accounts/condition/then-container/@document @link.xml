@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Document Link" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="eFR1" uid="98e69365-2c39-4df2-9bda-8e17d69fadef" weightsEnabled="false">
+    <weighted-embedded-action uid="e332d675-4cbd-4765-bce0-a1a7d4bd082a"/>
+    <weighted-embedded-action uid="afc7a739-f123-4e24-93e7-c3d6321d1d0c"/>
+</basic-logical-action-container>

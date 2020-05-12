@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Hold Button" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="eFR1" uid="56b7da33-059d-4bc2-9911-e77eb4fd54bb" weightsEnabled="true">
+    <weighted-embedded-action uid="397f5894-ed45-4d0b-bba7-5e9beaebf25e"/>
+    <weighted-embedded-action uid="6aa033a7-0994-49e9-8ef0-1d47c7c23c2a"/>
+</basic-logical-action-container>

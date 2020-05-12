@@ -1,0 +1,3 @@
+<variable-constant constantValue="733" name="CaseStatusID2" order="1" policy="4" range="2" uid="6f94bf63-61d5-44ca-afcb-4d68a7eda31f" whenOutOfValues="CYCLE_VALUES">
+<description>Case Status for update</description>
+</variable-constant>

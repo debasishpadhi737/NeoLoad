@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OpenCase" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="1e3634f7-d39c-47b7-8e1a-5c1ca6364afa" weightsEnabled="false">
+    <weighted-embedded-action uid="c406ed0b-ce8d-4235-a6ea-f5cf366f2d06"/>
+    <weighted-embedded-action uid="07ee3ae3-9cfe-4f5c-a43c-a8b64f8e96ae"/>
+</basic-logical-action-container>

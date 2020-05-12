@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Troubleshoot Account" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="true" slaProfileName="eFR1"
+    uid="eb3521dd-bbfd-481c-b5b9-e70c57f81a26" weightsEnabled="false">
+    <weighted-embedded-action uid="ae7c58a1-1e39-4488-817f-3facab07e407"/>
+    <weighted-embedded-action uid="f7daa23a-581b-4557-bf93-a1ef5295262d"/>
+    <weighted-embedded-action uid="b3bf9308-be6b-43c9-84ad-d050029f1bc7"/>
+    <weighted-embedded-action uid="4866af90-09d6-48fc-9e52-56f94ab61b20"/>
+</basic-logical-action-container>

@@ -1,0 +1,50 @@
+<http-page executeResourcesDynamically="false"
+    name="/Ver6/ver5/WorkListSelection/GetBalanceTypes"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_v6/%resources%/recorded-artifacts/ac5e56fb-5f0f-4395-ab08-e805c5a78c8d.zip"
+    slaProfileEnabled="false" thinkTime="15316"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="ac5e56fb-5f0f-4395-ab08-e805c5a78c8d">
+    <embedded-action>e3ae08ea-4651-4dde-b37f-5538f3a42343</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_e20d9ce4-63fa-4b09-990a-965bf130f4f1.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/Ver6/ver5/WorkListSelection/GetBalanceTypes"
+    path="/Ver6/ver5/WorkListSelection/GetBalanceTypes" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_v6/%resources%/recorded-artifacts/ac5e56fb-5f0f-4395-ab08-e805c5a78c8d.zip"
+    recordedResponseCode="200" responseSize="482"
+    serverUid="efr-perftest.optum.com_1" slaProfileEnabled="false"
+    uid="e3ae08ea-4651-4dde-b37f-5538f3a42343" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_fe8d29b0-2fce-4679-bd72-af73dac974c1.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fe8d29b0-2fce-4679-bd72-af73dac974c1.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il9mNGQyYzgzOS1jMTZlLTRiMTktOGJlZi1iMjdlOTA4ZWY2OTItQUNDRjdBOTJDQkQ1NTQ5OTBFMEI3NjIzRkY2QzFGQjgiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6MmQzODhjOTgtNjhlNy00MjM1LTlkYjQtYTRhYzBlYzU3ZjU5PC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+L3VVaWFiZVkwU2NCUTVJYyt0QmpXRUtkWmYrU3A1bks4dk9UQVBMN0h3UHZFZWJPMGdRZ2ZaYXBXRFlJQkVwVUZoK1dIQWwxYVBrTjRGdGVPZ0NGMFNaRHN3dGdlN2lnc1JmcTE3ZE4vUS93WjNKRVM5WHR4K2NXekpRWGkwQ1dXUS9mdk1MNko5b3VXa3B0WmU4SWh4SThBOG5qa0oyWW42a2I3QitLTzJtajEvMzRzTldVcnBEVURPb21URkIwbzBxS2xHbU82cjg4K0t0bjlXL1JZZVkweVk0Q05IK21RVjV0byswcjJIWWl2N3lMV2wwMmtuT0oxdkcrNmlaRXh3Z08xeS9penRzelI2SGRBNW1EWGhEKzdIVkw2SjF6bmxBYlRvQ3RoaGNXT0ZZbDR6d0h2bnhlYUN0M0NLVWgvckRaaFNrOG1aV3pyY0RlVmUvbWQ5dDZ5Mm1QSDI5VW5ZL1pkaUZPbXl2ekhwWERmbzBuQUJSZHUxVHlOcmY0MVZMd0twU1JoSE1aVmwxakhBNWRqeURMWDZDOVg5OXpOM21XcVhFTlRFVkpLMDllOXhSNFUvVHRkVlcybGc5NHlRdXJqQkVaTVRiNjExQmtRQ090bVd5bzBrdnR3RG5sS3pESjdMWHVPU3JFQmlHVlZsb2pXRnkvNkZPYjUwbmNOdGhmOGRDWkkyYjVrc3FOTEZpV1RYNWFaMllCVGRuRkxqdWtCeDZhSXRtcWJRMGhPSkhyeXdxNHNJWFB4b2tsblFuRTJZUHIrakRyZmMzSy9PWW1vWThINnZINmpSK09vY2lTc0FDMXh1Q2J1dklDRVF0NzdOdm5QemFCV1NRdHorWEpja1ZabHVIQjdkZmg5Q2ZXWW5KZUx4YmJTYnhLU0JFUnliaE8vOUZQK1g5TFZiT3JsRFVXQklGeExkTExkOW10akk2NGFDOWFiZjUvbXBtWlpReGR0U21nRzdDNU4vRkpPQUhUSEVQZ2ZEaG5IZE5BRVJsRVQyUWh0bTJhN1hncUVWWUtqaVlKZFBIY1hKQ3R1S1VZQzFOMG0zR0N4eVdLdWpHWGdxaFNFOWJpUlJTTDJJUkRhYVRpbURPTjlLL0pEbkQ0NndxakgrVXBHbU00U3pOUUVrdURIck92NGNSektaUTRiR2N0S0JIT1ZKVDI4YnlrMk02Y1dlS2pxc2x0Vm9BaTBjUWxTNHRXdm4xUUl6QTF4NGlFY3lTc3hvcW9PY0wvcTIveGgwQ2ZpSnlrbEJ3eUFtYkFKcHFXanptYTIxTlhRazN5Um5wNFBTZW5yVWdLcmFwenJsOXd0K2pnMTZjaytHUFMvK1BxMnZsYWNKeVF6R1BPRHpkK29MSDZOYlJpakJCamhUbDMzcGQweno3dmJjUGU4VWdydWJR; FedAuth1=YThpZVVCY3FMYms1QTwvQ29va2llPjwvU2VjdXJpdHlDb250ZXh0VG9rZW4+; RefreshFilter=http%3a%2f%2fefr-perftest.optum.com%2fVer6%2fver5%2fWorkListSelection; Track_User=91DF730983409515281F82D9C76FD7D21FFAB05B9D3D1D91B15063B1648977AB; MenuBarContent_DHAZ3624RPRF_5749=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; dcjq-accordion=1"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efr-perftest.optum.com"/>
+    <header name="Referer" value="https://efr-perftest.optum.com/Ver6/ver5/WorkListSelection"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Content-Encoding: gzip&#xd;
+Expires: -1&#xd;
+Vary: Accept-Encoding&#xd;
+X-dynaTrace: PT=3470;PA=489904345;SP=Optum360;PS=-1668412946&#xd;
+dynaTrace: PT=3470;PA=489904345;SP=Optum360;PS=-1668412946&#xd;
+Set-Cookie: RefreshFilter=http%3a%2f%2fefr-perftest.optum.com%2fVer6%2fver5%2fWorkListSelection%2fGetBalanceTypes; path=/; secure; HttpOnly&#xd;
+X-Frame-Options: SAMEORIGIN&#xd;
+Strict-Transport-Security: max-age=31536000&#xd;
+Content-Security-Policy: default-src https:; connect-src https:; font-src https: data:; frame-ancestors https:; img-src https: data:; media-src https:; object-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; style-src 'unsafe-inline' https:;&#xd;
+Date: Mon, 15 Jul 2019 11:52:48 GMT&#xd;
+Content-Length: 300</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

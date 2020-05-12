@@ -1,0 +1,25 @@
+<lg-host hostname="tpatmqlgefr001.tmhsinet.tmhsi.net:7100"
+    loadWeight="3" sapSupport="false" standalone="true"
+    supportWANEmulation="false"
+    uid="a5f2bcc3-3964-4fce-bf8f-55d2bb5a6df4" version="6.3.0;build=20180117-2">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="vmxnet3 Ethernet Adapter"
+        enabled="false" isLoopBack="false" name="eth4">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="tpatmqlgefr001.tmhsinet.tmhsi.net">
+            <ip value="10.140.19.26"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

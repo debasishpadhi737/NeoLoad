@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Create Letter" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="65936ba4-09f6-4b56-9e1a-5e3ee23156f4" weightsEnabled="false">
+    <weighted-embedded-action uid="4f580cb6-0aea-4bd7-907b-b5dff81188de"/>
+    <weighted-embedded-action uid="6995bc64-6e95-43cf-a446-0580c96577d4"/>
+</basic-logical-action-container>

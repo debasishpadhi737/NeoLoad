@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Open Claim" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="eFR1" uid="09fb6c95-5927-4c93-9497-77e67cf38f78" weightsEnabled="false">
+    <weighted-embedded-action uid="f67df68a-c7e9-4851-a04d-3eb24ac4c21a"/>
+    <weighted-embedded-action uid="99334a8c-592a-4f08-be2a-a2d9b098359a"/>
+</basic-logical-action-container>

@@ -1,0 +1,51 @@
+<http-page executeResourcesDynamically="false"
+    name="/Ver6/ver5/Common/GetColState"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_v1/%resources%/recorded-artifacts/68f6b273-a491-424a-9c5e-8502d96a31eb.zip"
+    slaProfileEnabled="false" thinkTime="532"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="68f6b273-a491-424a-9c5e-8502d96a31eb">
+    <embedded-action>db1035dc-9057-438d-96dd-6bd40c751ba3</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_091434a3-0f18-4df0-8684-a6c7c310a732.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/Ver6/ver5/Common/GetColState"
+    path="/Ver6/ver5/Common/GetColState" postType="4"
+    recordedArtifactZipFileName="team/vus/e@f@r @baseline @user @path_v1/%resources%/recorded-artifacts/68f6b273-a491-424a-9c5e-8502d96a31eb.zip"
+    recordedResponseCode="200" responseSize="868"
+    serverUid="efr-perftest.optum.com_1" slaProfileEnabled="false"
+    uid="db1035dc-9057-438d-96dd-6bd40c751ba3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0c291d51-ee74-4498-8ea4-0e49da9da0f3</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0c291d51-ee74-4498-8ea4-0e49da9da0f3.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/javascript, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="application/json; charset=utf-8"/>
+    <header name="Cookie" value="FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il8yYzBjMWU3Zi0xZDllLTQ3MDEtOWJiZC1mYzM5M2IwNjcwZTYtMEQ4QjdBMDcyRDVGNjNCMzM2NTI5ODI0MjczQzFBN0MiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6MjgyOGY2MWItMzI0MC00NjcwLWIyZWUtODgxM2JhYmE3YmE3PC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+a0UxMWdOd0VXV3RYRzdPNURVTE5OREhVZi9SUDJDcTgwQXdsQlN1S2pVL2Z3NExXWno4RTl3L0RNcTh0cFhTWnpVM1htYmdUYlljdC9HakFENnc5RmwvLzNMTlJMTVBhaGIzOFNaRm4vMkhDWEhNMU03T1VZUjRZRXVOSnNlcUJURytvak16WE1CVlNGTjhBYXU4dE1neGdKL0Uza2xPa09CUms0NWNENm9yNE1xWDFJQ1BiYnBWbWQwWGZtbGhyUklXSzlLZi9VblNjc3ZsUHZkQkg4R1BsZHRJMnRiL0ZVZ1ZtSEZUYVR5REVvaVNVZXZNdFFoZnZjKzFrOEwyZ093MjVab0JReFFnZDhPM2IrWE9adDNrNG5IbkVad0RxNm5qbWNSTGowLzczMUNUMEtKeVFmNHh6S05NUGR5RnBSTGhBNWtuR2w2aW55OFd3NUlrVDZwRlcrMDNGTzJyYXczanI4RFRTdDVyWUdGTnBNTFY0MFJIMWQ0STJ1RFNSM0p1eStsa1J4cXNnVHYvNTh0U1hBc05JUEtVZkpxTjVpUmhkYy80MGJ4WHk1T25CTk9FMjA3NXEzUHdNY1kyVVlvZkU0Z1I2dlpuZXBTWFUyTzVIUXVoaUM3dG9RcTY4b29IMW9RNUttVVk1akJHcjNHbkFrZm8ySnJBMlU2ME1LWisxV1VHQjE5eDY5RitjcDdxcGdlb1k5bVZFNWFXWnQ2bnBRTXhUajdOekZUQkVsYTZ2Y09kZk0xM2VHK29MYlRlT2h4QUZsMFROdmtXczd1Sk9NYzdiVndKSzI1ckJrZWZjdEppVHlDZ0U2UWJvRDl2RG93SFZZalk5VllydWRRRFZ1Q1p2bml0L1dGZmo1V0xFek8rajFSMkxRUTdDQ2ZnL3hmMmVjK0hkUWcwdWRGZTl1V050WkZUOUxESjY1SFA3YlNjcUFBQU0rQlJVbVdYMDkwaW4vTW5udC9nY2ZvNE5UTE02QXBCcUVUSVU4ekNwRHloYjFuVWlZNVFZNTBKVVZXbVdpUTZQSjdvWFlSNWp5aGVsbS9sYnZ3R1M0NTFVK1NLWXYrUjlqZVpiczJEMjV1SW1pQmZwQ29uNjNEaitqOXozWTdRbDBkUFowS2VHQnFDbzdlSVE1Znh0TVozb05BL2t0S0lGemlKdXh3Y1o0OHpoSGd3RU1CTFR0ck1rajNrSGxLMnJVdU12Sm55N0h5Nm1HZDZBRlZPTnNLZ3BxUUhVOWZaTER6SFFBNWNXUitEeUhQb2Q4aHpHeTF1Tm1Dald3K21hYnZrcm9mQW41ZnRJNk9teUdtUFZoV1h0RllWamVqWHRuVDlyeHpDRGRvOW0vdW9Cdm5TV1UrU1JXck85S1d1KzJGZEZEb0V4ZDQ5c213WjdweHBkWjJU; FedAuth1=S2VhTEFlcFBsMWl6OTwvQ29va2llPjwvU2VjdXJpdHlDb250ZXh0VG9rZW4+; RefreshFilter=http%3a%2f%2fefr-perftest.optum.com%2fVer6%2fver5%2fWorkListSelection; Track_User=91DF730983409515281F82D9C76FD7D21FFAB05B9D3D1D91B15063B1648977AB; MenuBarContent_DHAZ3624RPRF_5749=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; dcjq-accordion=1"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efr-perftest.optum.com"/>
+    <header name="Referer" value="https://efr-perftest.optum.com/Ver6/ver5/WorkListSelection"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Expires: -1&#xd;
+X-dynaTrace: PT=12901;PA=-794863301;SP=Optum360;PS=-1668412946&#xd;
+dynaTrace: PT=12901;PA=-794863301;SP=Optum360;PS=-1668412946&#xd;
+X-Frame-Options: SAMEORIGIN&#xd;
+Strict-Transport-Security: max-age=31536000&#xd;
+Content-Security-Policy: default-src https:; connect-src https:; font-src https: data:; frame-ancestors https:; img-src https: data:; media-src https:; object-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; style-src 'unsafe-inline' https:;&#xd;
+Date: Thu, 11 Jul 2019 09:46:34 GMT&#xd;
+Content-Length: 868</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"name":"WorkListSelection.colState"}]]></textPostContent>
+</http-action>

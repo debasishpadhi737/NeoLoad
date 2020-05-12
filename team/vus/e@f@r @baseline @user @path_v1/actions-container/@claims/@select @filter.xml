@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Select Filter" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="eFR1" uid="552fa427-c50c-4975-ab1e-166799d309ce" weightsEnabled="false">
+    <weighted-embedded-action uid="c1d9272c-a568-478a-ad87-fc4b18fc11c6"/>
+    <weighted-embedded-action uid="150b0f57-4348-4fa2-9265-99ae659c5b51"/>
+</basic-logical-action-container>

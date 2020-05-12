@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Add a Note Link" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="809dcd0c-8b9d-455d-91ba-095859c76f1d" weightsEnabled="false">
+    <weighted-embedded-action uid="fd9f950b-2be7-4fc5-8ab2-c3e5dece5b38"/>
+</basic-logical-action-container>

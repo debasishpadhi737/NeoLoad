@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OpenDocumentSearch" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="4bb5c5b1-b1be-4fce-8b4d-ce27e745097a" weightsEnabled="false">
+    <weighted-embedded-action uid="396faae3-c440-420f-a347-4167815bee9a"/>
+</basic-logical-action-container>

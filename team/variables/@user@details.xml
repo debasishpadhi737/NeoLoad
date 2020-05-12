@@ -1,0 +1,6 @@
+<variable-file delimiters="," filename="UserDetails.csv" name="UserDetails" offset="1" order="1" policy="1" range="4" uid="cc8813c2-54ba-4f1d-8e73-39345359768d" useFirstLine="false" whenOutOfValues="CYCLE_VALUES">
+<column name="Pwd" number="1"/>
+<column name="UserName" number="0"/>
+<column name="clientid" number="3"/>
+<column name="clientidkey" number="2"/>
+</variable-file>

@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Select Account" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="5e3c91f5-e60e-45dd-b089-5ee2f3960fb7" weightsEnabled="false">
+    <weighted-embedded-action uid="067c886e-fe00-4eab-89ef-4f5764ada2da"/>
+    <weighted-embedded-action uid="27aab6c6-91dd-480e-9702-30055cab3f4f"/>
+    <weighted-embedded-action uid="1432ef82-5941-4d95-ba01-c24df75938fc"/>
+    <weighted-embedded-action uid="9a51b4b3-7688-48ad-8e9e-a18f539814df"/>
+    <weighted-embedded-action uid="41d98ce6-9b02-4f0d-808a-9857efdd470e"/>
+    <weighted-embedded-action uid="002941f8-e364-437a-b70a-7d5e5166799d"/>
+</basic-logical-action-container>

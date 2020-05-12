@@ -1,0 +1,12 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="WorkList" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="b3e12b2f-13c6-494b-b8a3-369b68aecc0a" weightsEnabled="false">
+    <weighted-embedded-action uid="e1ead3bf-8aa1-469c-a9ff-63acb385a159"/>
+    <weighted-embedded-action uid="161511ea-49ef-4871-b72c-60becacf7b48"/>
+    <weighted-embedded-action uid="be4432ad-5df4-40a1-8e17-ace1fc5a138f"/>
+    <weighted-embedded-action uid="c5f5e6e1-6c31-42d1-9891-48ac5f259034"/>
+    <weighted-embedded-action uid="a31fe379-f3cd-4104-89bb-15ecd35ed4e4"/>
+    <weighted-embedded-action uid="9943ecee-d56b-491b-a1af-abf7f284d5eb"/>
+    <weighted-embedded-action uid="3e7939e3-d67b-4d40-adab-f503f5d2f28f"/>
+</basic-logical-action-container>

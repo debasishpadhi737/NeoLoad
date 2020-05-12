@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="AddNote" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="52b8b873-48f8-4ab3-99a8-8ce5baa92742" weightsEnabled="false">
+    <weighted-embedded-action uid="ef95a7d5-18b4-469c-bde0-b45a744dfade"/>
+    <weighted-embedded-action uid="4bdd309d-e3c2-4507-94ab-c83d53436762"/>
+</basic-logical-action-container>

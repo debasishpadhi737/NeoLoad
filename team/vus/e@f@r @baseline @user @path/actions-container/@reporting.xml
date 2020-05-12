@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Reporting" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="ece17a23-7cc3-48bc-a300-85b9b4e8d1dc" weightsEnabled="false">
+    <weighted-embedded-action uid="0b7362c3-e54c-4915-9fb5-acfc90c182f7"/>
+    <weighted-embedded-action uid="e5e67434-b8f9-4ce9-bee7-d985d149b4cf"/>
+    <weighted-embedded-action uid="376ba9e4-61e0-445d-b7e5-1732ae9ffe5a"/>
+    <weighted-embedded-action uid="f2cbf769-0a11-4b55-9a3a-b4b80c4b8b3b"/>
+</basic-logical-action-container>

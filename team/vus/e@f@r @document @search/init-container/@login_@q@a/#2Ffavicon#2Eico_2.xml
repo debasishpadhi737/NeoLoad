@@ -1,0 +1,36 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/favicon.ico_2" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/e@f@r @document @search/%resources%/recorded-artifacts/df12b9b6-6744-40c8-90ac-5491614e49e1.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="df12b9b6-6744-40c8-90ac-5491614e49e1">
+    <embedded-action>e8b96782-a607-4fbe-9d25-609dab43b309</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="1"
+    recordedArtifactZipFileName="team/vus/e@f@r @document @search/%resources%/recorded-artifacts/df12b9b6-6744-40c8-90ac-5491614e49e1.zip"
+    recordedResponseCode="404" responseSize="1245"
+    serverUid="efrplatformqa.optum.com" slaProfileEnabled="false"
+    uid="e8b96782-a607-4fbe-9d25-609dab43b309" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_3d9201e9-f021-45d9-8e74-1d3f561acfdf.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3d9201e9-f021-45d9-8e74-1d3f561acfdf.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="BIGipServereFRplatformQA=2588380682.47873.0000; ASP.NET_SessionId="/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrplatformqa.optum.com"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 404 Not Found&#xd;
+Content-Type: text/html&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Fri, 13 Dec 2019 11:29:08 GMT&#xd;
+Content-Length: 1245&#xd;
+Strict-Transport-Security: max-age=15768000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

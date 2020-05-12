@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OpenAcase" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="b36e2767-421d-4b0b-a078-779353d9751c" weightsEnabled="false">
+    <weighted-embedded-action uid="dee94e85-4110-4916-8f09-a0bccec726d8"/>
+    <weighted-embedded-action uid="26c845b7-0d84-4473-beb7-dcdea636d0f8"/>
+    <weighted-embedded-action uid="21143604-8431-4f94-be7b-49d3fe86b868"/>
+    <weighted-embedded-action uid="304fe2f1-a9aa-433a-af91-1d776a383bef"/>
+    <weighted-embedded-action uid="b64af033-70a9-4e17-8fa3-a7270ed49e43"/>
+</basic-logical-action-container>

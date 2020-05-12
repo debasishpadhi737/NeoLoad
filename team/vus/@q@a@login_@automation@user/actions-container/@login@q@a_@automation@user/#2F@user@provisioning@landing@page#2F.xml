@@ -1,0 +1,323 @@
+<http-page executeResourcesDynamically="false"
+    name="/UserProvisioningLandingPage/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@q@a@login_@automation@user/%resources%/recorded-artifacts/fe0575ae-9095-4c07-8e6e-ac851a7a974c.zip"
+    slaProfileEnabled="false" thinkTime="186"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="fe0575ae-9095-4c07-8e6e-ac851a7a974c">
+    <embedded-action>99d60526-0501-426a-8baa-407c66b279ce</embedded-action>
+    <embedded-action>fc53fbcb-ed24-49d4-b0e4-c2ea846870ed</embedded-action>
+    <embedded-action>f22be40c-4e2f-4d46-b0ff-48e058c10867</embedded-action>
+    <embedded-action>91a08b91-2123-48c0-b28b-f414cf96bb0e</embedded-action>
+    <embedded-action>24954901-ca59-40ae-b35b-0fa7ffa0f40a</embedded-action>
+    <embedded-action>e669260e-7e94-43c4-9e46-f32c6d5bba58</embedded-action>
+    <embedded-action>0863f05d-b5ce-476d-abd3-e154ee564206</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_f81361a0-e05f-4c08-9cf8-de7818512aa2.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/UserProvisioningLandingPage/"
+    path="/UserProvisioningLandingPage/" postType="1"
+    recordedArtifactZipFileName="team/vus/@q@a@login_@automation@user/%resources%/recorded-artifacts/fe0575ae-9095-4c07-8e6e-ac851a7a974c.zip"
+    recordedResponseCode="302" responseSize="321"
+    serverUid="efrplatformqa.optum.com" slaProfileEnabled="false"
+    uid="99d60526-0501-426a-8baa-407c66b279ce" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_64b384ba-ca81-4159-b49f-ef2cdf62fb9b.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_64b384ba-ca81-4159-b49f-ef2cdf62fb9b.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="BIGipServereFRplatformQA=1729399818.47873.0000"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrplatformqa.optum.com"/>
+    <header name="Referer" value="https://efrplatformqa.optum.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 302 Found&#xd;
+Cache-Control: private&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Location: https://efrssoqa.optum.com/adfs/ls/?wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fqa%2fLandingPage%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fUserProvisioningLandingPage%252f&amp;wct=2019-12-17T12%3a08%3a04Z&#xd;
+Server: &#xd;
+X-AspNet-Version: &#xd;
+X-Powered-By: ASP.NET&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-UA-Compatible: IE=Edge&#xd;
+X-Frame-Options: DENY&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+Public-Key-Pins: pin-sha256="grX4Ta9HpZx6tSHkmCrvpApTQGo67CYDnvprLg5yRME="; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; max-age=5184000&#xd;
+Date: Tue, 17 Dec 2019 12:08:03 GMT&#xd;
+Content-Length: 321&#xd;
+Strict-Transport-Security: max-age=15768000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/adfs/ls/" path="/adfs/ls/" postType="1"
+    recordedArtifactZipFileName="team/vus/@q@a@login_@automation@user/%resources%/recorded-artifacts/fe0575ae-9095-4c07-8e6e-ac851a7a974c.zip"
+    recordedResponseCode="200"
+    refererUid="99d60526-0501-426a-8baa-407c66b279ce"
+    responseSize="4244" serverUid="efrssoqa.optum.com"
+    slaProfileEnabled="false" uid="fc53fbcb-ed24-49d4-b0e4-c2ea846870ed" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e1669ed3-2c5b-4e28-9d25-9e1aa9dfa3e5.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e1669ed3-2c5b-4e28-9d25-9e1aa9dfa3e5.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="__VIEWSTATE"
+        regExp="\sname\s*?=\s*?&quot;__VIEWSTATE&quot;[^^]*?\svalue\s*?=\s*?&quot;(.*?)&quot;[^^]*?>"
+        regExpAdv="\sname\s*?=\s*?&quot;__VIEWSTATE&quot;[^^]*?\svalue\s*?=\s*?&quot;(.*?)&quot;[^^]*?>"
+        setDefaultValue="true" startsWithSimple="" template="$1$"
+        templateAdv="$1$" uid="3337c121-9e10-4ed1-af41-0adb557e99a9" xpath=""/>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="__EVENTVALIDATION"
+        regExp="\sname\s*?=\s*?&quot;__EVENTVALIDATION&quot;[^^]*?\svalue\s*?=\s*?&quot;(.*?)&quot;[^^]*?>"
+        regExpAdv="\sname\s*?=\s*?&quot;__EVENTVALIDATION&quot;[^^]*?\svalue\s*?=\s*?&quot;(.*?)&quot;[^^]*?>"
+        setDefaultValue="true" startsWithSimple="" template="$1$"
+        templateAdv="$1$" uid="93ddb604-903e-4f17-b3ed-b2d5772c2bbe" xpath=""/>
+    <parameter encodeName="true" encodeValue="true" name="wa"
+        recordRawValue="wsignin1.0" separator="=" value="wsignin1.0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="wtrealm"
+        recordRawValue="https%3a%2f%2fqa%2fLandingPage%2f" separator="="
+        value="https://qa/LandingPage/" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="wctx"
+        recordRawValue="rm%3d0%26id%3dpassive%26ru%3d%252fUserProvisioningLandingPage%252f"
+        separator="="
+        value="rm=0&amp;id=passive&amp;ru=%2fUserProvisioningLandingPage%2f" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="wct"
+        recordRawValue="2019-12-17T12%3a08%3a04Z" separator="="
+        value="2019-12-17T12:08:04Z" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrssoqa.optum.com"/>
+    <header name="Referer" value="https://efrplatformqa.optum.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Expires: -1&#xd;
+Server: &#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-AspNet-Version: &#xd;
+X-Powered-By: ASP.NET&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Date: Tue, 17 Dec 2019 12:08:06 GMT&#xd;
+Content-Length: 4244</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;c88d4d927d80d31:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 29 Dec 2017 08:18:13 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/adfs/ls/MasterPages/general2.css"
+    path="/adfs/ls/MasterPages/general2.css" postType="1"
+    recordedArtifactZipFileName="team/vus/@q@a@login_@automation@user/%resources%/recorded-artifacts/fe0575ae-9095-4c07-8e6e-ac851a7a974c.zip"
+    recordedResponseCode="200" responseSize="34266"
+    serverUid="efrssoqa.optum.com" slaProfileEnabled="false"
+    uid="f22be40c-4e2f-4d46-b0ff-48e058c10867" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f197c67f-404b-405e-822d-dab25932a554.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f197c67f-404b-405e-822d-dab25932a554.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrssoqa.optum.com"/>
+    <header name="Referer" value="https://efrssoqa.optum.com/adfs/ls/?wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fqa%2fLandingPage%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fUserProvisioningLandingPage%252f&amp;wct=2019-12-17T12%3a08%3a04Z"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache&#xd;
+Content-Type: text/css&#xd;
+Content-Encoding: gzip&#xd;
+Last-Modified: Fri, 29 Dec 2017 08:18:13 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "8010d8917d80d31:0"&#xd;
+Vary: Accept-Encoding&#xd;
+Server: &#xd;
+X-Powered-By: ASP.NET&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Date: Tue, 17 Dec 2019 12:08:06 GMT&#xd;
+Content-Length: 7317</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;60264e927d80d31:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 29 Dec 2017 08:18:13 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/adfs/ls/MasterPages/StyleSheet.css"
+    path="/adfs/ls/MasterPages/StyleSheet.css" postType="1"
+    recordedArtifactZipFileName="team/vus/@q@a@login_@automation@user/%resources%/recorded-artifacts/fe0575ae-9095-4c07-8e6e-ac851a7a974c.zip"
+    recordedResponseCode="200" responseSize="2718"
+    serverUid="efrssoqa.optum.com" slaProfileEnabled="false"
+    uid="91a08b91-2123-48c0-b28b-f414cf96bb0e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_bd183984-9dce-49e4-9014-0808a4364a55.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_bd183984-9dce-49e4-9014-0808a4364a55.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrssoqa.optum.com"/>
+    <header name="Referer" value="https://efrssoqa.optum.com/adfs/ls/?wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fqa%2fLandingPage%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fUserProvisioningLandingPage%252f&amp;wct=2019-12-17T12%3a08%3a04Z"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache&#xd;
+Content-Type: text/css&#xd;
+Content-Encoding: gzip&#xd;
+Last-Modified: Fri, 29 Dec 2017 08:18:13 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "8010d8917d80d31:0"&#xd;
+Vary: Accept-Encoding&#xd;
+Server: &#xd;
+X-Powered-By: ASP.NET&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Date: Tue, 17 Dec 2019 12:08:07 GMT&#xd;
+Content-Length: 979</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/jpeg"
+    eTag="&quot;ac724e927d80d31:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 29 Dec 2017 08:18:13 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/adfs/ls/optum_logo.jpg"
+    path="/adfs/ls/optum_logo.jpg" postType="1"
+    recordedArtifactZipFileName="team/vus/@q@a@login_@automation@user/%resources%/recorded-artifacts/fe0575ae-9095-4c07-8e6e-ac851a7a974c.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="efrssoqa.optum.com" slaProfileEnabled="false"
+    uid="24954901-ca59-40ae-b35b-0fa7ffa0f40a" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_f17f8b8e-2dc9-4dc4-87de-5370dbcec0aa.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrssoqa.optum.com"/>
+    <header name="Referer" value="https://efrssoqa.optum.com/adfs/ls/?wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fqa%2fLandingPage%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fUserProvisioningLandingPage%252f&amp;wct=2019-12-17T12%3a08%3a04Z"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache&#xd;
+Content-Type: image/jpeg&#xd;
+Last-Modified: Fri, 29 Dec 2017 08:18:13 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "ac724e927d80d31:0"&#xd;
+Server: &#xd;
+X-Powered-By: ASP.NET&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Date: Tue, 17 Dec 2019 12:08:07 GMT&#xd;
+Content-Length: 4389</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/x-javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 06 Feb 2015 23:33:22 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/adfs/ls/WebResource.axd"
+    path="/adfs/ls/WebResource.axd" postType="1"
+    recordedArtifactZipFileName="team/vus/@q@a@login_@automation@user/%resources%/recorded-artifacts/fe0575ae-9095-4c07-8e6e-ac851a7a974c.zip"
+    recordedResponseCode="200"
+    refererUid="fc53fbcb-ed24-49d4-b0e4-c2ea846870ed"
+    responseSize="20794" serverUid="efrssoqa.optum.com"
+    slaProfileEnabled="false" uid="e669260e-7e94-43c4-9e46-f32c6d5bba58" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_217cd68b-c23e-4de0-874e-1f61fcb42cee</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_217cd68b-c23e-4de0-874e-1f61fcb42cee.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="d"
+        recordRawValue="O4wVVUapVgTEg1ugzyGqgGh-zYVxxq2bTtZYG-q_ODrQxI6SzvF7jACsgwIIRsOa4MtQE_N2GTTlX58jstvXQuT8Olo1"
+        separator="="
+        value="O4wVVUapVgTEg1ugzyGqgGh-zYVxxq2bTtZYG-q_ODrQxI6SzvF7jACsgwIIRsOa4MtQE_N2GTTlX58jstvXQuT8Olo1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="t"
+        recordRawValue="635588444026805809" separator="="
+        value="635588444026805809" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrssoqa.optum.com"/>
+    <header name="Referer" value="https://efrssoqa.optum.com/adfs/ls/?wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fqa%2fLandingPage%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fUserProvisioningLandingPage%252f&amp;wct=2019-12-17T12%3a08%3a04Z"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: public&#xd;
+Content-Type: application/x-javascript&#xd;
+Expires: Sat, 21 Nov 2020 20:24:47 GMT&#xd;
+Last-Modified: Fri, 06 Feb 2015 23:33:22 GMT&#xd;
+Server: &#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-AspNet-Version: &#xd;
+X-Powered-By: ASP.NET&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Date: Tue, 17 Dec 2019 12:08:07 GMT&#xd;
+Content-Length: 20794</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="2"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/x-javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 06 Feb 2015 23:33:22 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/adfs/ls/WebResource.axd"
+    path="/adfs/ls/WebResource.axd" postType="1"
+    recordedArtifactZipFileName="team/vus/@q@a@login_@automation@user/%resources%/recorded-artifacts/fe0575ae-9095-4c07-8e6e-ac851a7a974c.zip"
+    recordedResponseCode="200"
+    refererUid="fc53fbcb-ed24-49d4-b0e4-c2ea846870ed"
+    responseSize="3005" serverUid="efrssoqa.optum.com"
+    slaProfileEnabled="false" uid="0863f05d-b5ce-476d-abd3-e154ee564206" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b82e871d-a4d7-4b19-b51b-8f3baf1d2c1a</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b82e871d-a4d7-4b19-b51b-8f3baf1d2c1a.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="d"
+        recordRawValue="m39JgrA7Hx701Caz1U6kSLwFR7-035UIrpkj0gAROEx_EwJqDUrykPiCxR8QBprAvdHxTB6CpDjkY23HZoTaZVOB3a81"
+        separator="="
+        value="m39JgrA7Hx701Caz1U6kSLwFR7-035UIrpkj0gAROEx_EwJqDUrykPiCxR8QBprAvdHxTB6CpDjkY23HZoTaZVOB3a81" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="t"
+        recordRawValue="635588444026805809" separator="="
+        value="635588444026805809" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="efrssoqa.optum.com"/>
+    <header name="Referer" value="https://efrssoqa.optum.com/adfs/ls/?wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fqa%2fLandingPage%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fUserProvisioningLandingPage%252f&amp;wct=2019-12-17T12%3a08%3a04Z"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: public&#xd;
+Content-Type: application/x-javascript&#xd;
+Expires: Sat, 21 Nov 2020 20:24:47 GMT&#xd;
+Last-Modified: Fri, 06 Feb 2015 23:33:22 GMT&#xd;
+Server: &#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-AspNet-Version: &#xd;
+X-Powered-By: ASP.NET&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Date: Tue, 17 Dec 2019 12:08:07 GMT&#xd;
+Content-Length: 3005</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="3"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>

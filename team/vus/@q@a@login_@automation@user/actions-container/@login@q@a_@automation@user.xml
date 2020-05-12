@@ -1,0 +1,13 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="LoginQA_AutomationUser" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="7cd8beab-be58-4e35-8fc7-30b4816ebf05" weightsEnabled="false">
+    <weighted-embedded-action uid="e0c0beed-7932-4561-b27a-b335e57e021e"/>
+    <weighted-embedded-action uid="fe0575ae-9095-4c07-8e6e-ac851a7a974c"/>
+    <weighted-embedded-action uid="376d9037-0a85-40c5-87d4-1b3b98bb9705"/>
+    <weighted-embedded-action uid="f8891086-6c4f-4935-b5a1-be984c9dc456"/>
+    <weighted-embedded-action uid="fc6b0cba-99d7-47e9-8213-4971edd5c4da"/>
+    <weighted-embedded-action uid="77ee6002-57e5-45df-81ec-066c0978b3f4"/>
+    <weighted-embedded-action uid="9cd0a1bb-0df4-43af-844b-04ffbee67f20"/>
+    <weighted-embedded-action uid="848c8d88-7ea0-4a08-8a15-89599ac3d435"/>
+</basic-logical-action-container>

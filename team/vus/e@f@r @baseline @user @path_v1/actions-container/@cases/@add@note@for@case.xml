@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="AddNoteForCase" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="2544de1a-2ebf-42ab-a68e-af5f864d9719" weightsEnabled="false">
+    <weighted-embedded-action uid="833abcad-7820-4ad0-9053-1495ac13ce94"/>
+    <weighted-embedded-action uid="5ea058dd-c6bb-4a82-82a9-0654e6a8fa5c"/>
+</basic-logical-action-container>

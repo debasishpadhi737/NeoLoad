@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Close Claim" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="eFR1" uid="6498e19a-5a13-4b68-a2d5-8eaa6dc3e0e2" weightsEnabled="false">
+    <weighted-embedded-action uid="9db04fed-3baa-428b-940e-286049bdece9"/>
+    <weighted-embedded-action uid="6aa7814a-b611-49f4-9658-c2c4ee644426"/>
+    <weighted-embedded-action uid="a294d6bc-551a-40db-b5e0-431ae7e18180"/>
+    <weighted-embedded-action uid="a5012eed-d133-4314-98f3-d274d25d8de7"/>
+    <weighted-embedded-action uid="0f6b2893-6f7f-42ae-8e80-87782fbad96f"/>
+</basic-logical-action-container>
